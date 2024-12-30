@@ -208,6 +208,56 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 \subsection{新データ取得システムのインストール}
 新しく導入した仰角データ取得システムを、自分の手元でできる動作確認をした後に実際の望遠鏡に実装、という流れでインストールした。
 
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.035]{4_elDAQ/figs/test_pic.jpg}
+      \subcaption{動作確認のセットアップ}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/el_test.pdf}
+      \subcaption{セットアップの模式図}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{新システムでの動作確認}
+  \label{el_test}
+\end{figure}
+
+動作確認を、図\ref{el_test}に示したセットアップで行なった。ロータリーエンコーダーとは接続せず、同期信号も送らない単純なものである。図\ref{el_test}の左図にあるように、Zyboの電源を入れPYNQが起動するとボード右側の``DONE''が緑色に点灯する。自分のMac PCをデータ取得PCとして、Micro usbでZyboへの電源供給を行い、データ通信はEthernetケーブルで行った。PC上でデータ読み出しのスクリプトを動かして、Zynqの挙動に問題がないかをチェックした。期待される挙動は
+\begin{itemize}
+  \item Zynqが正しく機能し、PC側でデータを読み出せる
+  \item エンコーダーデータは0として取得されている
+  \item タイムスタンプは時間とともに加算されている
+\end{itemize}
+の3点である。データの通信が始まるとZyboのEthernetコネクタ付近のランプが点滅し、PC側でのデータ読み出しが正常に動くことを確認した。PCに保存したデータファイルをチェックし、期待されるデータを取得できていることも確認した。取得したエンコーダーデータとタイムスタンプデータのプロットを図\ref{eldata_check}に示す。プロットの横軸はデータのサンプリングナンバー(1kSPS)を表す。
+
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/enc_data_test.png}
+      \subcaption{エンコーダーデータ}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/timestamp.png}
+      \subcaption{タイムスタンプ}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{動作確認で取得したデータ}
+  \label{eldata_check}
+\end{figure}
+
+以上の結果から新システムの挙動が問題ないと判断した。次に実際の望遠鏡に実装した。
+
 \subsection{信号読み出しの確認}
 
 \subsection{同期信号の分配確認}
