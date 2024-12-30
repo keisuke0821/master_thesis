@@ -1,0 +1,55 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}CMBの異方性と現代宇宙論}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}CMBの温度異方性}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}$\Lambda $-CDM~モデル}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}地平線問題}{1}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}CMBの偏光とインフレーション理論}{1}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}インフレーション理論}{1}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}CMBの偏光モード}{1}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}偏光Bモードの探索状況}{1}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}CMBの偏光とニュートリノ質量和}{1}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}光学的厚み~$\tau $}{1}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}ニュートリノ質量和との縮退}{1}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}偏光Eモードと$\tau $}{1}{subsection.1.3.3}%
+\contentsline {chapter}{\numberline {第2章}GroundBIRD実験}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}実験概要}{2}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}GroundBIRD望遠鏡}{2}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}独創的なスキャン戦略}{2}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}物理ターゲット}{2}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}現在の観測状況}{2}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}検出器のフルアレイインストール}{2}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}リモート観測システム}{2}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {第3章}仰角データ取得システムの改善}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}望遠鏡仰角データ取得システムの改善}{3}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{3}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}仰角データ取得における問題点}{6}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}PYNQを用いた新システムの導入}{9}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}望遠鏡への実装}{11}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}新データ取得システムのインストール}{11}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}信号読み出しの確認}{11}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}同期信号の分配確認}{11}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{11}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}電源供給法の見直し}{11}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}温度モニターの実装}{11}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {第4章}検出器アライメントの較正}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}従来の検出器アライメントと問題点}{12}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾き}{12}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}要求されるアライメント性能}{12}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{12}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}月を用いた傾き角の算出}{12}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}なぜ月なのか？}{12}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}必要な回転角}{12}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}回転する上でのジグの必要性}{12}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{12}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{12}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{12}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}天体を用いた較正結果の確認}{12}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}月データによる確認}{12}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{12}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{12}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}なぜ差分をとるのか？}{12}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}解析による確認}{12}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {第5章}まとめ}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {第6章}謝辞}{14}{chapter.6}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{15}{chapter*.13}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{16}{appendix.A}%

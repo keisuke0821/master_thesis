@@ -1,0 +1,94 @@
+\documentclass[a4paper,11pt, uplatex]{ujreport} % A4,11pt標準 for uplatex
+\usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}
+
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx, colorlinks=true, linkcolor=blue, citecolor=red, filecolor=black, urlcolor=blue]{hyperref}
+\usepackage{amsmath,amssymb}
+\usepackage{cleveref}
+\usepackage{threeparttable}
+\usepackage{enumerate}
+
+
+%% subcaptionを使うためのもの
+\makeatletter
+\let\MYcaption\@makecaption
+\makeatother
+
+\usepackage{subcaption}
+%\captionsetup{compatibility=false}      % 必要に応じて
+
+\makeatletter
+\let\@makecaption\MYcaption
+\makeatother
+
+
+\usepackage[left]{lineno}
+%\pagewiselinenumbers
+%% 行間を２倍
+%\renewcommand{\baselinestretch}{2}
+%\doublespacing
+
+% コマンド類
+\newcommand{\fknee}{$f_{{\rm knee}}$}
+\newcommand{\he}{$^3{\rm He}$}
+\newcommand{\Pint}{$P_{{\rm int}}$}
+\newcommand{\Pread}{$P_{{\rm read}}$}
+\newcommand{\ctext}[1]{\raise0.2ex\hbox{\textcircled{\scriptsize{#1}}}}
+
+\renewcommand{\bibname}{参考文献}
+\renewcommand{\baselinestretch}{1.1}
+
+
+\begin{document}
+
+% 表紙
+\input{0_title/title} 
+%
+
+% abstract
+\newpage
+\input{1_abstract/abstract}
+
+%\thispagestyle{empty}
+%
+
+% 目次
+\newpage
+\pagenumbering{roman}
+\setcounter{page}{1}
+\setcounter{tocdepth}{2}
+\tableofcontents
+%\listoffigures
+%
+
+
+% 本文
+\newpage
+\pagestyle{headings}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\setlength\floatsep{0pt} %dblfloatsep		%ページの上下に出力される図と図の間のスペース
+\setlength\abovecaptionskip{0pt}	%図とキャプションの間のスペース
+
+
+%
+\include{2_cosmology/Introduction}
+\include{3_MKID/MKID}
+\include{4_MKIDkyoto/MKIDkyoto}
+\include{5_TLS/TLS}
+\include{5_TLS/TLS_wide}
+\include{6_Summary/Summary}
+%
+
+% 謝辞
+\input{7_acknowledgment/acknowledgment}
+%
+
+% 参考文献
+\input{8_references/references}
+
+%補遺
+\appendix
+\include{9_appendix/appendix}
+
+\end{document}
