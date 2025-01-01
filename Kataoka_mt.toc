@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{14}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{14}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}電源供給法の見直し}{15}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}温度モニターの実装}{15}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{15}{subsection.3.3.3}%
 \contentsline {chapter}{\numberline {第4章}検出器アライメントの較正}{16}{chapter.4}%
 \contentsline {section}{\numberline {4.1}従来の検出器アライメントと問題点}{16}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾き}{16}{subsection.4.1.1}%
@@ -55,5 +55,5 @@
 \contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{17}{section.5.2}%
 \contentsline {chapter}{\numberline {第6章}まとめ}{18}{chapter.6}%
 \contentsline {chapter}{\numberline {第7章}謝辞}{19}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{20}{chapter*.18}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{20}{chapter*.19}%
 \contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{21}{appendix.A}%

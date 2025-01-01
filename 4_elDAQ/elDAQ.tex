@@ -319,5 +319,13 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 が挙げられる。3つ目に関しては、経年劣化や落雷による停電時にダメージを受けたことなどが考えられるが、リモートからボード自体の性能を評価することが難しいため、まずは1つ目と2つ目の原因について調査した。
 
 \subsection{電源供給法の見直し}
+Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro usb端子から行なっていた。Zyboへの電源供給法は他にジャック端子から(図\ref{power supply})がある。
 
-\subsection{温度モニターの実装}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/connector_zybo.pdf}
+  \caption{Zyboへの電源供給法。Micro usbからとジャック端子からの2通りがある。}
+  \label{power_supply}
+\end{figure}
+
+\subsection{Zynq温度のモニター}
