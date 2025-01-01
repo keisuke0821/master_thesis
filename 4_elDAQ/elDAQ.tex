@@ -228,7 +228,7 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{el_test}
 \end{figure}
 
-動作確認を、図\ref{el_test}に示したセットアップで行なった。ロータリーエンコーダーとは接続せず、同期信号も送らない単純なものである。図\ref{el_test}の左図にあるように、Zyboの電源を入れPYNQが起動するとボード右側の``DONE''が緑色に点灯する。自分のMac PCをデータ取得PCとして、Micro usbでZyboへの電源供給を行い、データ通信はEthernetケーブルで行った。PC上でデータ読み出しのスクリプトを動かして、Zynqの挙動に問題がないかをチェックした。期待される挙動は
+動作確認を、図\ref{el_test}に示したセットアップで行なった。ロータリーエンコーダーとは接続せず、同期信号も送らない単純なものである。図\ref{el_test}の左図にあるように、Zyboの電源を入れPYNQが起動するとボード右側の``DONE''ランプが緑色に点灯する。自分のMac PCをデータ取得PCとして、Micro usbでZyboへの電源供給を行い、データ通信はEthernetケーブルで行った。PC上でデータ読み出しのスクリプトを動かして、Zynqの挙動に問題がないかをチェックした。期待される挙動は
 \begin{itemize}
   \item Zynqが正しく機能し、PC側でデータを読み出せる
   \item エンコーダーデータは0として取得されている
@@ -256,9 +256,30 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{eldata_check}
 \end{figure}
 
-以上の結果から新システムの挙動が問題ないと判断した。次に実際の望遠鏡に実装した。
+以上の結果から新システムの挙動が問題ないと判断し、次に実際の望遠鏡にインストールした。インストールはSDカードを新システムのものに交換するだけで完了し、PYNQの起動を確認した。
+
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/sd_exchange.pdf}
+      \subcaption{SDカードの交換}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.048]{4_elDAQ/figs/pynq_start.jpg}
+      \subcaption{PYNQの起動}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{新システムのインストール}
+  \label{el_install}
+\end{figure}
 
 \subsection{信号読み出しの確認}
+インストール後に実際の望遠鏡システムでデータを読み出せるかの動作確認を行なった。
 
 \subsection{同期信号の分配確認}
 
