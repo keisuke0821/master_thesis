@@ -284,11 +284,28 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/sync_id.pdf}
-  \caption{仰角データからみた同期信号}
+  \caption{仰角データからみた同期信号。方位角DAQからの同期信号を取得するごとに``Sync\_id''が1ずつ加算される。}
   \label{sync_id}
 \end{figure}
 
-\subsection{同期信号の分配確認}
+\subsection{同期信号の分配と仰角データ取得の確認}
+次に、取得した同期信号をMKID DAQに分配できていることと仰角データを正しく読み出せているかを確認した。一度失ったエンコーダーの原点情報を再度取得するためにも、望遠鏡の仰角を$90^{\circ}$と$70^{\circ}$の間で何度か動かして、さらに並行してMKIDのデータも取得した。それらのデータを使って確認を行なった。確認の手順は以下である。
+\begin{enumerate}
+  \item テスト用として取ったMKIDデータを読み出す
+  \item 正しく動作していればMKIDデータに同期した時間情報と仰角データを取得できる
+  \item その仰角データが正しい値を読み出せているかを確認
+\end{enumerate}
+
+結果を図\ref{elevation_data}に示す。MKIDデータから同期情報を取得でき、読み出した仰角データが$90^{\circ}$と$70^{\circ}$の間で正しく動いていることも確認した。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/elevation_data.png}
+  \caption{読み出した仰角データ。横軸(2024/3/13のUTC時間)の時間情報が実際の作業時間とリンクしており、MKIDデータで同期信号が正しく取得できていることを反映している。}
+  \label{elevation_data}
+\end{figure}
+
+以上から新システムが実際の望遠鏡で問題なく動作することを確認した。その後、動作が安定して長期間行われるかをチェックした。
 
 \section{メンテナンスと安定運用}
 
