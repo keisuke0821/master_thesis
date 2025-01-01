@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 00:56
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 01:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -712,12 +712,12 @@ Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 1878C5C684C2CD43199F00151E0F543F;7737.
  ) 
 Here is how much of TeX's memory you used:
- 13754 strings out of 474762
- 233773 string characters out of 5758587
+ 13752 strings out of 474762
+ 233749 string characters out of 5758587
  1931338 words of memory out of 5000000
- 35895 multiletter control sequences out of 15000+600000
- 575191 words of font info for 119 fonts, out of 8000000 for 9000
+ 35894 multiletter control sequences out of 15000+600000
+ 575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1208b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (26 pages, 105036 bytes).
+Output written on Kataoka_mt.dvi (26 pages, 104988 bytes).
