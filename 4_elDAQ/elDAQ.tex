@@ -318,14 +318,28 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 \end{itemize}
 が挙げられる。3つ目に関しては、経年劣化や落雷による停電時にダメージを受けたことなどが考えられるが、リモートからボード自体の性能を評価することが難しいため、まずは1つ目と2つ目の原因について調査した。
 
-\subsection{電源供給法の見直し}
-Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro usb端子から行なっていた。Zyboへの電源供給法は他にジャック端子から(図\ref{power supply})がある。
+\subsection{電源供給方法の見直し}
+Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro usb端子から行なっていた。Zyboへの電源供給方法は他にジャック端子から(図\ref{power_ supply})がある。
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/connector_zybo.pdf}
-  \caption{Zyboへの電源供給法。Micro usbからとジャック端子からの2通りがある。}
+  \caption{Zyboへの電源供給方法。Micro usbからとジャック端子からの2通りがある。}
   \label{power_supply}
 \end{figure}
+
+この2種類の供給方法について比較すると表\ref{power_spec}のようになる。ジャック端子については標準的なACアダプタの規格を参照する。
+
+\begin{table}[htbp]
+  \centering
+  \caption{各電源供給方法での定格値}
+  \vspace{3mm}
+  \begin{tabular}{cccc} \hline
+    供給方法 & 定格電圧 & 定格電流 & 接続の安定性  \\ \hline
+    Micro usb & 5V & 最大0.5A & やや不安定\\
+    ジャック端子 & 5V & 最大4A &  安定\\ \hline
+  \end{tabular}
+  \label{power_spec}
+\end{table}
 
 \subsection{Zynq温度のモニター}
