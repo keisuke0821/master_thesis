@@ -278,8 +278,15 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{el_install}
 \end{figure}
 
-\subsection{信号読み出しの確認}
-インストール後に実際の望遠鏡システムでデータを読み出せるかの動作確認を行なった。
+\subsection{同期信号取得の確認}
+インストール後に実際の望遠鏡システムでデータを読み出せるかの動作確認を行なった。まず、方位角DAQからの同期信号を正しく取得して仰角データとして保存できているのかを確認した。結果を図\ref{sync_id}に示す。同期信号は1秒に1回出力されるので、仰角データでは同期信号の番号(図では``Sync\_id''と記す)が1秒で1ずつ増加する形で見えるはずであり、その結果を確認することができた。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/sync_id.pdf}
+  \caption{仰角データからみた同期信号}
+  \label{sync_id}
+\end{figure}
 
 \subsection{同期信号の分配確認}
 
