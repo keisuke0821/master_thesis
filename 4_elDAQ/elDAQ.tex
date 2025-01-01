@@ -219,7 +219,7 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
     %---- 2番目の図 --------------------------
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/el_test.pdf}
+      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/el_test2.pdf}
       \subcaption{セットアップの模式図}
     \end{minipage}
     %---- 図はここまで ----------------------
@@ -228,7 +228,7 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{el_test}
 \end{figure}
 
-動作確認を、図\ref{el_test}に示したセットアップで行なった。ロータリーエンコーダーとは接続せず、同期信号も送らない単純なものである。図\ref{el_test}の左図にあるように、Zyboの電源を入れPYNQが起動するとボード右側の``DONE''ランプが緑色に点灯する。自分のMac PCをデータ取得PCとして、Micro usbでZyboへの電源供給を行い、データ通信はEthernetケーブルで行った。PC上でデータ読み出しのスクリプトを動かして、Zynqの挙動に問題がないかをチェックした。期待される挙動は
+動作確認を、図\ref{el_test}に示したセットアップで行なった。ロータリーエンコーダーとは接続せず、同期信号も送らない単純なものである。図\ref{el_test}の左図にあるように、Zyboの電源を入れPYNQが起動するとボード右側の``DONE''ランプが緑色に点灯する。自分のMac PCをデータ取得PCとして、Micro-USBでZyboへの電源供給を行い、データ通信はEthernetケーブルで行った。PC上でデータ読み出しのスクリプトを動かして、Zynqの挙動に問題がないかをチェックした。期待される挙動は
 \begin{itemize}
   \item Zynqが正しく機能し、PC側でデータを読み出せる
   \item エンコーダーデータは0として取得されている
@@ -319,12 +319,12 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 が挙げられる。3つ目に関しては、経年劣化や落雷による停電時にダメージを受けたことなどが考えられるが、リモートからボード自体の性能を評価することが難しいため、まずは1つ目と2つ目の原因について調査した。
 
 \subsection{電源供給方法の見直し}
-Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro usb端子から行なっていた。Zyboへの電源供給方法は他にジャック端子から(図\ref{power_ supply})がある。
+Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-USB端子から行なっていた。Zyboへの電源供給方法は他にジャック端子から(図\ref{power_ supply})がある。
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/connector_zybo.pdf}
-  \caption{Zyboへの電源供給方法。Micro usbからとジャック端子からの2通りがある。}
+  \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/connector_zybo2.pdf}
+  \caption{Zyboへの電源供給方法。Micro-USBからとジャック端子からの2通りがある。}
   \label{power_supply}
 \end{figure}
 
@@ -336,12 +336,54 @@ Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro 
   \vspace{3mm}
   \begin{tabular}{cccc} \hline
     供給方法 & 定格電圧 & 定格電流 & 接続の安定性  \\ \hline
-    Micro usb & 5V & 最大0.5A & やや不安定\\
+    Micro-USB & 5V & 最大0.5A & やや不安定\\
     ジャック端子 & 5V & 最大4A &  安定\\ \hline
   \end{tabular}
   \label{power_spec}
 \end{table}
 
-これより、供給できる電力量や接続の安定性に関してジャック端子の方が優れていることが分かる。スペックシート(\cite{power_ref})でもジャック端子による電源供給が推奨されている。
+これより、供給できる電力量や接続の安定性に関してジャック端子の方が優れていることが分かる。特に定格電流の値が大きく異なっており、従来のシステムではMicro-USBからの給電で間に合っていたが、OSが搭載されたことで給電が足りなくなった可能性が考えられる。スペックシート\cite{power_ref}でもジャック端子による電源供給が推奨されている(参考として、電力を大量に消費する処理をZynqに搭載した場合は12.5W以上の出力が必要)。そのため、Zyboへの電源供給方法をジャック端子に変更して十分な電力を供給することで動作の安定性を図るのが良いと考えた。変更するにあたって新システムを稼働した際のZyboの安定性を給電条件を変えてテストした。行なったテストの様子を図\ref{power_test}に、給電条件と結果を表\ref{power_result}に示す。
+
+\begin{figure}[htbp]
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/test_usb.jpg}
+      \subcaption{テスト1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/test_jack.jpg}
+      \subcaption{テスト2}
+    \end{minipage} \\
+
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/test_50.jpg}
+      \subcaption{テスト3}
+    \end{minipage} &
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/test_45.jpg}
+      \subcaption{テスト4}
+    \end{minipage}
+  \end{tabular}
+   \caption{Zyboの安定稼働テスト}
+   \label{power_test}
+\end{figure}
+
+\begin{table}[htbp]
+  \centering
+  \caption{安定稼働テストの給電条件と結果}
+  \vspace{3mm}
+  \begin{tabular}{ccc} \hline
+     & 給電条件 & 動作の結果  \\ \hline
+    テスト1 & 従来と同じUSB & 安定 \\
+    テスト2 & ジャック端子(5V、4AのACアダプタ) & 安定 \\ \hline
+    テスト3 & 直流電源(定電圧モード 5.0V) & 安定 \\
+    テスト4 & 直流電源(定電圧モード 4.5V) & 不安定(DAQ開始後数時間でZyboの電源が落ちる)  \hline
+  \end{tabular}
+  \label{power_result}
+\end{table}
 
 \subsection{Zynq温度のモニター}
