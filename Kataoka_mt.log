@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 16:44
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 17:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -337,7 +337,7 @@ File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
 LaTeX Warning: Unused global option(s):
     [uplatex].
 
-(./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
+No file Kataoka_mt.aux.
 \openout1 = `Kataoka_mt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -362,7 +362,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -407,13 +406,16 @@ Package color Info: Driver file: dvipdfmx.def on input line 149.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 42.
- (./Kataoka_mt.out) (./Kataoka_mt.out)
 \@outlinefile=\write3
 \openout3 = `Kataoka_mt.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (./0_title/title.tex
+(./0_title/title.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 16.62714pt on input line 4.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -464,25 +466,14 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 60.
- (./Kataoka_mt.toc
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 2.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
 
-])
+No file Kataoka_mt.toc.
 \tf@toc=\write4
 \openout4 = `Kataoka_mt.toc'.
 
- [2]
+[1
+
+]
 \openout2 = `2_cosmology/kk_Introduction.aux'.
 
  (./2_cosmology/kk_Introduction.tex
@@ -499,6 +490,18 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 7.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 7.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 7.
@@ -553,8 +556,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (./4_elDAQ/elDAQ.tex
 第 3 章
+
+LaTeX Warning: Reference `GB_daq' on page 3 undefined on input line 7.
+
 File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_daq_2.pdf>
+
+LaTeX Warning: Citation `R-1SL' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation `Zybo' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Reference `el_daq' on page 3 undefined on input line 16.
+
 [3
 
 
@@ -567,22 +582,87 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 24.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 24.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 24.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 24.
+
+
+LaTeX Warning: Citation `R-1SL' on page 4 undefined on input line 24.
+
+
+LaTeX Warning: Citation `R-1SL' on page 4 undefined on input line 24.
+
 File: 4_elDAQ/figs/Zybo.jpg Graphic file (type bmp)
 <4_elDAQ/figs/Zybo.jpg>
+
+LaTeX Warning: Citation `Zybo' on page 4 undefined on input line 30.
+
+
+LaTeX Warning: Citation `Zybo' on page 4 undefined on input line 30.
+
+
+LaTeX Warning: Citation `ERM220' on page 4 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Spartan' on page 4 undefined on input line 38.
+
+
+LaTeX Warning: Reference `az_daq' on page 4 undefined on input line 38.
+
+
+LaTeX Warning: Citation `ikemitsu' on page 4 undefined on input line 38.
+
 File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
 <4_elDAQ/figs/ERM220.png>
+
+LaTeX Warning: Citation `ERM220' on page 4 undefined on input line 46.
+
+
+LaTeX Warning: Citation `ERM220' on page 4 undefined on input line 46.
+
 File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
 <4_elDAQ/figs/spartan-3e-2.png>
- [4]
+
+LaTeX Warning: Citation `Spartan' on page 4 undefined on input line 52.
+
+
+LaTeX Warning: Citation `Spartan' on page 4 undefined on input line 52.
+
+[4]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 66.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 66.
+
+
+LaTeX Warning: Citation `ikemitsu' on page 5 undefined on input line 68.
+
 File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_sync_2.pdf>
- [5]
+
+LaTeX Warning: Reference `GB_sync' on page 5 undefined on input line 77.
+
+[5]
 File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
 <4_elDAQ/figs/el_daq_box.pdf>
+
+
+LaTeX Warning: Citation `Zybo' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Citation `Zybo' on page 6 undefined on input line 99.
+
+
+LaTeX Warning: Reference `GB_daq_box' on page 6 undefined on input line 103.
+
+
+LaTeX Warning: Citation `Zynq' on page 6 undefined on input line 103.
+
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 8.65997pt on input line 103.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -591,15 +671,44 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 103.
 File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
 <4_elDAQ/figs/block_diagram.pdf>
+
+LaTeX Warning: Reference `block_diagram' on page 6 undefined on input line 112.
+
 File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
 <4_elDAQ/figs/zynq_flow.pdf>
- [6] [7]
+
+LaTeX Warning: Reference `zynq_flow' on page 6 undefined on input line 121.
+
+
+LaTeX Warning: Citation `FIFO' on page 6 undefined on input line 121.
+
+[6] [7]
 File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sd_zybo2.pdf>
- [8] [9]
+
+
+LaTeX Warning: Reference `sd_zybo' on page 8 undefined on input line 132.
+
+[8]
+
+LaTeX Warning: Citation `Pynq' on page 9 undefined on input line 159.
+
+[9]
+
+LaTeX Warning: Citation `image' on page 10 undefined on input line 167.
+
+
+LaTeX Warning: Reference `PYNQ_table' on page 10 undefined on input line 167.
+
+
+LaTeX Warning: Reference `block_diagram' on page 10 undefined on input line 193.
+
+
+LaTeX Warning: Reference `overlay' on page 10 undefined on input line 193.
+
 File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
 <4_elDAQ/figs/overlay3.pdf>
- [10]
+[10]
 File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_pic.jpg>
 File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
@@ -609,7 +718,16 @@ Overfull \hbox (83.379pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
+
+LaTeX Warning: Reference `el_test' on page 11 undefined on input line 231.
+
+
+LaTeX Warning: Reference `el_test' on page 11 undefined on input line 231.
+
 [11]
+
+LaTeX Warning: Reference `eldata_check' on page 12 undefined on input line 237.
+
 File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
 <4_elDAQ/figs/enc_data_test.png>
 File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
@@ -623,15 +741,39 @@ Overfull \hbox (2.22375pt too wide) in paragraph at lines 272--273
  [][] 
  []
 
+
+LaTeX Warning: Reference `sync_id' on page 12 undefined on input line 282.
+
 File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sync_id.pdf>
 [12]
+
+LaTeX Warning: Reference `elevation_data' on page 13 undefined on input line 299.
+
 File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
 <4_elDAQ/figs/elevation_data.png>
- [13]
+[13]
+
+LaTeX Warning: Reference `el_install' on page 14 undefined on input line 323.
+
+
+LaTeX Warning: Reference `power_supply' on page 14 undefined on input line 323.
+
 File: 4_elDAQ/figs/connector_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/connector_zybo2.pdf>
- [14]
+[14]
+
+LaTeX Warning: Reference `power_spec' on page 15 undefined on input line 332.
+
+
+LaTeX Warning: Citation `power_ref' on page 15 undefined on input line 346.
+
+
+LaTeX Warning: Reference `power_test' on page 15 undefined on input line 346.
+
+
+LaTeX Warning: Reference `power_result' on page 15 undefined on input line 346.
+
 File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_usb.jpg>
 File: 4_elDAQ/figs/test_jack.jpg Graphic file (type bmp)
@@ -645,11 +787,477 @@ Overfull \hbox (24.03883pt too wide) in paragraph at lines 380--388
  [][][][] 
  []
 
+
+LaTeX Warning: Reference `el_test' on page 15 undefined on input line 390.
+
 [15] [16]
+
+LaTeX Warning: Reference `new_connector' on page 17 undefined on input line 396.
+
 File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
+
+LaTeX Warning: Reference `power_sup' on page 17 undefined on input line 419.
+
+
+LaTeX Warning: Citation `xadc' on page 17 undefined on input line 419.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...e {\textdef@ \displaystyle \f@size {#1}}
+                                                  {\textdef@ \textstyle \f@s...
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...xtstyle \f@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \sf@...
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...tstyle \sf@size {\firstchoice@false #1}}
+                                                  {\textdef@ \textstyle \ssf...
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\textdef@ ...th {#1}\let \f@size #2\selectfont #3}
+                                                  }
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\textdef@ ...h {#1}\let \f@size #2\selectfont #3}}
+                                                  
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...style \ssf@size {\firstchoice@false #1}}
+                                                  \check@mathfonts }
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\text@ ...firstchoice@false #1}}\check@mathfonts }
+                                                  
+l.427   \text{T_{Zynq}}
+                       (^{\circ}\text{C}) = (\text{in\_temp0\_raw} + \text{i...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\eqno' in math mode.
+\veqno ->\@kernel@eqno 
+                       \aftergroup \ignorespaces 
+l.428 \end{equation}
+                    
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.428 \end{equation}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.428 \end{equation}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing { inserted.
+<to be read again> 
+                   \endgroup 
+l.428 \end{equation}
+                    
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{equation}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.428 \end{equation}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
 ) [17]
 \openout2 = `5_alignment/alignment.aux'.
 
@@ -713,16 +1321,29 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 718A7F5F80CA895BDC492A1BE043F149;7737.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  718A7F5F80CA895BDC492A1BE043F149;7737.
  ) 
 Here is how much of TeX's memory you used:
- 13769 strings out of 474762
- 234281 string characters out of 5758587
- 1931338 words of memory out of 5000000
- 35909 multiletter control sequences out of 15000+600000
- 575023 words of font info for 118 fonts, out of 8000000 for 9000
+ 13724 strings out of 474762
+ 233507 string characters out of 5758587
+ 1928338 words of memory out of 5000000
+ 35884 multiletter control sequences out of 15000+600000
+ 575331 words of font info for 119 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,13n,79p,1230b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,17n,79p,1230b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (27 pages, 111192 bytes).
+Output written on Kataoka_mt.dvi (26 pages, 73952 bytes).
