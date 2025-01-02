@@ -316,9 +316,10 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \item Zynqでの消費電力も上がり、Zynqの温度が許容値よりも高くなってしまう
   \item そもそもZyboのボード自体がどこかで劣化している
 \end{itemize}
-が挙げられる。3つ目に関しては、経年劣化や落雷による停電時にダメージを受けたことなどが考えられるが、リモートからボード自体の性能を評価することが難しいため、まずは1つ目と2つ目の原因について調査した。
+が挙げられる。3つ目に関しては、経年劣化や落雷による停電時にダメージを受けたことなどが考えられるが、リモートからボード自体の性能を評価することが難しいため、まずは1つ目と2つ目の要因について調査した。結果として、1つ目の電源供給が原因である可能性が高いことが分かった。
 
 \subsection{電源供給方法の見直し}
+\label{power_sup}
 Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-USB端子から行なっていた。Zyboへの電源供給方法は他にジャック端子から(図\ref{power_supply})がある。
 
 \begin{figure}[htbp]
@@ -399,13 +400,13 @@ Zyboへの電源供給をMicro-USBからジャック端子に変更し(図\ref{n
     %---- 最初の図 ---------------------------
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.01]{4_elDAQ/figs/new_connector_set.jpg}
+      \includegraphics[keepaspectratio, scale=0.02]{4_elDAQ/figs/new_connector_set.jpg}
       \subcaption{配線の変更}
     \end{minipage}
     %---- 2番目の図 --------------------------
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.025]{4_elDAQ/figs/new_connector_boot.jpg}
+      \includegraphics[keepaspectratio, scale=0.02]{4_elDAQ/figs/new_connector_boot.jpg}
       \subcaption{PYNQの再起動}
     \end{minipage}
     %---- 図はここまで ----------------------
@@ -415,3 +416,4 @@ Zyboへの電源供給をMicro-USBからジャック端子に変更し(図\ref{n
 \end{figure}
 
 \subsection{Zynq温度のモニター}
+2つ目の要因についても調査し、問題がないことを確認した。ZyboのZynq部分にはヒートシンクが取り付けられており、ある程度の発熱は抑えられるはずだが、消費電力が高いと発熱量が増えてZynqの動作温度の上限を超えることは起きうる。しかし、\ref{power_sup}で見たように新システムの消費電力が大きくなく、稼働中にヒートシンクを手で触っても熱くないため上限を超えるほどの発熱をしていることはまずない。そのことをZynq内の温度モニター機能を用いて確かめた。

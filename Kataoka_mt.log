@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 15:59
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 16:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -641,7 +641,7 @@ File: 4_elDAQ/figs/test_50.jpg Graphic file (type bmp)
 File: 4_elDAQ/figs/test_45.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_45.jpg>
 
-Overfull \hbox (24.03883pt too wide) in paragraph at lines 379--387
+Overfull \hbox (24.03883pt too wide) in paragraph at lines 380--388
  [][][][] 
  []
 
@@ -650,11 +650,6 @@ File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
-
-Overfull \hbox (39.95554pt too wide) in paragraph at lines 408--409
- [][] 
- []
-
 ) [17]
 \openout2 = `5_alignment/alignment.aux'.
 
@@ -722,12 +717,12 @@ Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 718A7F5F80CA895BDC492A1BE043F149;7737.
  ) 
 Here is how much of TeX's memory you used:
- 13766 strings out of 474762
- 234248 string characters out of 5758587
+ 13768 strings out of 474762
+ 234275 string characters out of 5758587
  1931338 words of memory out of 5000000
- 35906 multiletter control sequences out of 15000+600000
+ 35908 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1230b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (27 pages, 109072 bytes).
+Output written on Kataoka_mt.dvi (27 pages, 110272 bytes).
