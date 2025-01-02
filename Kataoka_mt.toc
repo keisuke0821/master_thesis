@@ -32,28 +32,28 @@
 \contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{14}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{15}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{17}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {第4章}検出器アライメントの較正}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}従来の検出器アライメントと問題点}{18}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾き}{18}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}要求されるアライメント性能}{18}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{18}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}月を用いた傾き角の算出}{18}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}なぜ月なのか？}{18}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}必要な回転角}{18}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}回転する上でのジグの必要性}{18}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{18}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{18}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{18}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}天体を用いた較正結果の確認}{18}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}月データによる確認}{18}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{18}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{18}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}なぜ差分をとるのか？}{18}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}解析による確認}{18}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {第5章}今後の展望}{19}{chapter.5}%
-\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{19}{section.5.1}%
-\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{19}{section.5.2}%
-\contentsline {chapter}{\numberline {第6章}まとめ}{20}{chapter.6}%
-\contentsline {chapter}{\numberline {第7章}謝辞}{21}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{22}{chapter*.23}%
-\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{23}{appendix.A}%
+\contentsline {chapter}{\numberline {第4章}検出器アライメントの較正}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}従来の検出器アライメントと問題点}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾き}{19}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}要求されるアライメント性能}{19}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{19}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}月を用いた傾き角の算出}{19}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}なぜ月なのか？}{19}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}必要な回転角}{19}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}回転する上でのジグの必要性}{19}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{19}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{19}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{19}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}天体を用いた較正結果の確認}{19}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}月データによる確認}{19}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{19}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{19}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}なぜ差分をとるのか？}{19}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}解析による確認}{19}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {第5章}今後の展望}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{20}{section.5.2}%
+\contentsline {chapter}{\numberline {第6章}まとめ}{21}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章}謝辞}{22}{chapter.7}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{23}{chapter*.24}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{24}{appendix.A}%

@@ -426,4 +426,31 @@ Zyboへの電源供給をMicro-USBからジャック端子に変更し(図\ref{n
 \begin{equation}
   \mathrm{T}_{\mathrm{Zynq}}(^{\circ}\mathrm{C}) = (\mathrm{in\_temp0\_raw} + \mathrm{in\_temp0\_offset})\cdot \mathrm{in\_temp0\_scale} / 1000
 \end{equation}
-で求められる。
+で求められる。定期的にZynqの温度を読み出し、値を保存することで温度を確認できるようにした。読み出した温度のプロットを図\ref{temp_zynq}に示す。気温の影響もあるためZynq温度は夏になると全体的に高くなるが、それでも動作温度の上限である$85^{\circ}$Cよりも十分低い温度で動作していることが分かる。
+
+%\begin{figure}[h]
+  %\begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    %\begin{minipage}[t]{0.45\hsize}
+      %\centering
+      %\includegraphics[keepaspectratio, scale=0.25]{4_elDAQ/figs/temp_zynq_202408.png}
+      %\subcaption{夏の温度データ}
+    %\end{minipage}
+    %---- 2番目の図 --------------------------
+    %\begin{minipage}[t]{0.45\hsize}
+      %\centering
+      %\includegraphics[keepaspectratio, scale=0.25]{4_elDAQ/figs/temp_zynq_202412.png}
+      %\subcaption{冬の温度データ}
+    %\end{minipage}
+    %---- 図はここまで ----------------------
+  %\end{tabular}
+  %\caption{Zynqの温度モニター}
+  %\label{temp_zynq}
+%\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/temp_zynq_202408.png}
+  \caption{Zynqの温度モニター。}
+  \label{temp_zynq}
+\end{figure}
