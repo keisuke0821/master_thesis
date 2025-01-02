@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  2 JAN 2025 23:48
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  3 JAN 2025 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -696,12 +696,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfil' on input line 2.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 [][][]\OT1/cmr/m/n/10.95 https://japan.xilinx.com/support/documentation-navigation/silicon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
@@ -721,12 +721,12 @@ Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 6021335C6B0A5EB66ABF0DA97D56C9D3;7654.
  ) 
 Here is how much of TeX's memory you used:
- 13788 strings out of 474762
- 234798 string characters out of 5758587
+ 13792 strings out of 474762
+ 234831 string characters out of 5758587
  1931338 words of memory out of 5000000
- 35924 multiletter control sequences out of 15000+600000
+ 35928 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1230b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (29 pages, 116112 bytes).
+Output written on Kataoka_mt.dvi (29 pages, 116108 bytes).
