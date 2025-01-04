@@ -9,16 +9,19 @@ plt.rcParams['figure.facecolor'] = 'white'
 plt.rcParams['axes.grid'] = True
 
 # データ
-x = [2015, 2016, 2018, 2020]
-y = [0.066, 0.055, 0.054, 0.051]
-y_errors = [0.016, 0.009, 0.007, 0.006]  # y方向のエラー
+x = [2003,2013, 2015, 2018, 2020, 2023]
+y = [0.117, 0.081, 0.066, 0.056, 0.051, 0.058]
+y_errors = [0.055, 0.012, 0.012, 0.007, 0.006, 0.006]  # y方向のエラー
+
+x_arange = [1, 5, 7, 10, 12, 15]
 
 # プロット
-plt.errorbar(x, y, yerr=y_errors, fmt='o', capsize=5, label="Data with error bars")
+plt.errorbar(x_arange, y, yerr=y_errors, fmt='o', capsize=5, label="Data with error bars")
 
 # x軸を一年単位に設定
-plt.xticks(range(min(x), max(x) + 1, 1))
-plt.ylim(0.04, 0.1)
+#plt.xticks(range(min(x), max(x) + 1, 1))
+plt.xticks(x_arange, x)
+#plt.ylim(0.04, 0.1)
 
 # ラベルとタイトル
 plt.xlabel("Year")
