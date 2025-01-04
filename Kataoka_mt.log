@@ -358,4 +358,399 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for P
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=9.27193pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 149.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 42.
+ (./Kataoka_mt.out) (./Kataoka_mt.out)
+\@outlinefile=\write3
+\openout3 = `Kataoka_mt.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./0_title/title.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 4.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 4.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 4.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 16.62714pt on input line 4.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 9.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 9.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 9.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.85594pt on input line 9.
+File: 0_title/E-C.png Graphic file (type bmp)
+<0_title/E-C.png>
+) [1
+
+] (./1_abstract/abstract.tex
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 1.
+ [0])
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 60.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 60.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 60.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 60.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 19.95642pt on input line 60.
+ (./Kataoka_mt.toc
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+])
+\tf@toc=\write4
+\openout4 = `Kataoka_mt.toc'.
+
+ [2]
+\openout2 = `2_cosmology/kk_Introduction.aux'.
+
+ (./2_cosmology/kk_Introduction.tex
+第 1 章
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 5.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Lambda' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 7.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 21.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 21.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 21.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 25.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 25.
+
+) [1
+
+
+]
+\openout2 = `3_GB/GB.aux'.
+
+ (./3_GB/GB.tex
+第 2 章
+File: 3_GB/figs/GB_overview2.pdf Graphic file (type pdf)
+<3_GB/figs/GB_overview2.pdf>
+[2
+
+
+
+
+]
+File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
+<3_GB/figs/scan_strategy.pdf>
+File: 3_GB/figs/gb_int.png Graphic file (type bmp)
+<3_GB/figs/gb_int.png>
+ [3]
+File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_pic.pdf>
+
+Overfull \hbox (4.58182pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 45.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 45.
+File: 3_GB/figs/mkid_circ.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_circ.pdf>
+
+Overfull \hbox (5.18408pt too wide) in paragraph at lines 50--51
+ [][] 
+ []
+
+) [4] [5]
+\openout2 = `4_elDAQ/elDAQ.aux'.
+
+ (./4_elDAQ/elDAQ.tex
+第 3 章
+File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/GB_daq_2.pdf>
+[6
+
+
+
+
+]
+File: 4_elDAQ/figs/el_encoder.jpg Graphic file (type bmp)
+<4_elDAQ/figs/el_encoder.jpg>
+File: 4_elDAQ/figs/Zybo.jpg Graphic file (type bmp)
+<4_elDAQ/figs/Zybo.jpg>
+File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
+<4_elDAQ/figs/ERM220.png>
+File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
+<4_elDAQ/figs/spartan-3e-2.png>
+ [7]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 66.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 66.
+File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/GB_sync_2.pdf>
+ [8]
+File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
+<4_elDAQ/figs/el_daq_box.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 103.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 103.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 103.
+File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
+<4_elDAQ/figs/block_diagram.pdf>
+File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
+<4_elDAQ/figs/zynq_flow.pdf>
+ [9] [10]
+File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sd_zybo2.pdf>
+ [11] [12]
+File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
+<4_elDAQ/figs/overlay3.pdf>
+ [13]
+File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_pic.jpg>
+File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/el_test2.pdf>
+
+Overfull \hbox (83.379pt too wide) in paragraph at lines 222--223
+ [][] 
+ []
+
+[14]
+File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
+<4_elDAQ/figs/enc_data_test.png>
+File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
+<4_elDAQ/figs/timestamp.png>
+File: 4_elDAQ/figs/sd_exchange.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sd_exchange.pdf>
+File: 4_elDAQ/figs/pynq_start.jpg Graphic file (type bmp)
+<4_elDAQ/figs/pynq_start.jpg>
+
+Overfull \hbox (2.22375pt too wide) in paragraph at lines 272--273
+ [][] 
+ []
+
+File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sync_id.pdf>
+[15]
+File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
+<4_elDAQ/figs/elevation_data.png>
+ [16]
+File: 4_elDAQ/figs/connector_zybo2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/connector_zybo2.pdf>
+ [17]
+File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_usb.jpg>
+File: 4_elDAQ/figs/test_jack.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_jack.jpg>
+File: 4_elDAQ/figs/test_50.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_50.jpg>
+File: 4_elDAQ/figs/test_45.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_45.jpg>
+
+Overfull \hbox (24.03883pt too wide) in paragraph at lines 380--388
+ [][][][] 
+ []
+
+[18] [19]
+File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
+<4_elDAQ/figs/new_connector_set.jpg>
+File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
+<4_elDAQ/figs/new_connector_boot.jpg>
+File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
+<4_elDAQ/figs/temp_zynq_202408.png>
+) [20] [21]
+\openout2 = `5_alignment/alignment.aux'.
+
+ (./5_alignment/alignment.tex
+第 4 章
+) [22
+
+
+
+
+]
+\openout2 = `6_prospect/prospect.aux'.
+
+ (./6_prospect/prospect.tex
+第 5 章
+) [23
+
+
+
+
+]
+\openout2 = `7_summary/summary.aux'.
+
+ (./7_summary/summary.tex
+第 6 章
+) [24
+
+
+
+
+] (./8_acknowledgment/kk_acknowledgment.tex
+第 7 章
+) (./9_reference/kk_references.tex [25
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfil' on input line 2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[][][]\OT1/cmr/m/n/10.95 https://japan.xilinx.com/support/documentation-navigation/silicon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+[][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
+ []
+
+) (./10_appendix/appendix.tex [26
+
+]
+付 録 A  
+) [27
+
+] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
+ ***********
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 523A7E933CDA5BA1F82DF437541179EC;7875.
+ ) 
+Here is how much of TeX's memory you used:
+ 13824 strings out of 474762
+ 235602 string characters out of 5758587
+ 1931338 words of memory out of 5000000
+ 35956 multiletter control sequences out of 15000+600000
+ 575023 words of font info for 118 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 72i,13n,79p,1484b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Kataoka_mt.dvi (31 pages, 127468 bytes).
