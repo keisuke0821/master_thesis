@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  4 JAN 2025 22:30
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  4 JAN 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -574,6 +574,8 @@ Overfull \hbox (5.18408pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
+File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
+<3_GB/figs/cooper.pdf>
 ) [4] [5]
 \openout2 = `4_elDAQ/elDAQ.aux'.
 
@@ -737,20 +739,16 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 523A7E933CDA5BA1F82DF437541179EC;7875.
+(rerunfilecheck)             Checksum: 1DFAB1F174C5508318F0D3FF6CDCF43D;7875.
  ) 
 Here is how much of TeX's memory you used:
- 13824 strings out of 474762
- 235602 string characters out of 5758587
+ 13832 strings out of 474762
+ 235771 string characters out of 5758587
  1931338 words of memory out of 5000000
- 35956 multiletter control sequences out of 15000+600000
+ 35963 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,13n,79p,1484b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,1494b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (31 pages, 127468 bytes).
+Output written on Kataoka_mt.dvi (31 pages, 128272 bytes).
