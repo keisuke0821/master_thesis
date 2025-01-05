@@ -33,13 +33,13 @@
 \contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{21}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{22}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{24}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {第4章}検出器アライメントの較正}{26}{chapter.4}%
-\contentsline {section}{\numberline {4.1}従来の検出器アライメントと問題点}{26}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾き}{26}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {第4章}焦点面検出器アライメントの較正}{26}{chapter.4}%
+\contentsline {section}{\numberline {4.1}検出器アライメントの問題点}{26}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾きと差分解析}{26}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}要求されるアライメント性能}{26}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{26}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}月を用いた傾き角の算出}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}なぜ月なのか？}{26}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}月を用いた回転角の算出}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}月を用いた理由}{26}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}必要な回転角}{26}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}回転する上でのジグの必要性}{26}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{26}{section.4.3}%
@@ -49,8 +49,8 @@
 \contentsline {subsection}{\numberline {4.4.1}月データによる確認}{26}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{26}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{26}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}なぜ差分をとるのか？}{26}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}解析による確認}{26}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.1}timing offsetの算出}{26}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}差分解析による確認}{26}{subsection.4.5.2}%
 \contentsline {chapter}{\numberline {第5章}今後の展望}{27}{chapter.5}%
 \contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{27}{section.5.1}%
 \contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{27}{section.5.2}%
