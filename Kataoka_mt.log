@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  5 JAN 2025 22:49
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  5 JAN 2025 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -596,6 +596,21 @@ File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
  [5]
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
+
+Overfull \hbox (6.63489pt too wide) in paragraph at lines 106--107
+ [][] 
+ []
+
+File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_design.pdf>
+
+Overfull \hbox (55.68655pt too wide) in paragraph at lines 112--113
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) [6] [7] [8]
 \openout2 = `4_elDAQ/elDAQ.aux'.
 
@@ -758,12 +773,12 @@ Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 785B38A73A990E28525D6CE07AF0F12D;7875.
  ) 
 Here is how much of TeX's memory you used:
- 13888 strings out of 474762
- 236966 string characters out of 5758587
+ 13898 strings out of 474762
+ 237214 string characters out of 5758587
  1931338 words of memory out of 5000000
- 36015 multiletter control sequences out of 15000+600000
+ 36024 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1494b,771s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (35 pages, 143604 bytes).
+Output written on Kataoka_mt.dvi (35 pages, 144496 bytes).

@@ -96,12 +96,26 @@ CMB偏光の観測から$\tau$の測定を行うためにはCMBと、銀河な�
 
 \subsection{検出器のフルアレイインストール}
 \label{full_array}
-GroundBIRDの現在の状況について説明する。2022年1月から2022年5月まではプロトタイプ検出器を用いたコミッショニング観測が行われた。コミッショニングデータを用いて望遠鏡の視線方向の較正\cite{sueno_paper}や、偏光角較正、ノイズ特性の理解\cite{sueno_doctor}などがされてきた。並行して、2023年5月に全焦点面検出器のインストールが完了し、本格的な物理観測がスタートした。インストールした焦点面検出器を図\ref{full_array_mkid}に示す。
+GroundBIRDの現在の状況について説明する。2022年1月から2022年5月まではプロトタイプ検出器を用いたコミッショニング観測が行われた。コミッショニングデータを用いて望遠鏡の視線方向の較正\cite{sueno_paper}や、偏光角較正、ノイズ特性の理解\cite{sueno_doctor}などがされてきた。並行して、2023年5月に全焦点面検出器のインストールが完了し、本格的な物理観測がスタートした。インストールした焦点面検出器を図\ref{full_array_mkid}に示す。複数のMKIDが1つのアレイに搭載されており、145GHzが6アレイと220GHzが1アレイの全7アレイからなる。中央に220GHzアレイがあり、その周りを145GHzアレイが囲むように並んでいる。アレイごとに読み出しを行う。アレイ内でのMKIDの配置は図\ref{mkid_design}にようになっている。
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.6\columnwidth]{3_GB/figs/full_array.pdf}
-  \caption{焦点面検出器は145GHzが6アレイと220GHzが1アレイからなる。1アレイには複数のMKIDが搭載されており、アレイごとに読み出しを行う。}
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.37]{3_GB/figs/full_array.pdf}
+      \subcaption{焦点面検出器の全体写真。}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.45\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.43]{3_GB/figs/mkid_design.pdf}
+      \subcaption{アレイ内のMKIDが感度を持つ偏光方向。}
+      \label{mkid_design}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{フルアレイの焦点面検出器MKID}
   \label{full_array_mkid}
 \end{figure}
 
