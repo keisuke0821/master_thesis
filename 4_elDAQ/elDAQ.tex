@@ -14,7 +14,7 @@ CMB観測においては、検出器の時系列データと望遠鏡の角度�
   \label{GB_daq}
 \end{figure}
 
-仰角方向の角度データは、望遠鏡の側面に取り付けられたロータリーエンコーダー(Canon, R-1SL \cite{R-1SL})を使用し、Digilent製のFPGAボードZybo Z7-20 (\cite{Zybo}、以下では単にZyboと記す)で読み出す(図\ref{el_daq})。FPGAとはField Programmable Gate Array の略で、様々な論理回路がチップに搭載されており、使用者が配線を自由に組み合わせて論理回路を作ることができるデバイスである。FPGAでは特定の演算を行う回路を作成できるため、高速処理を可能にする。また並列処理も得意である。エンコーダーは4秒角($1.1\cdot {10^{-3}}^{\circ}$)もの高い角度分解能を持つ。
+仰角方向の角度データは、望遠鏡の側面に取り付けられたロータリーエンコーダー(Canon, R-1SL \cite{R-1SL})を使用し、Digilent製のFPGAボードZybo Z7-20 (\cite{Zybo}、以下では単にZyboと記す)で読み出す(図\ref{el_daq})。FPGAとはField Programmable Gate Array の略で、様々な論理回路がチップに搭載されており、使用者が配線を自由に組み合わせて論理回路を作ることができるデバイスである。FPGAでは特定の演算を行う回路を作成できるため、高速処理を可能にする。また並列処理も得意である。エンコーダーは4秒角($1.1\cdot{10^{-3}}~^{\circ}$)もの高い角度分解能を持つ。
 
 \begin{figure}[h]
   \begin{tabular}{cc}
@@ -36,7 +36,7 @@ CMB観測においては、検出器の時系列データと望遠鏡の角度�
   \label{el_daq}
 \end{figure}
 
-方位角方向の角度データは、回転台下部に取り付けられたロータリーエンコーダー(HEIDENHAIN, ERM220 \cite{ERM220})を使用し、Xilinx製のFPGAボードSpartan3E \cite{Spartan}で読み出す(図\ref{az_daq})。エンコーダー自体の角度分解能は2.6分角($4.4\cdot {10^{-2}}^{\circ}$)である。さらに、平滑化フィルターを用いた方位角データの補完を行うことで、角度分解能を$5.7\cdot {10^{-2}}$分角($9.5\cdot {10^{-4}}^{\circ}$)に向上させている\cite{ikemitsu}。
+方位角方向の角度データは、回転台下部に取り付けられたロータリーエンコーダー(HEIDENHAIN, ERM220 \cite{ERM220})を使用し、Xilinx製のFPGAボードSpartan3E \cite{Spartan}で読み出す(図\ref{az_daq})。エンコーダー自体の角度分解能は2.6分角($4.4\cdot {10^{-2}}~^{\circ}$)である。さらに、平滑化フィルターを用いた方位角データの補完を行うことで、角度分解能を$5.7\cdot {10^{-2}}$分角($9.5\cdot {10^{-4}}~^{\circ}$)に向上させている\cite{ikemitsu}。
 
 \begin{figure}[h]
   \begin{tabular}{cc}
@@ -58,15 +58,15 @@ CMB観測においては、検出器の時系列データと望遠鏡の角度�
   \label{az_daq}
 \end{figure}
 
-次に検出器のデータと方位角データに求められる同期精度を見積もる。時刻同期の精度を$\Delta t$とする。GroundBIRDの方位角方向の回転速度は最大で$120^{\circ}/s$になる。方位角方向での角度分解能$\Delta\phi$は
+次に検出器のデータと方位角データに求められる同期精度を見積もる。時刻同期の精度を$\Delta t$とする。GroundBIRDの方位角方向の回転速度は最大で$\SI{120}{^{\circ}}$/sになる。方位角方向での角度分解能$\Delta\phi$は
 \begin{equation}
-  \Delta\phi = 120^{\circ}/s \cdot \Delta t
+  \Delta\phi = \SI{120}{^{\circ}}/\mathrm{s} \cdot \Delta t
 \end{equation}
-になる。時刻同期による角度の決定精度がエンコーダーの角度分解能よりも十分小さいことを課す。時刻同期による角度決定精度をデータ補完によって向上したエンコーダーの角度分解能である$9.5\cdot {10^{-4}}^{\circ}$の1\% 未満と要求すると、$\Delta t$の上限は
+になる。時刻同期による角度の決定精度がエンコーダーの角度分解能よりも十分小さいことを課す。時刻同期による角度決定精度をデータ補完によって向上したエンコーダーの角度分解能である$9.5\cdot {10^{-4}}~^{\circ}$の\SI{1}{\%} 未満と要求すると、$\Delta t$の上限は
 \begin{equation}
-  \Delta t < \frac{9.5\cdot {10^{-4}}^{\circ}\cdot 0.01}{120^{\circ}/s} = 79 \text{ns}
+  \Delta t < \frac{9.5\cdot {10^{-4}}~^{\circ}\cdot 0.01}{\SI{120}{^{\circ}}/\mathrm{s}} = \SI{79}{\mathrm{ns}}
 \end{equation}
-となる。この正確な時刻同期が必要になるため、仰角と方位角の角度データ読み出しで共にFPGAボードを使用している。先行研究 \cite{ikemitsu}により、時刻同期精度を55 ns に抑え、要求を満たす精度を実現している。
+となる。この正確な時刻同期が必要になるため、仰角と方位角の角度データ読み出しで共にFPGAボードを使用している。先行研究 \cite{ikemitsu}により、時刻同期精度を\SI{55}{ns} に抑え、要求を満たす精度を実現している。
 
 \begin{figure}[htbp]
   \centering
