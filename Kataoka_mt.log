@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 02:01
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 02:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -605,55 +605,53 @@ File: 3_GB/figs/gb_int.png Graphic file (type bmp)
 File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_pic.pdf>
 
-Overfull \hbox (4.58182pt too wide) in paragraph at lines 53--54
+Overfull \hbox (4.58182pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 54.
+(Font)              scaled to size 9.6222pt on input line 55.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 54.
+(Font)              scaled to size 9.6222pt on input line 55.
 File: 3_GB/figs/mkid_circ.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_circ.pdf>
 
-Overfull \hbox (5.18408pt too wide) in paragraph at lines 59--60
+Overfull \hbox (5.18408pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[4]
 File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 <3_GB/figs/cooper.pdf>
-[4]
 File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 <3_GB/figs/tau_planck_wmap_cut.pdf>
+ [5]
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 94.
+(Font)              scaled to size 7.69775pt on input line 95.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 94.
+(Font)              scaled to size 8.65997pt on input line 95.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 94.
+(Font)              scaled to size 8.65997pt on input line 95.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 94.
+(Font)              scaled to size 4.8111pt on input line 95.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 94.
+(Font)              scaled to size 5.77332pt on input line 95.
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
- [5] [6] [7]
+ [6] [7]
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
 File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_design.pdf>
 
-Overfull \hbox (38.61125pt too wide) in paragraph at lines 122--123
+Overfull \hbox (38.61125pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
 
-Overfull \hbox (7.11885pt too wide) in paragraph at lines 112--128
+Overfull \hbox (7.11885pt too wide) in paragraph at lines 113--129
 [][] 
  []
 
@@ -796,19 +794,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfil' on input line 2.
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 41--43
+Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
 [32
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 [][][]\OT1/cmr/m/n/10.95 https://japan.xilinx.com/support/documentation-navigation/silicon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
@@ -822,20 +820,16 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 865E39982145A87A443CA402E3386E2E;7846.
  ) 
 Here is how much of TeX's memory you used:
- 17696 strings out of 474762
- 355822 string characters out of 5758587
+ 17697 strings out of 474762
+ 355831 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39803 multiletter control sequences out of 15000+600000
+ 39804 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,13n,79p,1325b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,1325b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (38 pages, 157460 bytes).
+Output written on Kataoka_mt.dvi (38 pages, 158456 bytes).
