@@ -19,7 +19,6 @@
 \contentsline {section}{\numberline {2.2}現在の観測状況}{8}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}検出器のフルアレイインストール}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}リモート観測システム}{9}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}本論文の構成}{9}{section.2.3}%
 \contentsline {chapter}{\numberline {第3章}仰角データ取得システムの改善}{10}{chapter.3}%
 \contentsline {section}{\numberline {3.1}望遠鏡仰角データ取得システムの改善}{10}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{10}{subsection.3.1.1}%
