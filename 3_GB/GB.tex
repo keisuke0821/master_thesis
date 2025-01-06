@@ -97,7 +97,7 @@ GroundBIRDが探る物理ターゲットは\ref{E_and_tau}で見た光学的厚�
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\columnwidth]{3_GB/figs/cl_shonda.pdf}
-  \caption{パワースペクトルの過去の観測結果とE,Bモードの理論線、そしてGroundBIRDの観測領域\cite{spie_honda}をオレンジで示す。青実線はテンソル$\cdot$スカラー比を仮定した時の原始重力波由来の偏光Bモード、赤点線は重力レンズ効果由来のBモードを表す。黒実線はEモードであり、大角度スケール($\geq 10^{\circ}$)で$\tau$の値によってスペクトルに違いが生まれる。}
+  \caption{パワースペクトルの過去の観測結果とE,Bモードの理論線、そしてGroundBIRDの観測領域\cite{spie_honda}をオレンジで示す。青実線はテンソル$\cdot$スカラー比を仮定した時の原始重力波由来の偏光Bモード、赤点線は重力レンズ効果由来のBモードを表す。黒実線はEモードであり、大角度スケール($\geq\SI{10}{^{\circ}}$)で$\tau$の値によってスペクトルに違いが生まれる。}
   \label{cl_honda}
 \end{figure}
 
@@ -116,7 +116,7 @@ GroundBIRDが探る物理ターゲットは\ref{E_and_tau}で見た光学的厚�
 \label{full_array}
 GroundBIRDの現在の状況について説明する。2022年1月から2022年5月まではプロトタイプ検出器を用いたコミッショニング観測が行われた。コミッショニングデータを用いて望遠鏡の視線方向の較正\cite{sueno_paper}や、偏光角較正、ノイズ特性の理解\cite{sueno_doctor}などがされてきた。並行して、2023年5月に全焦点面検出器のインストールが完了し、本格的な物理観測がスタートした。
 
-インストールした焦点面検出器を図\ref{full_array_mkid}に示す。23個のMKIDが1つのアレイに搭載されており、145GHzが6アレイと220GHzが1アレイの全7アレイからなる。中央に220GHzアレイがあり、その周りを145GHzアレイが囲むように並んでいる。アレイごとに読み出しを行う。アレイ内でのMKIDの配置は図\ref{mkid_design}にようになっている。各MKIDは片偏波アンテナを持つため、1方向の偏光方向に感度がある。また、偏光方向は$45^{\circ}$ずつで4方向あり、異なる方向に感度のあるMKID同士で交互に配置されている。これにより、第\ref{chapter4}章で述べるような検出器間で差分を取る解析によって偏光測定をすることができる。
+インストールした焦点面検出器を図\ref{full_array_mkid}に示す。23個のMKIDが1つのアレイに搭載されており、\SI{145}{GHz}が6アレイと\SI{220}{GHz}が1アレイの全7アレイからなる。中央に\SI{220}{GHz}アレイがあり、その周りを\SI{145}{GHz}アレイが囲むように並んでいる。アレイごとに読み出しを行う。アレイ内でのMKIDの配置は図\ref{mkid_design}にようになっている。各MKIDは片偏波アンテナを持つため、1方向の偏光方向に感度がある。また、偏光方向は$45^{\circ}$ずつで4方向あり、異なる方向に感度のあるMKID同士で交互に配置されている。これにより、第\ref{chapter4}章で述べるような検出器間で差分を取る解析によって偏光測定をすることができる。
 
 \begin{figure}[htbp]
   \begin{tabular}{cc}
@@ -139,17 +139,17 @@ GroundBIRDの現在の状況について説明する。2022年1月から2022年5
   \label{full_array_mkid}
 \end{figure}
 
-最後に145GHz, 220GHzのそれぞれの検出器と望遠鏡ビームの特性を表\ref{mkid_table}に示す。
+最後に\SI{145}{GHz}, \SI{220}{GHz}のそれぞれの検出器と望遠鏡ビームの特性を表\ref{mkid_table}に示す。
 
 \begin{table}[htbp]
   \centering
-  \caption{145GHz、220GHzにおける検出器とビームの特性\cite{choi_doctor}}
+  \caption{\SI{145}{GHz}、\SI{220}{GHz}における検出器とビームの特性\cite{choi_doctor}}
   \vspace{3mm}
   \begin{tabular}{ccc} \hline
-    & 145GHz & 220GHz \\ \hline
+    & \SI{145}{GHz} & \SI{220}{GHz} \\ \hline
     MKID数 & 6アレイ(138ピクセル) & 1アレイ(23ピクセル)\\
-    ビーム幅(FWHM) & $0.60^{\circ}(36')$ & $0.42^{\circ}(25')$\\
-    ビーム楕円率 & $ < 1\% $ & $ < 2\% $\\ \hline
+    ビーム幅(FWHM) & $\SI{0.60}{^{\circ}}(\SI{36}{'})$ & $\SI{0.42}{^{\circ}}(\SI{25}{'})$\\
+    ビーム楕円率 & $ < \SI{1}{\%} $ & $ < \SI{2}{\%} $\\ \hline
   \end{tabular}
   \label{mkid_table}
 \end{table}
