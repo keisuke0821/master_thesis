@@ -73,17 +73,26 @@ MKIDの動作原理の概要を説明する。MKIDは超伝導共振回路を応
   \label{cooper}
 \end{figure}
 
+\subsection{観測する周波数帯域}
+CMBの偏光を観測するためにはCMBと、銀河などから来るCMBと同周波数帯の放射である``前景放射''とを分離する必要がある。これらの前景放射はそれぞれ異なる周波数依存性を持つ(図\ref{planck_spectrum})。主な前景放射には低周波側で卓越する``シンクロトロン放射''と高周波側で卓越する``ダスト熱放射''があり、CMBにとって大きなノイズとなる。そのため、低周波側$\mathcal{O}$(10)~GHzから高周波側$\mathcal{O}$(100)~GHzまでの広い帯域での観測を行い前景放射を取り除くことが求められる。\ref{full_array}で述べるが、GroundBIRDはCMBに感度のある\SI{145}{GHz}と、ダスト放射に感度がある\SI{220}{GHz}の2つの帯域で観測する。一方で、低周波側はQUIJOTE\footnote{QUIJOTE(Q-U-I JOint Tenerife Experiment)実験はGroundBIRDから\SI{20}{m}ほどしか離れていない隣に位置する望遠鏡である。2台の望遠鏡(11, 13, 17, \SI{19}{GHz}を観測するQT1と30, \SI{40}{GHz}を観測するQT2)で構成される。}のデータを使うことでカバーする。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\columnwidth]{3_GB/figs/planck_spectrum.pdf}
+  \caption{CMBと前景放射の偏光強度を周波数の関数として表した図。Planck\cite{planck_cmb}を参照。それぞれの前景放射は異なる周波数依存性を持ち、CMBとこれらを分離するためには広い帯域での観測が必要になる。}
+  \label{planck_spectrum}
+\end{figure}
+
 \subsection{物理ターゲット}
 GroundBIRDが探る物理ターゲットは\ref{E_and_tau}で見た光学的厚み$\tau$の地上からの再測定である。光学的厚み$\tau$の測定は今までにWMAPやPlanckといった衛星実験によって測定がされてきた。図\ref{tau_planck}に測定された$\tau$の値の変遷を示す。誤差が小さくなってきており、最新の測定結果ではその誤差は$\sim\SI{10}{\%}$である。しかし、平均値は系統的に下がっている傾向にあり、独立した測定によってこの結果の妥当性を評価する必要がある。そのため、地上実験(例えばCLASS\cite{CLASS}やQUIJOTE\cite{QUIJOTE}など)からの$\tau$の精密測定が始まっている。
 
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.8\columnwidth]{3_GB/figs/tau_planck_wmap_cut.pdf}
-  \caption{WMAPとPlanckによって測定された光学的厚み$\tau$の値\cite{tau_measure}。最新では誤差は$\sim 10\%$である。}
+  \caption{WMAPとPlanckによって測定された光学的厚み$\tau$の値\cite{tau_measure}。最新では誤差は$\sim\SI{10}{\%}$である。}
   \label{tau_planck}
 \end{figure}
 
-特にGroundBIRDは独自のスキャン戦略を活かして$\tau$の値に迫ることができる。高速スキャンによって大角度スケール(6 $<\ell<$ 300)のCMB偏光を測定することができる。大角度スケールと$\tau$の関係を図\ref{cl_honda}に示す。偏光Eモードのパワースペクトルは大角度スケール($\geq\SI{10}{^{\circ}}$)で$\tau$に応じて異なる振る舞いをする。GroundBIRDはこの振る舞いを観測することができるため、$\tau$の測定に適している。
+特にGroundBIRDは独自のスキャン戦略を活かして$\tau$の値に迫ることができる。高速スキャンによって大角度スケール(6 $<\ell<$ 300)のCMB偏光を測定することができる。大角度スケールと$\tau$の関係を図\ref{cl_honda}に示す。偏光Eモードのパワースペクトルは大角度スケール($\geq\SI{10}{^{\circ}}$)で$\tau$に応じて異なる振る舞いをする。GroundBIRDはこの振る舞いを観測することができるため、$\tau$の測定に適している。3年間の観測と、GroundBIRDとQUIJOTEの共同解析によって$\tau$を誤差$\sigma_{\tau}\sim$ 0.01で測定することを目指す\cite{joint_ana}。これによって疑問の残る$\tau$の測定を再検証することができ、縮退したニュートリノ質量和の精密測定を達成できる。
 
 \begin{figure}[htbp]
   \centering
@@ -92,14 +101,14 @@ GroundBIRDが探る物理ターゲットは\ref{E_and_tau}で見た光学的厚�
   \label{cl_honda}
 \end{figure}
 
-CMB偏光の観測から$\tau$の測定を行うためにはCMBと、銀河などから来るCMBと同周波数帯の放射である``前景放射''とを分離する必要がある。これらの前景放射はそれぞれ異なる周波数依存性を持つ(図\ref{planck_spectrum})。主な前景放射には低周波側で卓越する``シンクロトロン放射''と高周波側で卓越する``ダスト熱放射''があり、CMBにとって大きなノイズとなる。そのため、低周波側$\mathcal{O}$(10)GHzから高周波側$\mathcal{O}$(100)GHzまでの広い帯域での観測を行い前景放射を取り除くことが求められる。\ref{full_array}で述べるが、GroundBIRDはCMBに感度のある145GHzと、ダスト放射に感度がある220GHzの2つの帯域で観測する。一方で、低周波側はQUIJOTE\footnote{QUIJOTE実験はGroundBIRDから20mほどしか離れていない隣に位置する望遠鏡である。}のデータを使うことでカバーする。3年間の観測で、GroundBIRDとQUIJOTEの共同解析によって$\tau$を誤差$\sigma_{\tau}\sim$ 0.01で測定することを目指す\cite{joint_ana}。
+%CMB偏光の観測から$\tau$の測定を行うためにはCMBと、銀河などから来るCMBと同周波数帯の放射である``前景放射''とを分離する必要がある。これらの前景放射はそれぞれ異なる周波数依存性を持つ(図\ref{planck_spectrum})。主な前景放射には低周波側で卓越する``シンクロトロン放射''と高周波側で卓越する``ダスト熱放射''があり、CMBにとって大きなノイズとなる。そのため、低周波側$\mathcal{O}$(10)GHzから高周波側$\mathcal{O}$(100)GHzまでの広い帯域での観測を行い前景放射を取り除くことが求められる。\ref{full_array}で述べるが、GroundBIRDはCMBに感度のある145GHzと、ダスト放射に感度がある220GHzの2つの帯域で観測する。一方で、低周波側はQUIJOTE\footnote{QUIJOTE実験はGroundBIRDから20mほどしか離れていない隣に位置する望遠鏡である。}のデータを使うことでカバーする。3年間の観測で、GroundBIRDとQUIJOTEの共同解析によって$\tau$を誤差$\sigma_{\tau}\sim$ 0.01で測定することを目指す\cite{joint_ana}。
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.8\columnwidth]{3_GB/figs/planck_spectrum.pdf}
-  \caption{CMBと前景放射の偏光強度を周波数の関数として表した図。Planck\cite{planck_cmb}を参照。それぞれの前景放射は異なる周波数依存性を持ち、CMBとこれらを分離するためには広い帯域での観測が必要になる。}
-  \label{planck_spectrum}
-\end{figure}
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=0.8\columnwidth]{3_GB/figs/planck_spectrum.pdf}
+  %\caption{CMBと前景放射の偏光強度を周波数の関数として表した図。Planck\cite{planck_cmb}を参照。それぞれの前景放射は異なる周波数依存性を持ち、CMBとこれらを分離するためには広い帯域での観測が必要になる。}
+  %\label{planck_spectrum}
+%\end{figure}
 
 \section{現在の観測状況}
 

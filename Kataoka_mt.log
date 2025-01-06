@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 02:50
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 03:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,39 +623,39 @@ Overfull \hbox (5.18408pt too wide) in paragraph at lines 60--61
 [4]
 File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 <3_GB/figs/cooper.pdf>
-File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
-<3_GB/figs/tau_planck_wmap_cut.pdf>
- [5]
-File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
-<3_GB/figs/cl_shonda.pdf>
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 95.
+(Font)              scaled to size 7.69775pt on input line 77.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 95.
+(Font)              scaled to size 8.65997pt on input line 77.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 95.
+(Font)              scaled to size 8.65997pt on input line 77.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.8111pt on input line 95.
+(Font)              scaled to size 4.8111pt on input line 77.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 95.
+(Font)              scaled to size 5.77332pt on input line 77.
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
- [6] [7]
+ [5]
+File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
+<3_GB/figs/tau_planck_wmap_cut.pdf>
+File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
+<3_GB/figs/cl_shonda.pdf>
+ [6]
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
 File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_design.pdf>
 
-Overfull \hbox (38.61125pt too wide) in paragraph at lines 123--124
+Overfull \hbox (38.61125pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
 
-Overfull \hbox (7.11885pt too wide) in paragraph at lines 113--129
+Overfull \hbox (7.11885pt too wide) in paragraph at lines 122--138
 [][] 
  []
 
-[8]
+[7] [8]
 File: 3_GB/figs/webcam.png Graphic file (type bmp)
 <3_GB/figs/webcam.png>
 ) [9]
@@ -820,8 +820,12 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 865E39982145A87A443CA402E3386E2E;7846.
+(rerunfilecheck)             Checksum: B9182A11A3DE76BAE3418E87CD65F458;7971.
  ) 
 Here is how much of TeX's memory you used:
  17697 strings out of 474762
@@ -832,4 +836,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1325b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (38 pages, 158456 bytes).
+Output written on Kataoka_mt.dvi (38 pages, 159624 bytes).
