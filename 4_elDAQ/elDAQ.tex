@@ -431,7 +431,7 @@ Zyboへの電源供給をMicro-USBからバレルジャックに変更し(図\re
 \end{figure}
 
 \subsection{Zynq温度のモニター}
-2つ目の要因についても調査し、問題がないことを確認した。ZyboのZynq部分にはヒートシンクが取り付けられており、ある程度の発熱は抑えられるはずだが、消費電力が高いと発熱量が増えてZynqの動作温度の上限($\sim 85^{\circ}$C)を超えることは起きうる。しかし、\ref{power_sup}で見たように新システムの消費電力が大きくなく、稼働中にヒートシンクを手で触っても熱くないため上限を超えるほどの発熱をしていることはまずない。そのことをZynq内の温度モニター機能を用いて確かめた。Zynqには``XADC(Xilinx Analog to Digital Converter) \cite{xadc}''と呼ばれる内蔵ADCが搭載されており、供給電圧と温度のモニタリング機能を有している。電圧と温度の値はOSシステムの[ /sys/bus/iio/devices/iio:devices0 ]ディレクトリに出力される。特に温度情報は
+2つ目の要因についても調査し、問題がないことを確認した。ZyboのZynq部分にはヒートシンクが取り付けられており、ある程度の発熱は抑えられるはずだが、消費電力が高いと発熱量が増えてZynqの動作温度の上限($\sim\SI{85}{^{\circ}}$C)を超えることは起きうる。しかし、\ref{power_sup}で見たように新システムの消費電力が大きくなく、稼働中にヒートシンクを手で触っても熱くないため上限を超えるほどの発熱をしていることはまずない。そのことをZynq内の温度モニター機能を用いて確かめた。Zynqには``XADC(Xilinx Analog to Digital Converter) \cite{xadc}''と呼ばれるADCが内蔵されており、供給電圧と温度のモニタリング機能を有している。電圧と温度の値はOSシステムの[ /sys/bus/iio/devices/iio:devices0 ]ディレクトリに出力される。特に温度情報は
 \begin{itemize}
   \item in\_temp0\_offset
   \item in\_temp0\_raw
@@ -441,7 +441,7 @@ Zyboへの電源供給をMicro-USBからバレルジャックに変更し(図\re
 \begin{equation}
   \mathrm{T}_{\mathrm{Zynq}}(^{\circ}\mathrm{C}) = (\mathrm{in\_temp0\_raw} + \mathrm{in\_temp0\_offset})\cdot \mathrm{in\_temp0\_scale} / 1000
 \end{equation}
-で求められる。定期的にZynqの温度を読み出し、値を保存することで温度を確認できるようにした。読み出した温度のプロットを図\ref{temp_zynq}に示す。気温の影響もあるためZynq温度は夏季になると全体的に高くなるが、それでも動作温度の上限である$85^{\circ}$Cよりも十分低い温度で動作していることが分かる。
+で求められる。定期的にZynqの温度を読み出し、値を保存することで温度を確認できるようにした。読み出した温度のプロットを図\ref{temp_zynq}に示す。気温の影響もあるためZynq温度は夏季になると全体的に高くなるが、それでも動作温度の上限である$\SI{85}{^{\circ}}$Cよりも十分低い温度で動作していることが分かる。
 
 %\begin{figure}[h]
   %\begin{tabular}{cc}
