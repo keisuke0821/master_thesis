@@ -51,6 +51,31 @@ GroundBIRDにおける理想的な検出器の配置について詳細を見て�
 
 \subsection{月を用いた理由}
 
+GroundBIRDで観測できる天体として月や惑星(木星、金星)が挙げられる。しかし、月と惑星ではデータの性質は大きく異なり、それぞれ観測上の長所と短所が存在する。月データと惑星データの特徴を表\ref{moon_vs_planet}に示す。
+\begin{table}[htbp]
+  \centering
+  \caption{月データと惑星データの比較\cite{sueno_doctor}}
+  \vspace{3mm}
+  \begin{tabular}{ccc} \hline
+    & 月 & 惑星 \\ \hline
+    長所 &
+    \begin{tabular}{c}
+    S/N比が高い \\ (1度の観測で十分な信号を得られる)
+    \end{tabular} &
+    \begin{tabular}{c}
+    点源として扱える \\ (視野角がビーム幅に比べて十分小さい)
+    \end{tabular} \\ \hline
+    短所 &
+    \begin{tabular}{c}
+    点源として扱えない \\ (輝度温度の非一様性が生じる)
+    \end{tabular} &
+    \begin{tabular}{c}
+    S/N比が小さい \\ (データを蓄積しないとノイズに埋もれる)
+    \end{tabular} \\ \hline
+  \end{tabular}
+  \label{moon_vs_planet}
+\end{table}
+
 \subsection{必要な回転角}
 
 \subsection{回転する上でのジグの必要性}
