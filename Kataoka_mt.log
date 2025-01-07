@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 10:14
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  7 JAN 2025 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -765,12 +765,12 @@ File: 5_alignment/figs/scan_axis.pdf Graphic file (type pdf)
 ]
 File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
 <5_alignment/figs/distortion_pos2.pdf>
-) [27] [28]
+ [27]) [28] [29]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [29
+) [30
 
 
 
@@ -780,14 +780,14 @@ File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
 
  (./7_summary/summary.tex
 第 6 章
-) [30
+) [31
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [31
+) (./9_reference/kk_references.tex [32
 
 
 
@@ -801,7 +801,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[32
+[33
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -813,9 +813,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [33]
+) (./10_appendix/appendix.tex [34]
 付 録 A  
-) [34
+) [35
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -827,12 +827,12 @@ Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: F30C21686E80E990340D96F00D2D23B1;8144.
  ) 
 Here is how much of TeX's memory you used:
- 17709 strings out of 474762
- 356209 string characters out of 5758587
+ 17710 strings out of 474762
+ 356226 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39815 multiletter control sequences out of 15000+600000
+ 39816 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,13n,79p,1325b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,1378b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (38 pages, 164420 bytes).
+Output written on Kataoka_mt.dvi (39 pages, 165720 bytes).
