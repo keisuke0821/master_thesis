@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  8 JAN 2025 14:26
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  8 JAN 2025 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -773,16 +773,12 @@ Overfull \hbox (26.89265pt too wide) in paragraph at lines 59--77
  [][] 
  []
 
-[28] [29]
-
-LaTeX Warning: Reference `MKID' on page 30 undefined on input line 81.
-
-) [30]
+[28] [29]) [30] [31]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [31
+) [32
 
 
 
@@ -792,14 +788,14 @@ LaTeX Warning: Reference `MKID' on page 30 undefined on input line 81.
 
  (./7_summary/summary.tex
 第 6 章
-) [32
+) [33
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [33
+) (./9_reference/kk_references.tex [34
 
 
 
@@ -813,7 +809,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[34
+[35
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -825,9 +821,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [35]
+) (./10_appendix/appendix.tex [36]
 付 録 A  
-) [36
+) [37
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -835,29 +831,16 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: CC765BFF03F7857610BD2925EC309F3B;8144
-(rerunfilecheck)             After:  4533A66B82CA00BC28E641246CB7E305;8284.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 4533A66B82CA00BC28E641246CB7E305;8284.
  ) 
 Here is how much of TeX's memory you used:
- 17724 strings out of 474762
- 356579 string characters out of 5758587
+ 17725 strings out of 474762
+ 356593 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39829 multiletter control sequences out of 15000+600000
+ 39830 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,15n,79p,1378b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (40 pages, 171032 bytes).
+Output written on Kataoka_mt.dvi (41 pages, 174900 bytes).
