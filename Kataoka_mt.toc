@@ -41,8 +41,9 @@
 \contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{28}{subsection.4.1.3}%
 \contentsline {section}{\numberline {4.2}月を用いた回転角の算出}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}月を用いた理由}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}必要な回転角}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}回転する上でのジグの必要性}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.2}位相としての検出器TOD}{30}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}必要な回転角}{30}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}回転する上でのジグの必要性}{30}{subsection.4.2.4}%
 \contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{30}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{30}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{30}{subsection.4.3.2}%
