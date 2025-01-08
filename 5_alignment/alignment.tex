@@ -95,7 +95,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.9\columnwidth]{5_alignment/figs/iq_amp.pdf}
-  \caption{共振円と共振周波数付近での透過率。\cite{sueno_master}より。}
+  \caption{共振円と共振周波数付近での透過率。\cite{sueno_master}より引用。}
   \label{res_circ}
 \end{figure}
 共振周波数の周りで透過率が鋭いピークを持つことが分かる。共振円を動く$S_{21}$の振幅$A$と位相$\theta$を
@@ -103,15 +103,19 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   A = \frac{|S_{21}|- x_{c}}{1-x_{c}}
 \end{equation}
 \begin{equation}
-  \mathrm{tan}\theta = \frac{Im(S_{21})}{x_{c}- Re(S_{21})}
+  \tan\theta = \frac{\mathrm{Im}(S_{21})}{x_{c}- \mathrm{Re}(S_{21})}
 \end{equation}
 と定義する。これらの値は共振周波数の変化に対して敏感であるため、振幅の変化($\delta A$)と位相の変化($\delta\theta$)を測定することで入射信号の大きさを読み出せる。入射信号によって振幅と位相が変化する例を図\ref{amp_and_phase}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/amp_and_phase.png}
-  \caption{共振周波数付近での$S_{21}$の振幅と位相の変化。\cite{sueno_doctor}より。}
+  \caption{共振周波数付近での$S_{21}$の振幅と位相の変化。\cite{sueno_doctor}より引用。}
   \label{amp_and_phase}
 \end{figure}
+本論文ではより応答性の高い位相をTODとして使用する。また、ケーブルの長さやデータ処理で生じる位相の遅れの効果と非線形効果を補正したものを最終的に使用する位相TODとした。非線形効果の補正は位相の応答($\theta_{\mathrm{res}}$)に対して以下の式\cite{sueno_doctor}を用いた。
+\begin{equation}
+  \theta = 2\tan(\theta_{\mathrm{res}}/2)
+\end{equation}
 
 \subsection{必要な回転角}
 
