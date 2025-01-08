@@ -87,7 +87,17 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{equation}
   T_{21}(f) = a_{0}~\mathrm{exp}(-2\pi if\tau_{0})\biggl(1-\frac{Q_{r}/Q_{c}e^{i\phi}}{1+2iQ_{r}(f-f_{r})/f_{r}}\biggr)
 \end{equation}
-で表される\cite{sueno_master}。ここで、$a_{0}$, $\tau_{0}$は読み出し回路による振幅の減衰と位相のずれを表す。$e^{i\phi}$はCカップリングでのインピーダンスを補正する項である。このフィットで共振周波数$f_{r}$と共振の鋭さを表す$Q_{r}$, $Q_{c}$を得られる。
+で表される\cite{sueno_master}。ここで、$a_{0}$, $\tau_{0}$は読み出し回路による振幅の減衰と位相のずれを表す。$e^{i\phi}$はCカップリングでのインピーダンスを補正する項である。このフィットで共振周波数$f_{r}$と共振の鋭さを表す$Q_{r}$, $Q_{c}$を得られる。得られた$f_{r}$にRF周波数を固定し、TODを取得する。TODでは入射信号の大きさによって変化する共振周波数を読み出しRFの透過率の変化として取得する。透過率は散乱行列要素の$S_{21}$で表す。MKIDの$S_{21}$は
+\begin{equation}
+  |S_{21}-x_{c}| = \frac{Q_{r}}{2Q_{c}} \bigl(x_{c} = 1-\frac{Q_{r}}{2Q_{c}}\bigr)
+\end{equation}
+で得られ\cite{muto}、$S_{21}$の軌跡が円状になることが分かる。この円は``共振円''と呼ばれる。共振円と$S_{21}$の例を図\ref{res_circ}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/iq_amp.pdf}
+  \caption{共振円と共振周波数付近での透過率。\cite{sueno_master}より。}
+  \label{res_circ}
+\end{figure}
 
 \subsection{必要な回転角}
 
