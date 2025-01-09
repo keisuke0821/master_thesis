@@ -78,23 +78,14 @@ GroundBIRDで観測できる天体として月や惑星(木星、金星)が挙�
 検出器の視線情報を得るには点源として扱え、正確に点として求められる惑星が適しているが、\ref{jupiter_ana}で見るように点源で最も明るい木星の観測データでもノイズの影響をかなり受けてしまう。そのため、データを蓄積するか、PWVや湿度が十分低く観測条件が整った観測データを使用する必要がある。一方、月は高いS/N比により1度の観測データで十分な信号を得られ、データを蓄積することによるノイズが加わることなく解析ができる。点源として扱えないことによる誤差はあるものの、高いS/N比がそれをカバーできると考えたため、月のデータを選択した。
 
 \subsection{位相としての検出器TOD}
-GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器MKIDの共振状態の変化を入射信号の大きさとして\SI{1}{kSPS}で取得するTODのことである。共振状態の変化とはすなわち共振周波数の変化であるため、TODを取得する前に各MKIDの共振周波数を知る必要がある。また、共振周波数は観測条件によって変動するため、一定の値をとらない。そのため、1観測を1時間で区切っており、1観測ごとにTOD取得前に共振周波数を求めている(その間も望遠鏡は連続的に稼働している)。共振周波数を知るために
-\begin{enumerate}
-  \item 周波数スイープ
-  \item フィッティング
-\end{enumerate}
-の手順で測定をする。周波数スイープとは、読み出し用のRF信号の周波数を少しずつ変えながら測定をする手法である。測定量はRFの透過率で、スイープで測定されたデータを透過率の関数でフィットすることで共振周波数を求める。フィット関数は
-\begin{equation}
-  T_{21}(f) = a_{0}~\mathrm{exp}(-2\pi if\tau_{0})\biggl(1-\frac{Q_{r}/Q_{c}e^{i\phi}}{1+2iQ_{r}(f-f_{r})/f_{r}}\biggr)
-\end{equation}
-で表される\cite{sueno_master}。ここで、$a_{0}$, $\tau_{0}$は読み出し回路による振幅の減衰と位相のずれを表す。$e^{i\phi}$はCカップリングでのインピーダンスを補正する項である。このフィットで共振周波数$f_{r}$と共振の鋭さを表す$Q_{r}$, $Q_{c}$を得られる。得られた$f_{r}$にRF周波数を固定し、TODを取得する。TODでは入射信号の大きさによって変化する共振周波数を読み出しRFの透過率の変化として取得する。透過率は散乱行列要素の$S_{21}$で表す。MKIDの$S_{21}$は
+GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器MKIDの共振状態の変化を入射信号の大きさとして\SI{1}{kSPS}で取得するTODのことである。共振状態の変化とはすなわち共振周波数の変化であるが、これを読み出しRF信号の透過率の変化として測定する。透過率は散乱行列要素の$S_{21}$で表す。MKIDの$S_{21}$は共振の鋭さを表す$Q_{r}$, $Q_{c}$を用いて
 \begin{equation}
   |S_{21}-x_{c}| = \frac{Q_{r}}{2Q_{c}} \bigl(x_{c} = 1-\frac{Q_{r}}{2Q_{c}}\bigr)
 \end{equation}
 で得られ\cite{muto}、$S_{21}$の軌跡が円状になることが分かる。この円は``共振円''と呼ばれる。共振円と$S_{21}$の例を図\ref{res_circ}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/iq_amp.pdf}
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/iq_amp.pdf}
   \caption{共振円と共振周波数付近での透過率。\cite{sueno_master}より引用。}
   \label{res_circ}
 \end{figure}
@@ -105,17 +96,59 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{equation}
   \tan\theta = \frac{\mathrm{Im}(S_{21})}{x_{c}- \mathrm{Re}(S_{21})}
 \end{equation}
-と定義する。これらの値は共振周波数の変化に対して敏感であるため、振幅の変化($\delta A$)と位相の変化($\delta\theta$)を測定することで入射信号の大きさを読み出せる。入射信号によって振幅と位相が変化する例を図\ref{amp_and_phase}に示す。
+と定義する。これらの値は共振周波数の変化に対して敏感であるため、振幅の変化($\delta A$)と位相の変化($\delta\theta$)によって入射信号の大きさを読み出せる。入射信号によって振幅と位相が変化する例を図\ref{amp_and_phase}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/amp_and_phase.png}
   \caption{共振周波数付近での$S_{21}$の振幅と位相の変化。\cite{sueno_doctor}より引用。}
   \label{amp_and_phase}
 \end{figure}
-本論文ではより応答性の高い位相をTODとして使用する。また、ケーブルの長さやデータ処理で生じる位相の遅れの効果と非線形効果を補正したものを最終的に使用する位相TODとした。非線形効果の補正は位相の応答($\theta_{\mathrm{res}}$)に対して以下の式\cite{sueno_doctor}を用いた。
+
+実際のTOD取得時には図\ref{amp_and_phase}のように各MKIDで固定した共振周波数で測定を行う。そのため、TOD取得前に各MKIDの共振周波数を知る必要がある。また、共振周波数は観測条件によって変動するため、一定の値をとらない。そのため、1観測を1時間で区切っており、1観測ごとにTOD取得前に共振周波数を求めている(その間も望遠鏡は連続的に稼働している)。共振周波数を知るために
+\begin{enumerate}
+  \item 周波数スイープ
+  \item フィッティング
+\end{enumerate}
+の手順で測定をする。周波数スイープとは、読み出し用のRF信号の周波数を少しずつ変えながら測定をする手法である。測定量はRFの透過率で、スイープで測定されたデータを透過率の関数でフィットすることで共振周波数を求める。フィット関数は$S_{21}$に補正項を入れたもので
+\begin{equation}
+  T_{21}(f) = a_{0}~\mathrm{exp}(-2\pi if\tau_{0})\biggl(1-\frac{Q_{r}/Q_{c}e^{i\phi}}{1+2iQ_{r}(f-f_{r})/f_{r}}\biggr)
+\end{equation}
+で表される\cite{sueno_master}。ここで、$a_{0}$, $\tau_{0}$は読み出し回路による振幅の減衰と位相のずれを表す。$e^{i\phi}$はCカップリングでのインピーダンスを補正する項である。このフィットで共振周波数$f_{r}$と共振の鋭さを表す$Q_{r}$, $Q_{c}$を得られる。得られた$f_{r}$にRF周波数を固定し、TODを取得する。TODでの測定量は$T_{21}$であり、補正項の効果を差し引くことで$S_{21}$としての振幅$A$と位相$\theta$を取得できる。
+%\begin{equation}
+  %|S_{21}-x_{c}| = \frac{Q_{r}}{2Q_{c}} \bigl(x_{c} = 1-\frac{Q_{r}}{2Q_{c}}\bigr)
+%\end{equation}
+%で得られ\cite{muto}、$S_{21}$の軌跡が円状になることが分かる。この円は``共振円''と呼ばれる。共振円と$S_{21}$の例を図\ref{res_circ}に示す。
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=0.9\columnwidth]{5_alignment/figs/iq_amp.pdf}
+  %\caption{共振円と共振周波数付近での透過率。\cite{sueno_master}より引用。}
+  %\label{res_circ}
+%\end{figure}
+%共振周波数の周りで透過率が鋭いピークを持つことが分かる。共振円を動く$S_{21}$の振幅$A$と位相$\theta$を
+%\begin{equation}
+  %A = \frac{|S_{21}|- x_{c}}{1-x_{c}}
+%\end{equation}
+%\begin{equation}
+  %\tan\theta = \frac{\mathrm{Im}(S_{21})}{x_{c}- \mathrm{Re}(S_{21})}
+%\end{equation}
+%と定義する。これらの値は共振周波数の変化に対して敏感であるため、振幅の変化($\delta A$)と位相の変化($\delta\theta$)を測定することで入射信号の大きさを読み出せる。入射信号によって振幅と位相が変化する例を図\ref{amp_and_phase}に示す。
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=1.0\columnwidth]{5_alignment/figs/amp_and_phase.png}
+  %\caption{共振周波数付近での$S_{21}$の振幅と位相の変化。\cite{sueno_doctor}より引用。}
+  %\label{amp_and_phase}
+%\end{figure}
+本論文ではより応答性の高い位相をTODとして使用する。また、非線形効果を補正したものを最終的に使用する位相TODとした。非線形効果の補正は位相の応答($\theta_{\mathrm{res}}$)に対して以下の式\cite{sueno_doctor}を用いた。
 \begin{equation}
   \theta = 2\tan(\theta_{\mathrm{res}}/2)
 \end{equation}
+最終的に使用する位相TODの例(1観測)を図\ref{raw_phase}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/raw_phase_deg.png}
+  \caption{非線形効果を加えた位相TOD。本論文ではこのTODを用いる。}
+  \label{raw_phase}
+\end{figure}
 
 \subsection{必要な回転角}
 
