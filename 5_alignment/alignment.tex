@@ -291,11 +291,11 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 アレイの1列目について、データの性質が良くなく視線の再構成に失敗した検出器が複数の観測で見られたため、使用しなかった。そのため1観測で2~5列目までの4列でそれぞれ直線の傾きから回転角を算出した。また、10観測分の月データについて同様の手順を踏んだため、合計で40の回転角データを求めた。この回転角の中で明らかな外れ値があったため除外し、最終的に38の回転角データを得た。回転角ヒストグラムのガウシアンフィットの結果を図\ref{gaussian_fit}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.8\columnwidth]{5_alignment/figs/hist_rotation_angle.png}
+  \includegraphics[width=0.8\columnwidth]{5_alignment/figs/hist_rotation_angle2.png}
   \caption{回転角データのガウシアンフィット。}
   \label{gaussian_fit}
 \end{figure}
-ガウシアンの中心$\mu=\SI{6.05}{^{\circ}}$と分散$\sigma^{2}=0.21$を得た。これより、最終的な回転角を$\SI{6.05}{^{\circ}}$と決定した。
+ガウシアンの中心$\mu=\SI{6.00}{^{\circ}}$と分散$\sigma^{2}=0.17$を得た。これより、最終的な回転角を$\SI{6.00}{^{\circ}}$と決定した。
 
 \subsection{回転する上でのジグの必要性}
 決定した回転角分だけ望遠鏡を視線方向軸の周りに回転させれば理想とする検出器配置になると考えられるが、回転にあたって望遠鏡の機構上の問題点があった。GroundBIRDの視線方向軸周りの回転機構の概略を図\ref{gb_fixing_system}に示す。
@@ -311,6 +311,13 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \section{ジグの設計と現地インストール}
 
 \subsection{固定用ジグの作成}
+回転後の固定用ジグの設計は回転によって移動する固定穴の距離を基に長さを決めて行った。図\ref{jig_fixing}に設計したジグと望遠鏡内での設置位置を示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\columnwidth]{5_alignment/figs/jig_making.pdf}
+  \caption{設計したジグと望遠鏡支持部への設置位置。固定穴は対角線上に2箇所あるため、それに合わせたジグも2個必要になる。}
+  \label{jig_fixing}
+\end{figure}
 
 \subsection{望遠鏡への実装}
 

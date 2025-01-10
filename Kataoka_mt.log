@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  11 JAN 2025 01:22
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  11 JAN 2025 02:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,17 +806,19 @@ Overfull \hbox (21.34087pt too wide) in paragraph at lines 287--288
  [][] 
  []
 
-File: 5_alignment/figs/hist_rotation_angle.png Graphic file (type bmp)
-<5_alignment/figs/hist_rotation_angle.png>
+File: 5_alignment/figs/hist_rotation_angle2.png Graphic file (type bmp)
+<5_alignment/figs/hist_rotation_angle2.png>
 [34] [35] [36] [37]
 File: 5_alignment/figs/gb_fixing_system.pdf Graphic file (type pdf)
 <5_alignment/figs/gb_fixing_system.pdf>
- [38]) [39]
+File: 5_alignment/figs/jig_making.pdf Graphic file (type pdf)
+<5_alignment/figs/jig_making.pdf>
+) [38] [39] [40]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [40
+) [41
 
 
 
@@ -826,14 +828,14 @@ File: 5_alignment/figs/gb_fixing_system.pdf Graphic file (type pdf)
 
  (./7_summary/summary.tex
 第 6 章
-) [41
+) [42
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [42
+) (./9_reference/kk_references.tex [43
 
 
 
@@ -847,7 +849,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[43
+[44
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -859,9 +861,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [44]
+) (./10_appendix/appendix.tex [45]
 付 録 A  
-) [45
+) [46
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -874,15 +876,15 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 181CE084C0F79568467D9BB2F4A62B16;8284.
+(rerunfilecheck)             Checksum: 68CDDCB34B526F3140DDD6369E0999B0;8284.
  ) 
 Here is how much of TeX's memory you used:
- 17847 strings out of 474762
- 360481 string characters out of 5758587
+ 17855 strings out of 474762
+ 360723 string characters out of 5758587
  1932338 words of memory out of 5000000
- 39939 multiletter control sequences out of 15000+600000
+ 39946 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1378b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (49 pages, 202580 bytes).
+Output written on Kataoka_mt.dvi (50 pages, 203784 bytes).
