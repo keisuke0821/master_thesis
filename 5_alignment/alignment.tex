@@ -235,13 +235,13 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\columnwidth]{5_alignment/figs/before_full_gnomonic_70.png}
-  \caption{フルアレイのビーム中心マップ。}
+  \caption{フルアレイのビーム中心マップ。左右の\SI{145}{GHz}アレイで見られるように一部の検出器では月のマップが重なることがあり、視線情報の再構成が上手くできない。}
   \label{before_full_beam_map}
 \end{figure}
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/before_full_pos_70.png}
-  \caption{全検出器のビーム中心の視線。}
+  \caption{全検出器のビーム中心の視線。各点の番号は検出器のラベルとして記しており、中心の\SI{220}{GHz}アレイのkid17をビーム中心としている。中心以外の\SI{145}{GHz}アレイでは球面に起因する位置の歪みが現れる。}
   \label{before_full_beam_pos}
 \end{figure}
 全検出器で視線を見ると、図\ref{distortion_pos}で示したような天球面での歪みの効果が周りのアレイに表れる。仰角が$\SI{90}{^{\circ}}$に近づくにつれて検出器が見ている角度の間隔が広くなる。全体としてビーム中心に対して傾いていることが見て取れる。歪みの効果を補正するために仰角を$\SI{70}{^{\circ}}$から$\SI{0}{^{\circ}}$に天球面上で回転させた全検出器の視線を図\ref{before_full_pos_0}に示す。
@@ -285,7 +285,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.05\columnwidth]{5_alignment/figs/angle_cal_lines.pdf}
-  \caption{検出器の各列での直線フィット。}
+  \caption{検出器の各列での直線フィット。全5列の内、1列目は除外した。}
   \label{linear_fit}
 \end{figure}
 アレイの1列目について、データの性質が良くなく視線の再構成に失敗した検出器が複数の観測で見られたため、使用しなかった。そのため1観測で2~5列目までの4列でそれぞれ直線の傾きから回転角を算出した。また、10観測分の月データについて同様の手順を踏んだため、合計で40の回転角データを求めた。この回転角の中で明らかな外れ値があったため除外し、最終的に38の回転角データを得た。回転角ヒストグラムのガウシアンフィットの結果を図\ref{gaussian_fit}に示す。
