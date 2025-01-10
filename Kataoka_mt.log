@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  10 JAN 2025 23:59
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  11 JAN 2025 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -806,7 +806,9 @@ Overfull \hbox (21.34087pt too wide) in paragraph at lines 287--288
  [][] 
  []
 
-) [34] [35] [36] [37] [38]
+File: 5_alignment/figs/hist_rotation_angle.png Graphic file (type bmp)
+<5_alignment/figs/hist_rotation_angle.png>
+[34] [35] [36] [37]) [38]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
@@ -865,15 +867,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: AE2219B7B288DB68A254992ED2324A5B;8284.
+(rerunfilecheck)             Checksum: 313F562D85F9341CF5DDA504D55D0E8E;8284.
  ) 
 Here is how much of TeX's memory you used:
- 17831 strings out of 474762
- 359903 string characters out of 5758587
+ 17839 strings out of 474762
+ 360197 string characters out of 5758587
  1932338 words of memory out of 5000000
- 39925 multiletter control sequences out of 15000+600000
+ 39932 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1378b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (48 pages, 197732 bytes).
+Output written on Kataoka_mt.dvi (48 pages, 199460 bytes).

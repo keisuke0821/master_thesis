@@ -288,6 +288,14 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \caption{検出器の各列での直線フィット。}
   \label{linear_fit}
 \end{figure}
+アレイの1列目について、データの性質が良くなく視線の再構成に失敗した検出器が複数の観測で見られたため、使用しなかった。そのため1観測で2~5列目までの4列でそれぞれ直線の傾きから回転角を算出した。また、10観測分の月データについて同様の手順を踏んだため、合計で40の回転角データを求めた。この回転角の中で明らかな外れ値があったため除外し、最終的に38の回転角データを得た。回転角ヒストグラムのガウシアンフィットの結果を図\ref{gaussian_fit}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\columnwidth]{5_alignment/figs/hist_rotation_angle.png}
+  \caption{回転角データのガウシアンフィット。}
+  \label{gaussian_fit}
+\end{figure}
+ガウシアンの中心$\mu=\SI{6.05}{^{\circ}}$と分散$\sigma^{2}=0.21$を得た。これより、最終的な回転角を$\SI{6.05}{^{\circ}}$と決定した。
 
 \subsection{回転する上でのジグの必要性}
 
