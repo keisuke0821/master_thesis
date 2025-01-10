@@ -43,20 +43,20 @@
 \contentsline {subsection}{\numberline {4.2.1}月を用いた理由}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}位相としての検出器TOD}{30}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}必要な回転角}{31}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}回転する上でのジグの必要性}{34}{subsection.4.2.4}%
-\contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{34}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{34}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{34}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}天体を用いた較正結果の確認}{34}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}月データによる確認}{34}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{34}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{34}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}timing offsetの算出}{34}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}差分解析による確認}{34}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {第5章}今後の展望}{37}{chapter.5}%
-\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{37}{section.5.1}%
-\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{37}{section.5.2}%
-\contentsline {chapter}{\numberline {第6章}まとめ}{38}{chapter.6}%
-\contentsline {chapter}{\numberline {第7章}謝辞}{39}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{40}{chapter*.49}%
-\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{42}{appendix.A}%
+\contentsline {subsection}{\numberline {4.2.4}回転する上でのジグの必要性}{38}{subsection.4.2.4}%
+\contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{38}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{38}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}望遠鏡への実装}{38}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}天体を用いた較正結果の確認}{38}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}月データによる確認}{38}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{38}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{38}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}timing offsetの算出}{38}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}差分解析による確認}{38}{subsection.4.5.2}%
+\contentsline {chapter}{\numberline {第5章}今後の展望}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{39}{section.5.2}%
+\contentsline {chapter}{\numberline {第6章}まとめ}{40}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章}謝辞}{41}{chapter.7}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{42}{chapter*.50}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{44}{appendix.A}%

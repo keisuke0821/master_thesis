@@ -244,6 +244,16 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \caption{全検出器のビーム中心の視線。}
   \label{before_full_beam_pos}
 \end{figure}
+全検出器で視線を見ると、図\ref{distortion_pos}で示したような天球面での歪みの効果が周りのアレイに表れる。仰角が$\SI{90}{^{\circ}}$に近づくにつれて検出器が見ている角度の間隔が広くなる。全体としてビーム中心に対して傾いていることが見て取れる。歪みの効果を補正するために仰角を$\SI{70}{^{\circ}}$から$\SI{0}{^{\circ}}$に天球面上で回転させた全検出器の視線を図\ref{before_full_pos_0}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/before_full_pos.png}
+  \caption{座標回転により平面的に見たビーム中心の視線。}
+  \label{before_full_pos_0}
+\end{figure}
+回転角を見積もるにあたってはスキャン軸に対する検出器の傾きを直線的に扱える方が考えやすい。そのため、平面的に見た時の傾き角を計算し、較正のための回転角とする。
+
+回転角の算出には歪みの効果が少ない中心の\SI{220}{GHz}アレイのみを使用する。また、中心アレイはスキャン軸に対して5列で検出器が並んでいて理想的には全ての列が同じ角度で傾いていることになる。
 
 \subsection{回転する上でのジグの必要性}
 

@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  10 JAN 2025 17:45
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  10 JAN 2025 19:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,12 +797,14 @@ File: 5_alignment/figs/before_full_gnomonic_70.png Graphic file (type bmp)
 <5_alignment/figs/before_full_gnomonic_70.png>
 File: 5_alignment/figs/before_full_pos_70.png Graphic file (type bmp)
 <5_alignment/figs/before_full_pos_70.png>
-) [34] [35] [36]
+File: 5_alignment/figs/before_full_pos.png Graphic file (type bmp)
+<5_alignment/figs/before_full_pos.png>
+) [34] [35] [36] [37] [38]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [37
+) [39
 
 
 
@@ -812,14 +814,14 @@ File: 5_alignment/figs/before_full_pos_70.png Graphic file (type bmp)
 
  (./7_summary/summary.tex
 第 6 章
-) [38
+) [40
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [39
+) (./9_reference/kk_references.tex [41
 
 
 
@@ -833,7 +835,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[40
+[42
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -845,9 +847,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [41]
+) (./10_appendix/appendix.tex [43]
 付 録 A  
-) [42
+) [44
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -855,16 +857,20 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: A2BDDA06134E8F90B11875E9E4AE46A1;8284.
+(rerunfilecheck)             Checksum: E90BF691FA354FAEC5CDAF908FE286ED;8284.
  ) 
 Here is how much of TeX's memory you used:
- 17813 strings out of 474762
- 359320 string characters out of 5758587
+ 17821 strings out of 474762
+ 359600 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39909 multiletter control sequences out of 15000+600000
+ 39916 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1378b,1221s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (46 pages, 191928 bytes).
+Output written on Kataoka_mt.dvi (48 pages, 194596 bytes).
