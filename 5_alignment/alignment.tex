@@ -199,13 +199,13 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \vspace{3mm}
   \begin{tabular}{cccc} \hline
     観測日(UTC) & 観測時間 [min] & 周波数 [GHz] & 月の昇降(rise or set) \\ \hline
-    2024/2/22 0:04 - 1:04 & 60 & 145 & set \\
-    2024/2/22 0:17 - 1:17 & 60 & 145 & set \\
-    2024/2/22 0:18 - 1:18 & 60 & 145 & set \\
-    2024/2/22 0:37 - 1:37 & 60 & 220 & set \\
-    2024/2/22 0:48 - 1:48 & 60 & 145 & set \\
-    2024/2/22 0:48 - 1:48 & 60 & 145 & set \\
-    2024/2/22 1:10 - 2:10 & 60 & 145 & set \\ \hline
+    2024/02/22 0:04 - 1:04 & 60 & 145 & set \\
+    2024/02/22 0:17 - 1:17 & 60 & 145 & set \\
+    2024/02/22 0:18 - 1:18 & 60 & 145 & set \\
+    2024/02/22 0:37 - 1:37 & 60 & 220 & set \\
+    2024/02/22 0:48 - 1:48 & 60 & 145 & set \\
+    2024/02/22 0:48 - 1:48 & 60 & 145 & set \\
+    2024/02/22 1:10 - 2:10 & 60 & 145 & set \\ \hline
 
   \end{tabular}
   \label{before_full_array_table}
@@ -261,6 +261,33 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \item ガウシアン中心を最終的な回転角とする
 \end{enumerate}
 角度決定における信頼性を高めるために複数の観測データを使用した。表\ref{angle_cal_tods}に使用した\SI{220}{GHz}アレイの月観測データをまとめる。
+\begin{table}[htbp]
+  \centering
+  \caption{回転角の決定に使用した月観測データ}
+  \vspace{3mm}
+  \begin{tabular}{ccc} \hline
+    観測日(UTC) & 観測時間 [min]  & 月の昇降(rise or set) \\ \hline
+    2023/06/15 9:04 - 10:04 & 60 & rise \\
+    2023/12/02 3:06 - 4:06 & 60 & rise \\
+    2023/12/02 6:09 - 7:09 & 60 & set \\
+    2023/12/04 4:59 - 5:59 & 60 & rise \\
+    2023/12/04 7:06 - 8:06 & 60 & set \\
+    2023/12/27 2:12 - 3:12 & 60 & set \\
+    2024/02/21 21:34 - 22:34 & 60 & rise \\
+    2024/02/22 0:37 - 1:37 & 60 & set \\
+    2024/07/01 6:48 - 7:48 & 60 & rise \\
+    2024/07/02 7:59 - 8:59 & 60 & rise \\ \hline
+
+  \end{tabular}
+  \label{angle_cal_tods}
+\end{table}
+各観測データで検出器の列ごとに行った回転角の直線フィットを図\ref{linear_fit}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.05\columnwidth]{5_alignment/figs/angle_cal_lines.pdf}
+  \caption{検出器の各列での直線フィット。}
+  \label{linear_fit}
+\end{figure}
 
 \subsection{回転する上でのジグの必要性}
 
