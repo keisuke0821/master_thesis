@@ -181,7 +181,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
     %---- 2番目の図 --------------------------
     \begin{minipage}[t]{0.48\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/6550_pos_kid17.png}
+      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/6550_pos_kid17_70.png}
       \subcaption{各検出器のビーム中心の視線。}
       \label{6550_pos}
     \end{minipage}
@@ -210,29 +210,40 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \end{tabular}
   \label{before_full_array_table}
 \end{table}
-ビーム中心マップと全検出器の視線は図\ref{6550_beam_centered}と同じ計算で求めた(図\ref{before_full_beam_centered})。
-\begin{figure}[h]
-  \begin{tabular}{cc}
+ビーム中心マップと全検出器の視線は図\ref{6550_beam_centered}と同じ計算で求めた(図\ref{before_full_beam_map}と図\ref{before_full_beam_pos})。
+%\begin{figure}[h]
+  %\begin{tabular}{cc}
     %---- 最初の図 ---------------------------
-    \begin{minipage}[t]{0.48\hsize}
-      \centering
-      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/before_full_gnomonic.png}
-      \subcaption{フルアレイのビーム中心マップ。}
-      \label{before_full_beam_map}
-    \end{minipage}
+    %\begin{minipage}[t]{0.48\hsize}
+      %\centering
+      %\includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/before_full_gnomonic.png}
+      %\subcaption{フルアレイのビーム中心マップ。}
+      %\label{before_full_beam_map}
+    %\end{minipage}
     %---- 2番目の図 --------------------------
-    \begin{minipage}[t]{0.48\hsize}
-      \centering
-      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/before_full_pos_70.png}
-      \subcaption{全検出器のビーム中心の視線。}
-      \label{before_full_pos_70}
-    \end{minipage}
+    %\begin{minipage}[t]{0.48\hsize}
+      %\centering
+      %\includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/before_full_pos_70.png}
+      %\subcaption{全検出器のビーム中心の視線。}
+      %\label{before_full_pos_70}
+    %\end{minipage}
     %---- 図はここまで ----------------------
-  \end{tabular}
-  \caption{ビーム中心マップから取得した全検出器の視線}
-  \label{before_full_beam_centered}
+  %\end{tabular}
+  %\caption{ビーム中心マップから取得した全検出器の視線}
+  %\label{before_full_beam_centered}
+%\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/before_full_gnomonic_70.png}
+  \caption{フルアレイのビーム中心マップ。}
+  \label{before_full_beam_map}
 \end{figure}
-
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/before_full_pos_70.png}
+  \caption{全検出器のビーム中心の視線。}
+  \label{before_full_beam_pos}
+\end{figure}
 
 \subsection{回転する上でのジグの必要性}
 
