@@ -334,6 +334,25 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \section{天体を用いた較正結果の確認}
 
 \subsection{月データによる確認}
+\label{moon_ana}
+視線方向軸周りによる検出器配置の変化を\ref{angle_calculation}と同様にして月の観測データから確認した。使用した観測データを表\ref{after_full_array_table}に示す。
+\begin{table}[htbp]
+  \centering
+  \caption{ビーム中心マップの構成に使用した月観測データ(回転後)}
+  \vspace{3mm}
+  \begin{tabular}{cccc} \hline
+    観測日(UTC) & 観測時間 [min] & 周波数 [GHz] & 月の昇降(rise or set) \\ \hline
+    2024/08/30 7:56 - 8:56 & 60 & 145 & rise \\
+    2024/08/30 8:12 - 9:12 & 60 & 145 & rise \\
+    2024/08/30 8:19 - 9:19 & 60 & 145 & rise \\
+    2024/08/30 8:26 - 9:26 & 60 & 220 & rise \\
+    2024/08/30 8:42 - 9:42 & 60 & 145 & rise \\
+    2024/08/30 8:54 - 9:54 & 60 & 145 & rise \\ \hline
+
+  \end{tabular}
+  \label{after_full_array_table}
+\end{table}
+ここで、\SI{145}{GHz}アレイの1つはDAQの不調により、データを取得できなかった。
 
 \subsection{木星データによる確認}
 \label{jupiter_ana}
