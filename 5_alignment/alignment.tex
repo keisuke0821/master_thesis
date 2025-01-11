@@ -373,7 +373,28 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \caption{回転後の全検出器の視線。球面による歪みによって生じる非対称性が回転によって是正された。}
   \label{after_full_pos_70}
 \end{figure}
-図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイでビーム中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる。一方で余分に回転させたことによる傾きが残っていることも見て取れる。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。
+図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイでビーム中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる。一方で余分に回転させたことによる傾きが残っていることも見て取れる(図\ref{10960_beam_centered})。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/10960_gnomonic.png}
+      \subcaption{\SI{220}{GHz}アレイのビーム中心マップ。}
+      \label{10960_gnomview}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/10960_pos_kid17_70.png}
+      \subcaption{各検出器のビーム中心の視線。}
+      \label{10960_pos}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{ビーム中心マップから取得した検出器の視線(\SI{220}{GHz}、回転後)。中心アレイでは歪みの影響が少ない分、余分に回転させたことによるスキャン軸に対する傾きが残っていることが見て取れる。}
+  \label{10960_beam_centered}
+\end{figure}
 
 \subsection{木星データによる確認}
 \label{jupiter_ana}
