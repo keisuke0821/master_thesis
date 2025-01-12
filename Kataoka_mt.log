@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 06:52
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 07:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -832,11 +832,10 @@ File: 5_alignment/figs/10960_pos_kid17_70.png Graphic file (type bmp)
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [42] [43]
-
-LaTeX Warning: Reference `5862_jupiter' on page 44 undefined on input line 416.
-
 File: 5_alignment/figs/5862_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/5862_jupiter.pdf>
+File: 5_alignment/figs/5987_jupiter.pdf Graphic file (type pdf)
+<5_alignment/figs/5987_jupiter.pdf>
 ) [44] [45]
 \openout2 = `6_prospect/prospect.aux'.
 
@@ -897,27 +896,18 @@ L3 programming layer <2024-03-14>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: 30C00F340999DA047409128E112E2D73;8284
-(rerunfilecheck)             After:  328E78E423DAB231C2E625C6C4A6A95D;8284.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 9D0BE2FF7E86D4129B382B48232C92AD;8284.
  ) 
 Here is how much of TeX's memory you used:
- 17924 strings out of 474762
- 363008 string characters out of 5758587
+ 17932 strings out of 474762
+ 363260 string characters out of 5758587
  1933338 words of memory out of 5000000
- 40008 multiletter control sequences out of 15000+600000
+ 40015 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (55 pages, 221320 bytes).
+Output written on Kataoka_mt.dvi (55 pages, 222920 bytes).
