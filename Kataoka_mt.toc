@@ -42,7 +42,7 @@
 \contentsline {section}{\numberline {4.2}月を用いた回転角の算出}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}月を用いた理由}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}位相としての検出器TOD}{30}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}必要な回転角}{31}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}必要な回転角}{32}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}回転する上でのジグの必要性}{38}{subsection.4.2.4}%
 \contentsline {section}{\numberline {4.3}ジグの設計と現地インストール}{38}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}固定用ジグの作成}{38}{subsection.4.3.1}%
