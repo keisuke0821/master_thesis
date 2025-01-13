@@ -476,7 +476,9 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{equation}
   r = \frac{\displaystyle\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\displaystyle\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}\displaystyle\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}
 \end{equation}
-によって算出している。つまり、ここでの相関係数は同時刻での各TODについてのものである。
+によって算出している。つまり、ここでの相関係数は同時刻での各TODについてのものである。一部の検出器(ここではkid0とkid2)を除いては相関係数は0.9を超え、強い相関を持っていることが見て取れる。このことからも、検出器間でのTODの差分を取ることで共通した大気ノイズを差し引けることを示唆している。
+
+しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{diff}$)は
 
 \subsection{timing offsetの算出}
 
