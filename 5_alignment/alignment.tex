@@ -469,7 +469,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/9011_tod_cor_combined.pdf}
-  \caption{hoge}
+  \caption{(上)実際の検出器配置で並べた各kidのTOD。一部を除いてTODは同じような形状になり、共通したトレンドを持つ。(下)同時刻のTODペアに対する相関係数。ピアソンの積率相関係数に従っている。対角線上の相関係数は同kidの値で1になるため省略した。}
   \label{9011_tod_cor_combined}
 \end{figure}
 回転前TODを実際の検出器配置に沿って並べたものを図\ref{9011_tod_cor_combined}(上)に示す。TODの位相は1観測での平均値でベースラインを引いて表している。一部の検出器以外ではTODの形状が非常に似ており、共通したトレンドを持っている。異なる検出器のペアごとに求めたTODの相関係数を図\ref{9011_tod_cor_combined}(下)に示す。相関係数はピアソンの積率相関係数に従って以下の式
@@ -478,10 +478,17 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{equation}
 によって算出している。つまり、ここでの相関係数は同時刻での各TODについてのものである。一部の検出器(ここではkid0とkid2)を除いては相関係数は0.9を超え、強い相関を持っていることが見て取れる。このことからも、検出器間でのTODの差分を取ることで共通した大気ノイズを差し引けることを示唆している。
 
-しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{diff}$)は
+しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{\mathrm{diff}}$)はtiming offset($\delta t$)を用いて
+\begin{equation}
+  \mathrm{TOD}_{\mathrm{diff}}(t,\delta t) = \mathrm{TOD}_{1}(t) - \mathrm{TOD}_{2}(t + \delta t)
+\end{equation}
+と表すことができる\cite{sueno_doctor}。
+
+最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をFFTしてPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。
 
 \subsection{timing offsetの算出}
 
 \subsection{PSDと自己相関}
+\label{psd_correlation}
 
 \subsection{大気揺らぎ抑制の確認}
