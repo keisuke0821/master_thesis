@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 11:31
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -769,7 +769,7 @@ File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
 File: 5_alignment/figs/boresight_axis.pdf Graphic file (type pdf)
 <5_alignment/figs/boresight_axis.pdf>
 
-Overfull \hbox (26.89265pt too wide) in paragraph at lines 60--78
+Overfull \hbox (26.89265pt too wide) in paragraph at lines 61--79
  [][] 
  []
 
@@ -789,7 +789,7 @@ File: 5_alignment/figs/moon_centered_6550.png Graphic file (type bmp)
 File: 5_alignment/figs/6550_gnomonic.png Graphic file (type bmp)
 <5_alignment/figs/6550_gnomonic.png>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 185.
+(Font)              scaled to size 6.73553pt on input line 186.
 File: 5_alignment/figs/6550_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/6550_pos_kid17_70.png>
  [32]
@@ -803,7 +803,7 @@ File: 5_alignment/figs/before_full_pos.png Graphic file (type bmp)
 File: 5_alignment/figs/angle_cal_lines.pdf Graphic file (type pdf)
 <5_alignment/figs/angle_cal_lines.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 294--295
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 295--296
  [][] 
  []
 
@@ -900,15 +900,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: BA7E878AEB1FD51EC2B9CC7C525770B2;8284.
+(rerunfilecheck)             Checksum: A841C55A525E9174B3D49C75E52AC276;8523.
  ) 
 Here is how much of TeX's memory you used:
- 17948 strings out of 474762
- 363812 string characters out of 5758587
+ 17950 strings out of 474762
+ 363849 string characters out of 5758587
  1933338 words of memory out of 5000000
- 40029 multiletter control sequences out of 15000+600000
+ 40031 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (56 pages, 226940 bytes).
+Output written on Kataoka_mt.dvi (56 pages, 229004 bytes).
