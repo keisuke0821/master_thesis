@@ -431,7 +431,19 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{figure}
 月と同様にして鮮明な木星のマップを得られた。これより、十分PWVが低く観測条件が整っていれば1時間のTODで木星を観測できることが分かった。一方でPWVが比較的高い時は1観測では木星を見ることはできず、データを蓄積する必要がある\footnote{十分にPWVが低く、かつ木星が通過する時間での観測データは現在時点では数観測しか確認できていない。そのため、十分ではないが比較的低いPWVでの観測データを蓄積し、S/N比を上げて木星を見るような解析手法が求められる。}。
 
-得られた木星中心マップから月と同様にして、各検出器の視線を求めた。
+得られた木星中心マップから月と同様にして、各検出器の視線を求めた。視線方向軸周りの回転前のものを図\ref{5987_jupiter_pos}に、回転後のものを図\ref{11280_jupiter_pos}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter_pos.pdf}
+  \caption{木星データから取得した検出器の視線(回転前、2023/07/28, PWV= \SI{0.83}{mm})。(左)\SI{220}{GHz}アレイのビーム中心マップ。月と比べて信号の広がりが小さい。(右)各検出器のビーム中心の視線。}
+  \label{5987_jupiter_pos}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/11280_jupiter.pdf}
+  \caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。(左)\SI{220}{GHz}アレイの各検出器の木星中心マップ。一部の検出器では木星のマップを再構成できていない。(右)各検出器のビーム中心の視線。}
+  \label{11280_jupiter_pos}
+\end{figure}
 
 \section{検出器間差分で見る大気揺らぎの抑制}
 
