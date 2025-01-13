@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 11:23
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  13 JAN 2025 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -837,17 +837,11 @@ File: 5_alignment/figs/5862_jupiter.pdf Graphic file (type pdf)
 File: 5_alignment/figs/5987_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/5987_jupiter.pdf>
  [44]
-
-LaTeX Warning: Reference `5987_jupiter_pos' on page 45 undefined on input line 434.
-
-
-LaTeX Warning: Reference `11280_jupiter_pos' on page 45 undefined on input line 434.
-
 File: 5_alignment/figs/5987_jupiter_pos.pdf Graphic file (type pdf)
 <5_alignment/figs/5987_jupiter_pos.pdf>
 File: 5_alignment/figs/11280_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/11280_jupiter.pdf>
-) [45] [46]
+ [45]) [46]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
@@ -905,21 +899,8 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: 9D0BE2FF7E86D4129B382B48232C92AD;8284
-(rerunfilecheck)             After:  BA7E878AEB1FD51EC2B9CC7C525770B2;8284.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: BA7E878AEB1FD51EC2B9CC7C525770B2;8284.
  ) 
 Here is how much of TeX's memory you used:
  17948 strings out of 474762
@@ -930,4 +911,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (56 pages, 226168 bytes).
+Output written on Kataoka_mt.dvi (56 pages, 226940 bytes).
