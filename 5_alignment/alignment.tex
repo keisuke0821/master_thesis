@@ -465,7 +465,14 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{table}
 視線方向軸周りの回転を行った前後でPWVの低く、条件が近い観測データを選択した。また、大気放射ノイズを見るために1時間のTODの中で月や木星といった光源となる天体を観測しなかったものを選択した(表中では観測対象が天体ではなく大気なのでskyとした)。
 
-次に同じアレイ内の検出器TODの性質を見ていく。
+次に同じアレイ内の検出器TODの性質を見ていく。1アレイ内の検出器が観測する空の領域は同じではないが、ある程度狭い角度領域で収まっているため観測する大気もある程度は近いものである。それは検出器配置を回転させる前でも言えることである。そのため、検出器のTODが共通したトレンドを持ち、相関を持つ\footnote{見ている空の領域が近いことによるものと、1アレイで読み出しを行なっていることによる生のTOD以外の要因もあると思われる。}。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/9011_tod_cor_combined.pdf}
+  \caption{hoge}
+  \label{9011_tod_cor_combined}
+\end{figure}
+
 \subsection{timing offsetの算出}
 
 \subsection{PSDと自己相関}
