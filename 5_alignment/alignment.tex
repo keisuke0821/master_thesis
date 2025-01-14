@@ -511,7 +511,13 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
                &= F(-f)F(f) \\
                &= |F(f)|^{2}
 \end{align}
-となり、自己相関関数のフーリエ変換がPSDになる。この関係をウィーナー=ヒンチンの定理という。
+となり、自己相関関数のフーリエ変換がPSDになる。この関係をウィーナー=ヒンチンの定理という。TOD、PSD、自己相関関数の関係の模式図を図\ref{psd_and_selfcor}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/psd_and_selfcor.pdf}
+  \caption{TODとPSD、自己相関関数との関係。PSDと自己相関関数はフーリエ変換によって結ぶつき等価な物理量を表す。}
+  \label{psd_and_selfcor}
+\end{figure}
 
 \subsection{timing offsetの算出}
 各検出器間で異なるtiming offset($\delta t$)を計算する。
