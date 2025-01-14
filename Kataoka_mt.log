@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  14 JAN 2025 09:09
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  14 JAN 2025 10:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,7 +849,7 @@ Overfull \hbox (26.44453pt too wide) in paragraph at lines 458--465
 File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 <5_alignment/figs/9011_tod_cor_combined.pdf>
 
-LaTeX Warning: Float too large for page by 2.48094pt on input line 474.
+LaTeX Warning: Float too large for page by 19.53104pt on input line 474.
 
 [46]
 File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
@@ -912,10 +912,6 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 080CC00B5922A60304D0A4A9AE62801E;8523.
  ) 
@@ -928,4 +924,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (59 pages, 239844 bytes).
+Output written on Kataoka_mt.dvi (59 pages, 240476 bytes).

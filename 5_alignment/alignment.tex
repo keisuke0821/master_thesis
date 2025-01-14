@@ -469,7 +469,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/9011_tod_cor_combined.pdf}
-  \caption{(上)実際の検出器配置で並べた各kidのTOD。一部を除いてTODは同じような形状になり、共通したトレンドを持つ。(下)同時刻のTODペアに対する相関係数。ピアソンの積率相関係数に従っている。対角線上の相関係数は同kidの値で1になるため省略した。}
+  \caption{(上)実際の検出器配置で並べた各kidのTOD。一部を除いてTODは同じような形状になり、共通したトレンドを持つ。(下)同時刻のTODペアに対する相関係数。ピアソンの積率相関係数に従っている。対角線上の相関係数は同kid間での値で1になるため省略した。}
   \label{9011_tod_cor_combined}
 \end{figure}
 回転前TODを実際の検出器配置に沿って並べたものを図\ref{9011_tod_cor_combined}(上)に示す。TODの位相は1観測での平均値でベースラインを引いて表している。一部の検出器以外ではTODの形状が非常に似ており、共通したトレンドを持っている。異なる検出器のペアごとに求めたTODの相関係数を図\ref{9011_tod_cor_combined}(下)に示す。相関係数はピアソンの積率相関係数に従って以下の式
@@ -484,15 +484,17 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{equation}
 と表すことができる\cite{sueno_doctor}。
 
-最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をFFTしてPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
+最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をフーリエ変換してPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\columnwidth]{5_alignment/figs/9011_kid3_psd.png}
   \caption{計算した1検出器のPSD。スキャン速度は\SI{9}{RPM}であり、対応するスキャン周波数は\SI{0.15}{Hz}になる。そのため、スキャン周波数の整数倍の周波数でスキャンに同期したノイズのピークが生じる。}
   \label{9011_psd_kid3}
 \end{figure}
+PSDは周波数に応じて振る舞いが異なる。主なノイズには低周波側で卓越する``1/fノイズ''、スキャン周波数に同期した``scan synchronousノイズ''、高周波側で残る周波数依存性のない``ホワイトノイズ''があり、スペクトルの形状に顕著に現れる。
 
 \subsection{timing offsetの算出}
+各検出器間で異なるtiming offset($\delta t$)を計算する。
 
 \subsection{PSDと自己相関}
 \label{psd_correlation}
