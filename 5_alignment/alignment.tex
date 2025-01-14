@@ -484,7 +484,13 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{equation}
 と表すことができる\cite{sueno_doctor}。
 
-最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をFFTしてPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。
+最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をFFTしてPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/9011_kid3_psd.png}
+  \caption{計算した1検出器のPSD}
+  \label{9011_psd_kid3}
+\end{figure}
 
 \subsection{timing offsetの算出}
 

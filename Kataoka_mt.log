@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  14 JAN 2025 07:06
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  14 JAN 2025 08:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,12 +851,15 @@ File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 
 LaTeX Warning: Float too large for page by 2.48094pt on input line 474.
 
-[46]) [47] [48]
+[46]
+File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
+<5_alignment/figs/9011_kid3_psd.png>
+) [47] [48] [49]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [49
+) [50
 
 
 
@@ -866,14 +869,14 @@ LaTeX Warning: Float too large for page by 2.48094pt on input line 474.
 
  (./7_summary/summary.tex
 第 6 章
-) [50
+) [51
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [51
+) (./9_reference/kk_references.tex [52
 
 
 
@@ -887,7 +890,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[52
+[53
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -899,9 +902,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [53]
+) (./10_appendix/appendix.tex [54]
 付 録 A  
-) [54
+) [55
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -910,15 +913,15 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 5B89B2ACCA1EAE42A7FFFA03550C7415;8523.
+(rerunfilecheck)             Checksum: 080CC00B5922A60304D0A4A9AE62801E;8523.
  ) 
 Here is how much of TeX's memory you used:
- 17963 strings out of 474762
- 364264 string characters out of 5758587
+ 17971 strings out of 474762
+ 364524 string characters out of 5758587
  1933338 words of memory out of 5000000
- 40043 multiletter control sequences out of 15000+600000
+ 40050 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (58 pages, 238628 bytes).
+Output written on Kataoka_mt.dvi (59 pages, 239536 bytes).
