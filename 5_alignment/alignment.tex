@@ -493,9 +493,25 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{figure}
 PSDは周波数に応じて振る舞いが異なる。主なノイズには低周波側で卓越する``1/fノイズ''、スキャン周波数に同期した``scan synchronousノイズ''、高周波側で残る周波数依存性のない``ホワイトノイズ''があり、スペクトルの形状に顕著に現れる。
 
-\subsection{PSDと自己相関}
+\subsection{PSDと自己相関関数}
 \label{psd_correlation}
-PSDを用いてTOD間の相関を測る指標とする量を定義する。まず、PSDと自己相関の関係性について述べる。
+PSDを用いてTOD間の相関を測る指標とする量を定義する。まず、PSDと自己相関関数の関係性について述べる。$n$サンプル目のTODを$x(n)$、そこから$k$サンプルだけシフトしたTODを$x(n+k)$とする時、TODの自己相関関数はサンプル数が十分大きければ
+\begin{equation}
+  R_{xx}(k) = \displaystyle\sum_{n=-\infty}^{\infty}x(n)x(n+k)
+\end{equation}
+で定義される。また、$x(n)$のフーリエ変換を
+\begin{equation}
+  F(f) = \displaystyle\sum_{n=-\infty}^{\infty}x(n)e^{-2\pi ifn}
+\end{equation}
+とし、PSD$(f)$は$|F(f)|^{2}$で与えられる。ここで、自己相関関数のフーリエ変換を考えると
+\begin{align}
+  F(R_{xx}(k)) &= \displaystyle\sum_{k=-\infty}^{\infty}\biggl\{\displaystyle\sum_{n=-\infty}^{\infty}x(n)x(n+k)\biggr\}e^{-2\pi ifk} \\
+               &= \displaystyle\sum_{n=-\infty}^{\infty}x(n)\displaystyle\sum_{k=-\infty}^{\infty}x(n+k)e^{-2\pi ifk} \\
+               &= \displaystyle\sum_{n=-\infty}^{\infty}x(n)e^{2\pi ifn}\displaystyle\sum_{m=-\infty}^{\infty}x(m)e^{-2\pi ifm}~(m=k+n) \\
+               &= F(-f)F(f) \\
+               &= |F(f)|^{2}
+\end{align}
+となり、自己相関関数のフーリエ変換がPSDになる。この関係をウィーナー=ヒンチンの定理という。
 
 \subsection{timing offsetの算出}
 各検出器間で異なるtiming offset($\delta t$)を計算する。

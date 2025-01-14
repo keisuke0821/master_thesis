@@ -52,13 +52,13 @@
 \contentsline {subsection}{\numberline {4.4.2}木星データによる確認}{42}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{46}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}TODの差分とPSD}{46}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}PSDと自己相関}{47}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}PSDと自己相関関数}{47}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}timing offsetの算出}{49}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}大気揺らぎ抑制の確認}{49}{subsection.4.5.4}%
-\contentsline {chapter}{\numberline {第5章}今後の展望}{50}{chapter.5}%
-\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{50}{section.5.1}%
-\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{50}{section.5.2}%
-\contentsline {chapter}{\numberline {第6章}まとめ}{51}{chapter.6}%
-\contentsline {chapter}{\numberline {第7章}謝辞}{52}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{53}{chapter*.68}%
-\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{55}{appendix.A}%
+\contentsline {subsection}{\numberline {4.5.4}大気揺らぎ抑制の確認}{50}{subsection.4.5.4}%
+\contentsline {chapter}{\numberline {第5章}今後の展望}{51}{chapter.5}%
+\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{51}{section.5.1}%
+\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{51}{section.5.2}%
+\contentsline {chapter}{\numberline {第6章}まとめ}{52}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章}謝辞}{53}{chapter.7}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{54}{chapter*.68}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{56}{appendix.A}%
