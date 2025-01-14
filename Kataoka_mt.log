@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  15 JAN 2025 07:08
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  15 JAN 2025 07:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -388,7 +388,7 @@ File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
 LaTeX Warning: Unused global option(s):
     [uplatex].
 
-(./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux))
+(./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
 \openout1 = `Kataoka_mt.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -497,14 +497,7 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 1.
-
-
-LaTeX Warning: Reference `chapter5' on page 0 undefined on input line 6.
-
-
-LaTeX Warning: Reference `chapter6' on page 0 undefined on input line 6.
-
-[0])
+ [0])
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 61.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -517,13 +510,25 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 61.
- (./Kataoka_mt.toc)
+ (./Kataoka_mt.toc
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+])
 \tf@toc=\write4
 \openout4 = `Kataoka_mt.toc'.
 
- [1
-
-]
+ [2]
 \openout2 = `2_cosmology/kk_Introduction.aux'.
 
  (./2_cosmology/kk_Introduction.tex
@@ -540,18 +545,6 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.54663pt on input line 6.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 8.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 8.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 8.
@@ -598,9 +591,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 第 2 章
 File: 3_GB/figs/GB_overview2.pdf Graphic file (type pdf)
 <3_GB/figs/GB_overview2.pdf>
-
-LaTeX Warning: Citation `PWV' on page 2 undefined on input line 15.
-
 [2
 
 
@@ -611,20 +601,7 @@ File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
 <3_GB/figs/scan_strategy.pdf>
 File: 3_GB/figs/gb_int.png Graphic file (type bmp)
 <3_GB/figs/gb_int.png>
-
-
-LaTeX Warning: Citation `TES_res' on page 3 undefined on input line 38.
-
-
-LaTeX Warning: Citation `MKID_res' on page 3 undefined on input line 38.
-
-
-LaTeX Warning: Citation `MKID_pic' on page 3 undefined on input line 40.
-
-[3]
-
-LaTeX Warning: Citation `bcs' on page 4 undefined on input line 46.
-
+ [3]
 File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_pic.pdf>
 
@@ -636,20 +613,6 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 56.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 56.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 56.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 56.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 56.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 56.
-
-LaTeX Warning: Citation `MKID_pic' on page 4 undefined on input line 56.
-
-
-LaTeX Warning: Citation `MKID_pic' on page 4 undefined on input line 56.
-
 File: 3_GB/figs/mkid_circ.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_circ.pdf>
 
@@ -672,46 +635,12 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 78.
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
-
-
-LaTeX Warning: Citation `planck_cmb' on page 5 undefined on input line 82.
-
-
-LaTeX Warning: Citation `planck_cmb' on page 5 undefined on input line 82.
-
-[5]
-
-LaTeX Warning: Citation `CLASS' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `QUIJOTE' on page 6 undefined on input line 87.
-
+ [5]
 File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 <3_GB/figs/tau_planck_wmap_cut.pdf>
-
-LaTeX Warning: Citation `tau_measure' on page 6 undefined on input line 92.
-
-
-LaTeX Warning: Citation `tau_measure' on page 6 undefined on input line 92.
-
-
-LaTeX Warning: Citation `joint_ana' on page 6 undefined on input line 96.
-
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
-
-LaTeX Warning: Citation `spie_honda' on page 6 undefined on input line 101.
-
-
-LaTeX Warning: Citation `spie_honda' on page 6 undefined on input line 101.
-
-
-LaTeX Warning: Citation `sueno_paper' on page 6 undefined on input line 118.
-
-
-LaTeX Warning: Citation `sueno_doctor' on page 6 undefined on input line 118.
-
-[6]
+ [6]
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
 File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
@@ -726,9 +655,6 @@ Overfull \hbox (7.11885pt too wide) in paragraph at lines 123--140
 [][] 
  []
 
-
-LaTeX Warning: Citation `choi_doctor' on page 7 undefined on input line 148.
-
 [7] [8]
 File: 3_GB/figs/webcam.png Graphic file (type bmp)
 <3_GB/figs/webcam.png>
@@ -739,12 +665,6 @@ File: 3_GB/figs/webcam.png Graphic file (type bmp)
 第 3 章
 File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_daq_2.pdf>
-
-LaTeX Warning: Citation `R-1SL' on page 10 undefined on input line 17.
-
-
-LaTeX Warning: Citation `Zybo' on page 10 undefined on input line 17.
-
 [10
 
 
@@ -753,86 +673,29 @@ LaTeX Warning: Citation `Zybo' on page 10 undefined on input line 17.
 ]
 File: 4_elDAQ/figs/el_encoder.jpg Graphic file (type bmp)
 <4_elDAQ/figs/el_encoder.jpg>
-
-
-LaTeX Warning: Citation `R-1SL' on page 11 undefined on input line 25.
-
-
-LaTeX Warning: Citation `R-1SL' on page 11 undefined on input line 25.
-
 File: 4_elDAQ/figs/Zybo.jpg Graphic file (type bmp)
 <4_elDAQ/figs/Zybo.jpg>
-
-LaTeX Warning: Citation `Zybo' on page 11 undefined on input line 31.
-
-
-LaTeX Warning: Citation `Zybo' on page 11 undefined on input line 31.
-
-
-LaTeX Warning: Citation `ERM220' on page 11 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Spartan' on page 11 undefined on input line 39.
-
-
-LaTeX Warning: Citation `ikemitsu' on page 11 undefined on input line 39.
-
 File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
 <4_elDAQ/figs/ERM220.png>
-
-LaTeX Warning: Citation `ERM220' on page 11 undefined on input line 47.
-
-
-LaTeX Warning: Citation `ERM220' on page 11 undefined on input line 47.
-
 File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
 <4_elDAQ/figs/spartan-3e-2.png>
-
-LaTeX Warning: Citation `Spartan' on page 11 undefined on input line 53.
-
-
-LaTeX Warning: Citation `Spartan' on page 11 undefined on input line 53.
-
-[11]
-
-LaTeX Warning: Citation `ikemitsu' on page 12 undefined on input line 69.
-
+ [11]
 File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_sync_2.pdf>
-[12]
+ [12]
 File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
 <4_elDAQ/figs/el_daq_box.pdf>
-
-
-LaTeX Warning: Citation `Zybo' on page 13 undefined on input line 100.
-
-
-LaTeX Warning: Citation `Zybo' on page 13 undefined on input line 100.
-
-
-LaTeX Warning: Citation `Zynq' on page 13 undefined on input line 104.
-
 File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
 <4_elDAQ/figs/block_diagram.pdf>
 File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
 <4_elDAQ/figs/zynq_flow.pdf>
-
-LaTeX Warning: Citation `FIFO' on page 13 undefined on input line 122.
-
-[13] [14]
+ [13] [14]
 File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sd_zybo2.pdf>
- [15]
-
-LaTeX Warning: Citation `Pynq' on page 16 undefined on input line 160.
-
-[16]
-
-LaTeX Warning: Citation `image' on page 17 undefined on input line 171.
-
+ [15] [16]
 File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
 <4_elDAQ/figs/overlay3.pdf>
-[17]
+ [17]
 File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_pic.jpg>
 File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
@@ -865,9 +728,6 @@ File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
 File: 4_elDAQ/figs/connector_barrel.pdf Graphic file (type pdf)
 <4_elDAQ/figs/connector_barrel.pdf>
  [21]
-
-LaTeX Warning: Citation `power_ref' on page 22 undefined on input line 361.
-
 File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_usb.jpg>
 File: 4_elDAQ/figs/test_jack.jpg Graphic file (type bmp)
@@ -886,10 +746,6 @@ File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
-
-
-LaTeX Warning: Citation `xadc' on page 24 undefined on input line 434.
-
 File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 <4_elDAQ/figs/temp_zynq_202408.png>
 ) [24] [25]
@@ -907,63 +763,27 @@ File: 5_alignment/figs/scan_axis.pdf Graphic file (type pdf)
 
 
 ]
-
-LaTeX Warning: Citation `atmos_radiation' on page 27 undefined on input line 31.
-
 File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
 <5_alignment/figs/distortion_pos2.pdf>
-[27]
+ [27]
 File: 5_alignment/figs/boresight_axis.pdf Graphic file (type pdf)
 <5_alignment/figs/boresight_axis.pdf>
-
-
-LaTeX Warning: Citation `sueno_doctor' on page 28 undefined on input line 59.
-
 
 Overfull \hbox (26.89265pt too wide) in paragraph at lines 61--79
  [][] 
  []
 
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <9> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 85.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 85.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <9> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 85.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 8.65997pt on input line 85.
-
-LaTeX Warning: Citation `dennpa_tennmonn' on page 28 undefined on input line 85.
-
 [28] [29]
-
-LaTeX Warning: Citation `muto' on page 30 undefined on input line 92.
-
 File: 5_alignment/figs/iq_amp.pdf Graphic file (type pdf)
 <5_alignment/figs/iq_amp.pdf>
-
-LaTeX Warning: Citation `sueno_master' on page 30 undefined on input line 96.
-
 File: 5_alignment/figs/amp_and_phase.png Graphic file (type bmp)
 <5_alignment/figs/amp_and_phase.png>
-
-LaTeX Warning: Citation `sueno_doctor' on page 30 undefined on input line 110.
-
-[30]
-
-LaTeX Warning: Citation `sueno_master' on page 31 undefined on input line 123.
-
-
-LaTeX Warning: Citation `sueno_doctor' on page 31 undefined on input line 148.
-
+ [30]
 File: 5_alignment/figs/raw_phase_deg.png Graphic file (type bmp)
 <5_alignment/figs/raw_phase_deg.png>
 File: 5_alignment/figs/6550_kid0_phase.png Graphic file (type bmp)
 <5_alignment/figs/6550_kid0_phase.png>
-[31]
-
-LaTeX Warning: Citation `astropy' on page 32 undefined on input line 171.
-
+ [31]
 File: 5_alignment/figs/moon_centered_6550.png Graphic file (type bmp)
 <5_alignment/figs/moon_centered_6550.png>
 File: 5_alignment/figs/6550_gnomonic.png Graphic file (type bmp)
@@ -972,10 +792,7 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 6.73553pt on input line 186.
 File: 5_alignment/figs/6550_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/6550_pos_kid17_70.png>
-
-LaTeX Warning: Citation `healpy' on page 32 undefined on input line 201.
-
-[32]
+ [32]
 File: 5_alignment/figs/before_full_gnomonic_70.png Graphic file (type bmp)
 <5_alignment/figs/before_full_gnomonic_70.png>
 File: 5_alignment/figs/before_full_pos_70.png Graphic file (type bmp)
@@ -1035,18 +852,9 @@ File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 LaTeX Warning: Float too large for page by 19.53104pt on input line 474.
 
 [46]
-
-LaTeX Warning: Citation `sueno_doctor' on page 47 undefined on input line 485.
-
-
-LaTeX Warning: Citation `periodogram' on page 47 undefined on input line 487.
-
-
-LaTeX Warning: Reference `9011_psd_kid3' on page 47 undefined on input line 487.
-
 File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
 <5_alignment/figs/9011_kid3_psd.png>
-[47] [48]) [49] [50]
+ [47] [48]) [49] [50]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
@@ -1104,29 +912,16 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: 8FA83F5437A76C222F9D048381108745;7442
-(rerunfilecheck)             After:  B8433198F5C537D6CC3906642E2C3686;8537.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: B8433198F5C537D6CC3906642E2C3686;8537.
  ) 
 Here is how much of TeX's memory you used:
- 17974 strings out of 474762
- 364521 string characters out of 5758587
+ 17973 strings out of 474762
+ 364578 string characters out of 5758587
  1933338 words of memory out of 5000000
- 40056 multiletter control sequences out of 15000+600000
- 576980 words of font info for 127 fonts, out of 8000000 for 9000
+ 40052 multiletter control sequences out of 15000+600000
+ 576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (59 pages, 209372 bytes).
+Output written on Kataoka_mt.dvi (60 pages, 243496 bytes).
