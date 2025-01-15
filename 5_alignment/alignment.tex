@@ -562,7 +562,13 @@ TODを差し引くことでノイズ成分を落とせていることが、PSD�
   \caption{timing offsetの違いによるPSDと相関の振る舞いの違い。(左)timing offsetとPSDの関係。緑で示したものが計算で求めた適切な$\delta t$。\SI{1}{Hz} $\sim$ \SI{10}{Hz}にかけて顕著な違いが見え、ノイズ成分が引けていることが分かる。(右)timing offsetとCorrelation Indexの関係。最大値の1.0から高周波側に行くにつれてランダムなホワイトノイズの寄与が大きくなり、0に近づく。timing offsetを適切にとらないと相関が負に転じることもある。}
   \label{timing_offset_compare}
 \end{figure}
-\ref{atmos_model}で述べるように、大気放射に由来するノイズは周波数で$\sim\SI{10}{Hz}$付近に現れると考えられている。timing offsetの違いはどれほど大気ノイズを差し引けるかに直結するため、\SI{1}{Hz} $\sim$ \SI{10}{Hz}の範囲で大き振る舞いが異なる。Correlation Indexは相関が強いほど1.0に近づく指標なので、$\delta t=\SI{47}{\mathrm{ms}}$で最も相関が強い(同じ大気をスキャンしている)ことが分かる。一方で、異なる値を適用すると相関は弱くなり、$\sim\SI{20}{ms}$の違いでも相関には顕著な差が出る。
+\ref{atmos_model}で述べるように、大気放射に由来するノイズは周波数で$\sim\SI{10}{Hz}$付近に現れると考えられている。timing offsetの違いはどれほど大気ノイズを差し引けるかに直結するため、\SI{1}{Hz} $\sim$ \SI{10}{Hz}の範囲で大きく振る舞いが異なる。Correlation Indexは相関が強いほど1.0に近づく指標なので、$\delta t=\SI{47}{\mathrm{ms}}$で最も相関が強い(同じ大気をスキャンしている)ことが分かる。一方で、異なる値を適用すると相関は弱くなり、$\sim\SI{20}{ms}$の違いでも相関には顕著な差が出る。同一スキャン軸上で離れた2つの検出器(kid18とkid14)ペアについても同様の結果が得られた(図\ref{timing_offset_compare2})。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.05\columnwidth]{5_alignment/figs/timing_offset_compare2.pdf}
+  \caption{スキャン軸上で最も離れた検出器ペアでの結果。$\delta t=\SI{200}{\mathrm{ms}}$であるが、大気が揺らぐ前にスキャンができるため、強い相関を保持できる。}
+  \label{timing_offset_compare2}
+\end{figure}
 
 
 
