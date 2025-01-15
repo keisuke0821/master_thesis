@@ -502,7 +502,7 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 \end{align}
 で定義される。また、$x(t)$のフーリエ変換を
 \begin{equation}
-  F(f) = \mathcal{F}[x(t)] = \int_{-\infty}^{\infty}x(t)e^{-2\pi ift}
+  F(f) = \mathcal{F}[x(t)] = \int_{-\infty}^{\infty}x(t)e^{-2\pi ift}dt
 \end{equation}
 とし、PSD$(f)$は
 \begin{equation}
@@ -511,7 +511,7 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 で与えられる。ここで、自己相関関数のフーリエ変換を考えると
 \begin{align}
   \mathcal{F}[R_{xx}(\tau)] &= \int_{-\infty}^{\infty}\biggl\{\lim_{T\to \infty}\frac{1}{T}\int_{-T/2}^{T/2}x(t)x(t+\tau)dt\biggr\}e^{-2\pi if\tau}d\tau \\
-               &= \lim_{T\to \infty}\frac{1}{T}\biggl\{\int_{-T/2}^{T/2}x(t)dt\biggr\}\biggl\{\int_{-\infty}^{\infty}x(t+\tau)e^{-2\pi ift}d\tau\biggr\} \\
+               &= \lim_{T\to \infty}\frac{1}{T}\biggl\{\int_{-T/2}^{T/2}x(t)dt\biggr\}\biggl\{\int_{-\infty}^{\infty}x(t+\tau)e^{-2\pi if\tau}d\tau\biggr\} \\
                &= \lim_{T\to \infty}\frac{1}{T}\biggl\{\int_{-T/2}^{T/2}x(t)e^{2\pi ift}dt\biggr\}\biggl\{\int_{-\infty}^{\infty}x(s)e^{-2\pi ifs}ds\biggr\}~(s=t+\tau)\\
                &= \lim_{T\to \infty}\frac{F(-f)F(f)}{T} \\
                &= \lim_{T\to \infty}\frac{|F(f)|^{2}}{T}
