@@ -53,7 +53,7 @@
 \contentsline {section}{\numberline {4.5}検出器間差分で見る大気揺らぎの抑制}{46}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}TODの差分とPSD}{46}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}PSDと自己相関関数}{47}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}timing offsetの算出}{49}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.3}timing offsetの算出}{50}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}大気揺らぎ抑制の確認}{50}{subsection.4.5.4}%
 \contentsline {chapter}{\numberline {第5章}今後の展望}{51}{chapter.5}%
 \contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{51}{section.5.1}%

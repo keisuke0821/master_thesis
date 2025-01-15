@@ -495,29 +495,35 @@ PSDは周波数に応じて振る舞いが異なる。主なノイズには低�
 
 \subsection{PSDと自己相関関数}
 \label{psd_correlation}
-PSDを用いてTOD間の相関を測る指標とする量を定義する。まず、PSDと自己相関関数の関係性について述べる。$n$サンプル目のTODを$x(n)$、そこから$k$サンプルだけシフトしたTODを$x(n+k)$とする時、TODの自己相関関数はサンプル数が十分大きければ
-\begin{equation}
-  R_{xx}(k) = \displaystyle\sum_{n=-\infty}^{\infty}x(n)x(n+k)
-\end{equation}
-で定義される。また、$x(n)$のフーリエ変換を
-\begin{equation}
-  F(f) = \mathcal{F}[x(n)] = \displaystyle\sum_{n=-\infty}^{\infty}x(n)e^{-2\pi ifn}
-\end{equation}
-とし、PSD$(f)$は$|F(f)|^{2}$で与えられる。ここで、自己相関関数のフーリエ変換を考えると
+PSDを用いてTOD間の相関を測る指標とする量を定義する。まず、PSDと自己相関関数の関係性について述べる。時刻$t$でのTODを$x(t)$、そこから時間$\tau$だけシフトしたTODを$x(t+\tau)$とする時、TODの自己相関関数は
 \begin{align}
-  \mathcal{F}[R_{xx}(k)] &= \displaystyle\sum_{k=-\infty}^{\infty}\biggl\{\displaystyle\sum_{n=-\infty}^{\infty}x(n)x(n+k)\biggr\}e^{-2\pi ifk} \\
-               &= \displaystyle\sum_{n=-\infty}^{\infty}x(n)\displaystyle\sum_{k=-\infty}^{\infty}x(n+k)e^{-2\pi ifk} \\
-               &= \displaystyle\sum_{n=-\infty}^{\infty}x(n)e^{2\pi ifn}\displaystyle\sum_{m=-\infty}^{\infty}x(m)e^{-2\pi ifm}~(m=k+n) \\
-               &= F(-f)F(f) \\
-               &= |F(f)|^{2}
+  R_{xx}(\tau) &= \langle x(t)x(t+\tau) \rangle \\
+            &= \lim_{T\to \infty}\frac{1}{T}\int_{-T/2}^{T/2}x(t)x(t+\tau)dt
+\end{align}
+で定義される。また、$x(t)$のフーリエ変換を
+\begin{equation}
+  F(f) = \mathcal{F}[x(t)] = \int_{-\infty}^{\infty}x(t)e^{-2\pi ift}
+\end{equation}
+とし、PSD$(f)$は
+\begin{equation}
+  \mathrm{PSD}(f) = \lim_{T\to \infty}\frac{|F(f)|^{2}}{T}
+\end{equation}
+で与えられる。ここで、自己相関関数のフーリエ変換を考えると
+\begin{align}
+  \mathcal{F}[R_{xx}(\tau)] &= \int_{-\infty}^{\infty}\biggl\{\lim_{T\to \infty}\frac{1}{T}\int_{-T/2}^{T/2}x(t)x(t+\tau)dt\biggr\}e^{-2\pi if\tau}d\tau \\
+               &= \lim_{T\to \infty}\frac{1}{T}\biggl\{\int_{-T/2}^{T/2}x(t)dt\biggr\}\biggl\{\int_{-\infty}^{\infty}x(t+\tau)e^{-2\pi ift}d\tau\biggr\} \\
+               &= \lim_{T\to \infty}\frac{1}{T}\biggl\{\int_{-T/2}^{T/2}x(t)e^{2\pi ift}dt\biggr\}\biggl\{\int_{-\infty}^{\infty}x(s)e^{-2\pi ifs}ds\biggr\}~(s=t+\tau)\\
+               &= \lim_{T\to \infty}\frac{F(-f)F(f)}{T} \\
+               &= \lim_{T\to \infty}\frac{|F(f)|^{2}}{T}
 \end{align}
 となり、自己相関関数のフーリエ変換がPSDになる。この関係をウィーナー=ヒンチンの定理という。TOD、PSD、自己相関関数の関係の模式図を図\ref{psd_and_selfcor}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\columnwidth]{5_alignment/figs/psd_and_selfcor.pdf}
-  \caption{TODとPSD、自己相関関数との関係。PSDと自己相関関数はフーリエ変換によって結ぶつき等価な物理量を表す。}
+  \caption{TODとPSD、自己相関関数との関係。PSDと自己相関関数はフーリエ変換によって結びつき、等価な物理量を表す。}
   \label{psd_and_selfcor}
 \end{figure}
+この関係から、TODから計算したPSDはその自己相関関数と等価な量である。
 
 \subsection{timing offsetの算出}
 各検出器間で異なるtiming offset($\delta t$)を計算する。

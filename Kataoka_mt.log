@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  15 JAN 2025 08:07
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  15 JAN 2025 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -855,12 +855,9 @@ LaTeX Warning: Float too large for page by 19.53104pt on input line 474.
 File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
 <5_alignment/figs/9011_kid3_psd.png>
  [47] [48]
-
-LaTeX Warning: Reference `psd_and_selfcor' on page 49 undefined on input line 514.
-
 File: 5_alignment/figs/psd_and_selfcor.pdf Graphic file (type pdf)
 <5_alignment/figs/psd_and_selfcor.pdf>
-) [49] [50]
+ [49]) [50]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
@@ -920,19 +917,10 @@ L3 programming layer <2024-03-14>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: B8433198F5C537D6CC3906642E2C3686;8537
-(rerunfilecheck)             After:  22939DCEAB049578DB49A13BA1DB6787;8537.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 22939DCEAB049578DB49A13BA1DB6787;8537.
  ) 
 Here is how much of TeX's memory you used:
  17981 strings out of 474762
@@ -943,4 +931,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (60 pages, 244088 bytes).
+Output written on Kataoka_mt.dvi (60 pages, 245300 bytes).
