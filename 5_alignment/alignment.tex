@@ -555,7 +555,13 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 \end{figure}
 TODを差し引くことでノイズ成分を落とせていることが、PSDの高さが特に低周波側で大きく下がっていることから見て取れる。一方で、高周波側ではランダムなホワイトノイズが卓越しているため、差し引くことはできない。
 
-次にtiming offsetの設定の妥当性を示すとともに適切なoffsetをとることの重要性を示す。
+次にtiming offsetの設定の妥当性を示すとともに適切なoffsetをとることの重要性を示す。隣接した検出器では$\delta t\sim\SI{45}{\mathrm{ms}}$であるが、それと異なる値をとる(スキャンする空が異なる)時、相関の性質も大きく変わる。kid8とkid11のペアについて、計算によって求まった$\delta t=\SI{47}{\mathrm{ms}}$で差分を取った時と異なる値で差分を取った時との比較を図\ref{timing_offset_compare}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=1.05\columnwidth]{5_alignment/figs/timing_offset_compare.pdf}
+  \caption{timing offsetの違いによるPSDと相関の振る舞いの違い。}
+  \label{timing_offset_compare}
+\end{figure}
 
 
 

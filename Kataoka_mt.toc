@@ -60,5 +60,5 @@
 \contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{53}{section.5.2}%
 \contentsline {chapter}{\numberline {第6章}まとめ}{54}{chapter.6}%
 \contentsline {chapter}{\numberline {第7章}謝辞}{55}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{56}{chapter*.71}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{56}{chapter*.72}%
 \contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{58}{appendix.A}%
