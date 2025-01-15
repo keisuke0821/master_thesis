@@ -480,7 +480,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 
 しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{\mathrm{diff}}$)はtiming offset($\delta t$)を用いて
 \begin{equation}
-  \mathrm{TOD}_{\mathrm{diff}}(t,\delta t) = \mathrm{TOD}_{1}(t) - \mathrm{TOD}_{2}(t + \delta t)
+  \mathrm{TOD}_{\mathrm{diff}}(t,\delta t) = \mathrm{TOD}_{1}(t) - \mathrm{TOD}_{2}(t + \delta t) \label{eq:tod_diff}
 \end{equation}
 と表すことができる\cite{sueno_doctor}。
 
@@ -524,6 +524,12 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
   \label{psd_and_selfcor}
 \end{figure}
 この関係から、TODから計算したPSDはその自己相関関数と等価な量である。
+
+この関係を用いて指標を定める。2つの異なる検出器のTODを$x(t)$、$y(t)$とし、\eqref{eq:tod_diff}で見たようにtiming offsetを加えて差分を取ったTODを$x(t)-y(t+\delta t)$とする。これらのTODのPSDに対して以下の式を考える
+\begin{align}
+  \frac{\mathrm{PSD}_{x} + \mathrm{PSD}_{y} - \mathrm{PSD}_{x-y}}{\mathrm{PSD}_{x} + \mathrm{PSD}_{y}}
+  &= \frac{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] - \mathcal{F}[R_{xy}(\tau,\delta t)] }{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] }
+\end{align}
 
 \subsection{timing offsetの算出}
 各検出器間で異なるtiming offset($\delta t$)を計算する。
