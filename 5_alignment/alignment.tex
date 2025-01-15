@@ -527,15 +527,25 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 
 この関係を用いて指標を定める。2つの異なる検出器のTODを$x(t)$、$y(t)$とし、式\eqref{eq:tod_diff}で見たようにtiming offsetを加えて差分を取った$\mathrm{TOD}_{\mathrm{diff}}$を$x(t)-y(t+\delta t)$とする。これらのTODのPSDに対して以下の式を考える
 \begin{align}
-  & \phantom{=}\, \frac{\mathrm{PSD}_{x} + \mathrm{PSD}_{y} - \mathrm{PSD}_{\mathrm{diff}}}{\mathrm{PSD}_{x} + \mathrm{PSD}_{y}}& \\ \label{eq:diff_index}
+  & \phantom{=}\, \frac{\mathrm{PSD}_{x} + \mathrm{PSD}_{y} - \mathrm{PSD}_{\mathrm{diff}}}{\mathrm{PSD}_{x} + \mathrm{PSD}_{y}} \label{eq:diff_index} & \\ \label{eq:diff_index2}
   & = \frac{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] - \mathcal{F}[R_{\mathrm{diff}}(\tau,\delta t)] }{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] }& \\
   & \sim \frac{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle - \langle (x(t) - y(t+\delta t))(x(t) - y(t+\delta t))\rangle}{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}& \\
   & = \frac{\langle x(t)y(t+\delta t)\rangle + \langle y(t+\delta t)x(t)\rangle }{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}
 \end{align}
-ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標としてTODの相関を測ることとする。
+ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(correlation indexと呼ぶこととする)としてTODの相関を測ることとする。
 
 \subsection{timing offsetの算出}
-次に、各検出器間で異なるtiming offset($\delta t$)を計算する。GroundBIRDは仰角を固定して方位角方向にスキャンを行うため、検出器間での方位角のずれ(オフセット)をスキャン角速度で割った時間がスキャンにかかるtiming offsetになる。
+次に、各検出器間で異なるtiming offset($\delta t$)を計算する。GroundBIRDは仰角を固定して方位角方向にスキャンを行うため、検出器間での方位角のずれ(オフセット)をスキャン角速度で割った時間がスキャンにかかるtiming offsetになる。使用した観測データは\SI{9}{RPM}=\SI{54}{deg/s}でのスキャン角速度に対応する。そのため、差分をとる2つの検出器の方位角をそれぞれ$\mathrm{Az}_{x}$、$\mathrm{Az}_{y}$とするとtiming offsetは
+\begin{equation}
+  \delta t~[\mathrm{ms}] = (\mathrm{Az}_{x} - \mathrm{Az}_{y}) / \SI{54}{[\mathrm{deg/s}]}\cdot 10^{3}
+\end{equation}
+で与えられる。検出器配置と方位角オフセットの対応を図\ref{timing_offset}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.75\columnwidth]{5_alignment/figs/timing_offset.pdf}
+  \caption{検出器の配置と方位角オフセット。隣接する検出器間でおよそ\SI{2.5}{^{\circ}}のオフセットがある。}
+  \label{timing_offset}
+\end{figure}
 
 
 
