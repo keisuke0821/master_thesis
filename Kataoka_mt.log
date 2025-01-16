@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  16 JAN 2025 10:44
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  16 JAN 2025 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,12 +877,47 @@ Overfull \hbox (21.34087pt too wide) in paragraph at lines 569--570
  [][] 
  []
 
-) [51] [52] [53]
+File: 5_alignment/figs/9011_11139_08_11.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_08_11.png>
+File: 5_alignment/figs/9011_11139_04_19.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_04_19.png>
+File: 5_alignment/figs/9011_11139_10_04.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_10_04.png>
+File: 5_alignment/figs/9011_11139_12_17.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_12_17.png>
+File: 5_alignment/figs/9011_11139_12_06.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_12_06.png>
+File: 5_alignment/figs/9011_11139_07_13.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_07_13.png>
+File: 5_alignment/figs/9011_11139_09_05.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_09_05.png>
+File: 5_alignment/figs/9011_11139_15_09.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_15_09.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--645
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--645
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--645
+[]
+ []
+
+) [51] [52]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[53] [54]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 5 章
-) [54
+) [55
 
 
 
@@ -892,14 +927,14 @@ Overfull \hbox (21.34087pt too wide) in paragraph at lines 569--570
 
  (./7_summary/summary.tex
 第 6 章
-) [55
+) [56
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 7 章
-) (./9_reference/kk_references.tex [56
+) (./9_reference/kk_references.tex [57
 
 
 
@@ -913,7 +948,7 @@ Underfull \hbox (badness 7064) in paragraph at lines 45--47
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
-[57
+[58
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
@@ -925,9 +960,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-) (./10_appendix/appendix.tex [58]
+) (./10_appendix/appendix.tex [59]
 付 録 A  
-) [59
+) [60
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -935,16 +970,20 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 25C79A2AAADF5978E96737C41F12417A;8600.
+(rerunfilecheck)             Checksum: 3AD5FB4F7875F5F222261D2F3FBC0482;8600.
  ) 
 Here is how much of TeX's memory you used:
- 18021 strings out of 474762
- 366176 string characters out of 5758587
+ 18103 strings out of 474762
+ 368885 string characters out of 5758587
  1933338 words of memory out of 5000000
- 40095 multiletter control sequences out of 15000+600000
+ 40169 multiletter control sequences out of 15000+600000
  576077 words of font info for 123 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1472b,1223s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (63 pages, 257020 bytes).
+Output written on Kataoka_mt.dvi (64 pages, 259520 bytes).

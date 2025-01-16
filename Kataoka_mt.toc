@@ -55,10 +55,10 @@
 \contentsline {subsection}{\numberline {4.5.2}PSDと自己相関関数}{47}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}timing offsetの算出}{50}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}回転前後での比較と大気揺らぎ抑制の確認}{53}{subsection.4.5.4}%
-\contentsline {chapter}{\numberline {第5章}今後の展望}{54}{chapter.5}%
-\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{54}{section.5.1}%
-\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{54}{section.5.2}%
-\contentsline {chapter}{\numberline {第6章}まとめ}{55}{chapter.6}%
-\contentsline {chapter}{\numberline {第7章}謝辞}{56}{chapter.7}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{57}{chapter*.73}%
-\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{59}{appendix.A}%
+\contentsline {chapter}{\numberline {第5章}今後の展望}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}大気揺らぎに由来するノイズのモデリング}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{55}{section.5.2}%
+\contentsline {chapter}{\numberline {第6章}まとめ}{56}{chapter.6}%
+\contentsline {chapter}{\numberline {第7章}謝辞}{57}{chapter.7}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{58}{chapter*.74}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{60}{appendix.A}%
