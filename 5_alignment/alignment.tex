@@ -572,4 +572,59 @@ TODを差し引くことでノイズ成分を落とせていることが、PSD�
 \end{figure}
 
 \subsection{回転前後での比較と大気揺らぎ抑制の確認}
-最後に検出器配置の回転前後でのCorrelation Indexを比較し、検出器間の相関の違いを確認した。
+最後に検出器配置の回転前後でのCorrelation Indexを比較し、検出器間の相関の違いを確認した。まず、回転前と回転後(PWV=\SI{1.1}{mm})の比較を図\ref{compare_9011_11139}に示す。
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/9011_11139_08_11.png}
+      \subcaption{\SI{220}{GHz}アレイのビーム中心マップ。}
+      \label{9011_11139_08_11}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/9011_11139_04_19.png}
+      \subcaption{各検出器のビーム中心の視線。}
+      \label{9011_11139_04_19}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/9011_11139_10_04.png}
+      \subcaption{\SI{220}{GHz}アレイのビーム中心マップ。}
+      \label{9011_11139_10_04}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/9011_11139_12_17.png}
+      \subcaption{各検出器のビーム中心の視線。}
+      \label{9011_11139_12_17}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/10960_gnomonic.png}
+      \subcaption{\SI{220}{GHz}アレイのビーム中心マップ。}
+      \label{10960_gnomview}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/10960_pos_kid17_70.png}
+      \subcaption{各検出器のビーム中心の視線。}
+      \label{10960_pos}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \caption{ビーム中心マップから取得した検出器の視線(\SI{220}{GHz}、回転後)。中心アレイでは歪みの影響が少ない分、余分に回転させたことによるスキャン軸に対する傾きが残っていることが見て取れる。}
+  \label{10960_beam_centered}
+\end{figure}
