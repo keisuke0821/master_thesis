@@ -1,6 +1,6 @@
 \contentsline {chapter}{\numberline {第1章}序論}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}CMBの異方性と現代宇宙論}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}CMBの温度異方性}{2}{subsection.1.1.1}%
+\contentsline {section}{\numberline {1.1}CMBの温度異方性と現代宇宙論}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}CMBの温度異方性}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}$\Lambda $-CDM~モデル}{2}{subsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.1.3}地平線問題}{2}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}CMBの偏光とインフレーション理論}{2}{section.1.2}%
