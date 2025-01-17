@@ -12,7 +12,22 @@
 
 宇宙初期は高温高密度であり、バリオン物質がイオン化しており、光子は電子と頻繁に散乱される不透明な状況であった。宇宙が膨張して冷えていくにつれてイオンの中性化が進み、電子の個数密度も減少していく。宇宙の温度がおよそ\SI{2970}{K}、宇宙年齢にしておよそ\SI{37}{万年}で光子と電子の散乱率がハッブルパラメータ(宇宙の膨張率)よりも小さくなり、光は散乱されずに真っすぐ進むようになる。この時期を``宇宙の晴れ上がり''または``最終散乱時刻''と呼ぶ\footnote{宇宙の晴れ上がりは光子と電子の散乱率がハッブルパラメータより小さくなる時期、最終散乱時刻はCMB光子が電子と最後に散乱する時刻として定義されるため厳密には異なる時刻を表すが、ほぼ同時刻とみなしてもよい}。我々観測者は最終散乱時刻に対応する``最終散乱面''に囲まれており、そこから散乱されることなく届くCMB光子を観測することができる。
 
-CMBがほぼ\SI{2.725}{K}の黒体放射のスペクトルを持つ
+CMBがほぼ\SI{2.725}{K}の黒体放射のスペクトルを持つと同時にわずかな温度異方性を持つことも発見された。ある空の1点でのCMB温度を$T(\theta,\phi)$とする。全方向で平均した温度は
+\begin{equation}
+  \langle T \rangle = \frac{1}{4\pi}\int T(\theta,\phi)\sin\theta d\theta d\phi = \SI{2.725}{\mathrm{K}}
+\end{equation}
+である。この空の1点$(\theta,\phi)$における温度揺らぎを
+\begin{equation}
+  \frac{\delta T}{T}(\theta,\phi) \equiv \frac{T(\theta,\phi) - \langle T \rangle}{\langle T \rangle}
+\end{equation}
+と定義する。Planck衛星によって観測された温度揺らぎ\cite{Planck_T}は$\sim \SI{100}{\mu\mathrm{K}}$であり、わずかな温度異方性を示している(図\ref{Planck_T})。
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\columnwidth]{2_cosmology/figs/planck_T_map_single.png}
+  \caption{Planck衛星によって観測されたCMBの温度異方性のマップ。}
+  \label{Planck_T}
+\end{figure}
 
 \subsection{$\Lambda$-CDM~モデル}
 
