@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  17 JAN 2025 17:47
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  17 JAN 2025 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -583,34 +583,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 56.
 
-
-LaTeX Warning: Reference `fit_planck' on page 3 undefined on input line 57.
-
 File: 2_cosmology/figs/plank_cltt.pdf Graphic file (type pdf)
 <2_cosmology/figs/plank_cltt.pdf>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 77.
+(hyperref)                removing `math shift' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 77.
+(hyperref)                removing `\tau' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 77.
+(hyperref)                removing `math shift' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 81.
+(hyperref)                removing `\tau' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `math shift' on input line 98.
 
 ) [3] [4]
 \openout2 = `3_GB/GB.aux'.
@@ -843,25 +840,16 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: F5A0556F346CF8246D43FB6A6C74081D;5613
-(rerunfilecheck)             After:  04BFEE2F9945F5FDD40B6333D17BEB3E;5605.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 71C72530C830497C84F68C9D4023A161;5605.
  ) 
 Here is how much of TeX's memory you used:
- 17690 strings out of 474762
- 355394 string characters out of 5758587
+ 17692 strings out of 474762
+ 355417 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39804 multiletter control sequences out of 15000+600000
+ 39806 multiletter control sequences out of 15000+600000
  575023 words of font info for 118 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1318b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (40 pages, 158308 bytes).
+Output written on Kataoka_mt.dvi (40 pages, 160032 bytes).
