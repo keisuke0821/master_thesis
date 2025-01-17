@@ -28,7 +28,17 @@ CMBがほぼ\SI{2.725}{K}の黒体放射のスペクトルを持つと同時に�
   \caption{Planck衛星によって観測されたCMBの温度異方性のマップ。}
   \label{Planck_T}
 \end{figure}
-CMB実験ではCMBの観測データと望遠鏡の角度データを用いて図\ref{Planck_T}で示すようなCMBの異方性を表す``マップ(強度分布図)''を作成する。このマップを球面調和関数展開してパワースペクトル($C_{l}$)作成することで、宇宙論パラメータを求めることができる。
+CMB実験ではCMBの観測データと望遠鏡の角度データを用いて図\ref{Planck_T}で示すようなCMBの異方性を表す``マップ(強度分布図)''を作成する。このマップを球面調和関数$Y^{m}_{l}(\theta,\phi)$で展開してパワースペクトル($C_{l}$)作成することで、宇宙論パラメータを求めることができる。空(球面上)の$(\theta,\phi)$(図\ref{kyuuzahyou})に対して単位ベクトル$\hat{n}$を
+\begin{equation}
+  \hat{n} \equiv (\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\theta)
+\end{equation}
+と定義する。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.5\columnwidth]{2_cosmology/figs/kyuuzahyou.pdf}
+  \caption{天球面の座標。}
+  \label{kyuuzahyou}
+\end{figure}
 
 \subsection{$\Lambda$-CDM~モデル}
 
