@@ -80,7 +80,7 @@ CMBのパワースペクトルの測定により、$\Lambda$-CDMモデルと呼�
 \end{table}
 現在では我々の知っているバリオン物質はエネルギー密度でたったの$\SI{5}{\%}$で、ダークエネルギーが約$\SI{70}{\%}$、CDMが$\SI{25}{\%}$を占めている。一方で、宇宙初期では異なるエネルギー密度の組成を持っている。
 
-$\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー密度$\epsilon(t)$、圧力$P(t)$、スケールファクター\footnote{時刻$t$での宇宙の広がりを表す膨張因子}$a(t)$の関係は、フリードマン方程式\footnote{本論文では$c=1$の自然単位系を用いる。}
+$\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー密度$\epsilon(t)$、圧力$P(t)$、スケールファクター\footnote{時刻$t$での宇宙の広がりを表す膨張因子}$a(t)$の関係は、フリードマン方程式\footnote{本論文では$\hbar=c=1$の自然単位系を用いる。}
 \begin{equation}
   \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\epsilon -\frac{K}{a^2} + \frac{\Lambda}{3} \label{eq:friedmann}
 \end{equation}
@@ -146,6 +146,42 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
 \section{CMBの偏光とインフレーション理論}
 
 \subsection{インフレーション理論}
+地平線問題をはじめとする現在の宇宙論が抱える問題を解決する有力な理論として``インフレーション理論''が提唱されている。この理論はビッグバンより前の初期に宇宙が加速膨張したとする理論である。加速膨張によって地平距離が大きく引き伸ばされ、最終散乱面全体で相関を持てるようになり、CMB温度異方性の観測結果を説明することができる。表\ref{rad_vs_mat}にあるように、ダークエネルギーのように働く機構があれば加速(指数関数的)膨張を実現できる。インフレーションではインフラトンと呼ばれるスカラー場を導入して加速膨張を説明する。インフラトン$\phi$が一様な空間でポテンシャル$V$を持つとすると、エネルギー密度は
+\begin{equation}
+  \epsilon_{\phi} = \frac{1}{2}\dot\phi^{2} + V(\phi) \label{eq:energy_phi}
+\end{equation}
+となり、インフラトン場の圧力は
+\begin{equation}
+  P_{\phi} = \frac{1}{2}\dot\phi^{2} - V(\phi) \label{eq:pressure_phi}
+\end{equation}
+で与えられる。インフラトン場が
+\begin{equation}
+  \dot\phi^{2} \ll V(\phi) \label{eq:condition}
+\end{equation}
+のようにゆっくり変化する時、インフラトン場はダークエネルギーのように振る舞う。すなわち、インフレーションを起こすための条件は
+\begin{itemize}
+  \item $\dot\phi$が十分小さい
+  \item $\epsilon_{\phi}\sim V(\phi)$が大きく、優勢である
+\end{itemize}
+である。
+
+初期宇宙でこの条件をどう満たすのかを見る。式\eqref{eq:flow}より、インフラトン場の流体方程式は
+\begin{equation}
+  \dot\epsilon_{\phi} + 3H(t)(\epsilon_{\phi} + P_{\phi}) = 0  ~~ (H(t) = \dot{a}/a)
+\end{equation}
+である。これに式\eqref{eq:energy_phi}と式\eqref{eq:pressure_phi}を代入すると
+\begin{equation}
+  \ddot\phi + 3H(t)\dot\phi + \frac{dV}{d\phi} = 0
+\end{equation}
+を得る。これは摩擦力を受ける粒子の運動方程式と同じであり、$3H(t)\dot\phi$が摩擦項に対応する。インフラトン場が``終端速度''に達した($\ddot\phi = 0$)時に
+\begin{equation}
+  \dot\phi = -\frac{1}{3H}\frac{dV}{d\phi}
+\end{equation}
+となる。これより、式\eqref{eq:condition}の条件は
+\begin{equation}
+  \Bigl(\frac{dV}{d\phi}\Bigr)^{2} \ll 9H^{2}V
+\end{equation}
+に置き換えられる。
 
 \subsection{CMBの偏光モード}
 
