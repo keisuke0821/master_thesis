@@ -100,7 +100,7 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
 \end{itemize}
 に分けられる。各成分ごとに方程式が成り立つとすると、式\eqref{eq:flow}と式\eqref{eq:eos}から成分$i$のエネルギー密度は
 \begin{equation}
-  \epsilon_{i}(a) = \epsilon_{i,0}a^{-3(1+\omega_{i})}
+  \epsilon_{i}(a) = \epsilon_{i,0}a^{-3(1+\omega_{i})} \label{eq:energy_density}
 \end{equation}
 となる。ここで、$\epsilon_{i,0}$は現在での値である。$a$は宇宙初期では0に近づくため、$\omega$が大きい成分ほど優勢になる。逆に宇宙の膨張するにつれて$\omega$が小さい成分ほど優勢になる。そのため、現在ではダークエネルギー優勢であるが、宇宙の初期では放射や物質が優勢であった。
 
@@ -113,6 +113,12 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
   a(t) \propto t^{2/(3+3\omega)}
 \end{equation}
 で表せる。したがって放射優勢期、物質優勢期では宇宙は減速膨張であったことが分かる(表\ref{rad_vs_mat})。
+
+ダークエネルギー優勢宇宙では式\eqref{eq:energy_density}から、エネルギー密度は一定であり、式\eqref{eq:friedmann}を解くことで
+\begin{equation}
+  a(t) \propto e^{ct} ~ (c = \mathrm{Const})
+\end{equation}
+を得られ、宇宙は加速膨張する。
 \begin{table}[htbp]
   \centering
   \caption{エネルギー成分ごとのスケールファクターの時間依存性。}
@@ -120,7 +126,8 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
   \begin{tabular}{ccc} \hline
     エネルギー成分 & $a(t)$ & $\dot{a}(t)$ \\ \hline
     放射 & $t^{1/2}$ & $t^{-1/2}$ \\
-    物質 & $t^{2/3}$ & $t^{-1/3}$ \\ \hline
+    物質 & $t^{2/3}$ & $t^{-1/3}$ \\
+    ダークエネルギー & $e^{ct}$ & $e^{ct}$ \\ \hline
   \end{tabular}
   \label{rad_vs_mat}
 \end{table}
