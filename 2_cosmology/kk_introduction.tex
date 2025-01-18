@@ -126,6 +126,15 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
 \end{table}
 
 \subsection{地平線問題}
+平坦な空間を動径$r$方向に進む光の経路は$ds^{2} = -dt^{2} + a^{2}(t)dr^{2} = 0$であり、これより光子が到達できる共動距離(宇宙の膨張に依らない距離)は
+\begin{equation}
+  r = \int_{0}^{r}dr' = \int_{0}^{t}\frac{1}{a(t')}dt'
+\end{equation}
+となる。これにスケールファクターをかけて物理的距離にすると
+\begin{equation}
+  d_{\mathrm{hor}}(t)\equiv a(t)r = a(t)\int_{0}^{t}\frac{1}{a(t')}dt' \label{eq:horizon}
+\end{equation}
+を得る。この$d_{\mathrm{hor}}(t)$を``地平距離''と呼び、ある時刻$t$までに光が到達できる距離、すなわちある時刻$t$で相関を持てる距離を表す。放射優勢期では、表\ref{rad_vs_mat}のスケールファクターを式\eqref{eq:horizon}に代入すると$d_{\mathrm{hor}}(t) = 2t$となる。物質優勢期でも同様にして$d_{\mathrm{hor}}(t) = 3t$を得られる。つまり、減速膨張宇宙では地平距離は$t$に比例して増加する。これは宇宙初期では地平距離が宇宙の膨張よりも速く広がることを意味する。
 
 \section{CMBの偏光とインフレーション理論}
 
