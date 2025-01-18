@@ -82,15 +82,15 @@ CMBのパワースペクトルの測定により、$\Lambda$-CDMモデルと呼�
 
 $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー密度$\epsilon(t)$、圧力$P(t)$、スケールファクター\footnote{時刻$t$での宇宙の広がりを表す膨張因子}$a(t)$の関係は、フリードマン方程式\footnote{本論文では$c=1$の自然単位系を用いる。}
 \begin{equation}
-  \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\epsilon -\frac{K}{a^2} + \frac{\Lambda}{3}
+  \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\epsilon -\frac{K}{a^2} + \frac{\Lambda}{3} \label{eq:friedmann}
 \end{equation}
 と、流体方程式
 \begin{equation}
-  \dot{\epsilon} + 3\frac{\dot{a}}{a}(\epsilon + P) = 0
+  \dot{\epsilon} + 3\frac{\dot{a}}{a}(\epsilon + P) = 0 \label{eq:flow}
 \end{equation}
 と、状態方程式
 \begin{equation}
-  P = \omega\epsilon
+  P = \omega\epsilon \label{eq:eos}
 \end{equation}
 で表せる。ここで$G$はニュートンの重力定数である。また、$K$は空間曲率を表し、$K=0$で平坦宇宙を表す。$\omega$は宇宙を占める成分ごとに異なるパラメータであり、成分は
 \begin{itemize}
@@ -98,7 +98,21 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
   \item 物質(非相対論的粒子、$\omega$ = 0)
   \item ダークエネルギー($\omega = -1$)
 \end{itemize}
-に分けられる。
+に分けられる。各成分ごとに方程式が成り立つとすると、式\eqref{eq:flow}と式\eqref{eq:eos}から成分$i$のエネルギー密度は
+\begin{equation}
+  \epsilon_{i}(a) = \epsilon_{i,0}a^{-3(1+\omega_{i})}
+\end{equation}
+となる。ここで、$\epsilon_{i,0}$は現在での値である。$a$は宇宙初期では0に近づくため、$\omega$が大きい成分ほど優勢になる。逆に宇宙の膨張するにつれて$\omega$が小さい成分ほど優勢になる。そのため、現在ではダークエネルギー優勢であるが、宇宙の初期では放射や物質が優勢であった。
+
+放射、物質優勢宇宙での各パラメータの時間依存性を見る。成分$\omega$の1成分宇宙でかつ平坦であると仮定すると式\eqref{eq:friedmann}は以下の単純な形になる。
+\begin{equation}
+  \dot{a}^{2} = \frac{8\pi G\epsilon_{0}}{3}a^{-(1+3\omega)}
+\end{equation}
+スケールファクターが$a\propto t^{q}$の冪乗に従うと仮定すると
+\begin{equation}
+  a(t) \propto t^{2/(3+3\omega)}
+\end{equation}
+で表せる。
 
 \subsection{地平線問題}
 
