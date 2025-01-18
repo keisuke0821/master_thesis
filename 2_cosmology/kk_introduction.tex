@@ -116,7 +116,7 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
 
 ダークエネルギー優勢宇宙では式\eqref{eq:energy_density}から、エネルギー密度は一定であり、式\eqref{eq:friedmann}を解くことで
 \begin{equation}
-  a(t) \propto e^{ct} ~ (c = \mathrm{Const})
+  a(t) \propto e^{Ct} ~ (C = \mathrm{Const})
 \end{equation}
 を得られ、宇宙は加速膨張する。
 \begin{table}[htbp]
@@ -127,7 +127,7 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
     エネルギー成分 & $a(t)$ & $\dot{a}(t)$ \\ \hline
     放射 & $t^{1/2}$ & $t^{-1/2}$ \\
     物質 & $t^{2/3}$ & $t^{-1/3}$ \\
-    ダークエネルギー & $e^{ct}$ & $e^{ct}$ \\ \hline
+    ダークエネルギー & $e^{Ct}$ & $e^{Ct}$ \\ \hline
   \end{tabular}
   \label{rad_vs_mat}
 \end{table}
@@ -181,7 +181,13 @@ $\Lambda$-CDMモデルにおける一様等方な宇宙では、エネルギー�
 \begin{equation}
   \Bigl(\frac{dV}{d\phi}\Bigr)^{2} \ll 9H^{2}V
 \end{equation}
-に置き換えられる。
+に置き換えられる。すなわち、インフラトンポテンシャルの勾配が十分小さく、摩擦項が十分大きければインフラトン場は加速膨張を引き起こすことができる。この条件は``スローロール条件''と呼ばれる(図\ref{slow_roll})。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.85\columnwidth]{2_cosmology/figs/slow_roll.pdf}
+  \caption{インフレーションを起こせるポテンシャルの例。ポテンシャルの最小値は$\phi = \phi_{0}$であり、$\phi$は$\phi_{0}$に向けてゆっくりと転がっていく。その間、インフラトン場は一定のエネルギー密度$\epsilon_{\phi}\sim V_{0}$として加速膨張に作用する。}
+  \label{slow_roll}
+\end{figure}
 
 \subsection{CMBの偏光モード}
 
