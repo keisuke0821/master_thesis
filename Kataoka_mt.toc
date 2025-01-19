@@ -6,38 +6,38 @@
 \contentsline {section}{\numberline {1.2}CMBの偏光とインフレーション理論}{5}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}インフレーション理論}{5}{subsection.1.2.1}%
 \contentsline {subsection}{\numberline {1.2.2}CMBの偏光モード}{6}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}偏光Bモードの探索状況}{7}{subsection.1.2.3}%
-\contentsline {section}{\numberline {1.3}CMBの偏光とニュートリノ質量和}{7}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}光学的厚み~$\tau $}{7}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}ニュートリノ質量和との縮退}{7}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}偏光Eモードと$\tau $}{7}{subsection.1.3.3}%
-\contentsline {chapter}{\numberline {第2章}GroundBIRD実験}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}実験概要}{9}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}GroundBIRD望遠鏡とスキャン戦略}{9}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}超伝導検出器MKID}{10}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}観測する周波数帯域}{12}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}物理ターゲット}{13}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}現在の観測状況}{14}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}検出器のフルアレイインストール}{14}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}リモート観測システム}{16}{subsection.2.2.2}%
-\contentsline {chapter}{\numberline {第3章}仰角データ取得システムの改善}{17}{chapter.3}%
-\contentsline {section}{\numberline {3.1}望遠鏡仰角データ取得システムの改善}{17}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{17}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}仰角データ取得における問題点}{20}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}PYNQを用いた新システムの導入}{23}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}PYNQイメージファイルの作成}{24}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}望遠鏡への実装}{25}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}新データ取得システムのインストール}{25}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}同期信号取得の確認}{26}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}同期信号の分配と仰角データ取得の確認}{26}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{27}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{27}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{29}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{31}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {第4章}今後の展望}{34}{chapter.4}%
-\contentsline {section}{\numberline {4.1}大気揺らぎに由来するノイズのモデリング}{34}{section.4.1}%
-\contentsline {section}{\numberline {4.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{34}{section.4.2}%
-\contentsline {chapter}{\numberline {第5章}まとめ}{35}{chapter.5}%
-\contentsline {chapter}{\numberline {第6章}謝辞}{36}{chapter.6}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{37}{chapter*.43}%
-\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{40}{appendix.A}%
+\contentsline {subsection}{\numberline {1.2.3}偏光Bモードの探索状況}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}CMBの偏光とニュートリノ質量和}{9}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}光学的厚み~$\tau $}{9}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}ニュートリノ質量和との縮退}{9}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}偏光Eモードと$\tau $}{9}{subsection.1.3.3}%
+\contentsline {chapter}{\numberline {第2章}GroundBIRD実験}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}実験概要}{10}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}GroundBIRD望遠鏡とスキャン戦略}{10}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}超伝導検出器MKID}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}観測する周波数帯域}{13}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}物理ターゲット}{14}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}現在の観測状況}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}検出器のフルアレイインストール}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}リモート観測システム}{17}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {第3章}仰角データ取得システムの改善}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}望遠鏡仰角データ取得システムの改善}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{18}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}仰角データ取得における問題点}{21}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}PYNQを用いた新システムの導入}{24}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}PYNQイメージファイルの作成}{25}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}望遠鏡への実装}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}新データ取得システムのインストール}{26}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}同期信号取得の確認}{27}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}同期信号の分配と仰角データ取得の確認}{27}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{28}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{28}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{30}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{32}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {第4章}今後の展望}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}大気揺らぎに由来するノイズのモデリング}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{35}{section.4.2}%
+\contentsline {chapter}{\numberline {第5章}まとめ}{36}{chapter.5}%
+\contentsline {chapter}{\numberline {第6章}謝辞}{37}{chapter.6}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{38}{chapter*.44}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{41}{appendix.A}%

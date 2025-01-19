@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 11:00
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,7 +314,17 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \extratabsurround=\skip54
 \backup@length=\skip55
 \ar@cellbox=\box81
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+\symboldmincho=\mathgroup10
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -365,7 +375,7 @@ Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 \linenoamsmath@ams@eqpen=\count318
 LaTeX Info: Redefining \\ on input line 3180.
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 43.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 44.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
  (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -391,28 +401,28 @@ LaTeX Warning: Unused global option(s):
 (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
 \openout1 = `Kataoka_mt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -448,7 +458,7 @@ LaTeX Font Info:    ... okay on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 43.
+Package hyperref Info: Link coloring ON on input line 44.
 (./Kataoka_mt.out) (./Kataoka_mt.out)
 \@outlinefile=\write3
 \openout3 = `Kataoka_mt.out'.
@@ -456,7 +466,7 @@ Package hyperref Info: Link coloring ON on input line 43.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 43.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 44.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./0_title/title.tex
@@ -506,17 +516,17 @@ LaTeX Warning: Reference `chapter4' on page 0 undefined on input line 6.
 
 [0])
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 61.
+(Font)              scaled to size 19.95642pt on input line 62.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 61.
+(Font)              scaled to size 19.95642pt on input line 62.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 61.
+(Font)              scaled to size 19.95642pt on input line 62.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 61.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.95642pt on input line 61.
+(Font)              scaled to size 19.95642pt on input line 62.
  (./Kataoka_mt.toc
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 7.69775pt on input line 2.
@@ -529,7 +539,12 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 7.69775pt on input line 2.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 2.
+ [1
 
 ])
 \tf@toc=\write4
@@ -560,6 +575,10 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 8.65997pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.8111pt on input line 13.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 13.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 5.77332pt on input line 13.
 [1
@@ -588,50 +607,48 @@ File: 2_cosmology/figs/plank_cltt.pdf Graphic file (type pdf)
 [3] [4] [5]
 File: 2_cosmology/figs/slow_roll.pdf Graphic file (type pdf)
 <2_cosmology/figs/slow_roll.pdf>
-
-
-LaTeX Warning: Citation `komatsu' on page 6 undefined on input line 200.
-
 File: 2_cosmology/figs/pol_1.pdf Graphic file (type pdf)
 <2_cosmology/figs/pol_1.pdf>
-
-LaTeX Warning: Reference `four_pol' on page 6 undefined on input line 207.
-
 File: 2_cosmology/figs/pol_2.pdf Graphic file (type pdf)
 <2_cosmology/figs/pol_2.pdf>
-[6]
+ [6]
+
+LaTeX Warning: Reference `pol_mode' on page 7 undefined on input line 220.
+
+File: 2_cosmology/figs/pol_mode.pdf Graphic file (type pdf)
+<2_cosmology/figs/pol_mode.pdf>
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 219.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 219.
+(hyperref)                removing `math shift' on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 223.
+(hyperref)                removing `\tau' on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 223.
+(hyperref)                removing `math shift' on input line 232.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 223.
+(hyperref)                removing `math shift' on input line 236.
 
-) [7] [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 236.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 236.
+
+) [7] [8] [9]
 \openout2 = `3_GB/GB.aux'.
 
  (./3_GB/GB.tex
 第 2 章
 File: 3_GB/figs/GB_overview2.pdf Graphic file (type pdf)
 <3_GB/figs/GB_overview2.pdf>
-[9
+[10
 
 
 
@@ -641,7 +658,7 @@ File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
 <3_GB/figs/scan_strategy.pdf>
 File: 3_GB/figs/gb_int.png Graphic file (type bmp)
 <3_GB/figs/gb_int.png>
- [10]
+ [11]
 File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_pic.pdf>
 
@@ -660,19 +677,19 @@ Overfull \hbox (5.18408pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[11]
+[12]
 File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 <3_GB/figs/cooper.pdf>
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
- [12]
+ [13]
 File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 <3_GB/figs/tau_planck_wmap_cut.pdf>
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
- [13]
+ [14]
 
-LaTeX Warning: Reference `chapter4' on page 14 undefined on input line 121.
+LaTeX Warning: Reference `chapter4' on page 15 undefined on input line 121.
 
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
@@ -688,21 +705,21 @@ Overfull \hbox (7.11885pt too wide) in paragraph at lines 124--142
 [][]
  []
 
-[14] [15]
+[15] [16]
 File: 3_GB/figs/webcam.png Graphic file (type bmp)
 <3_GB/figs/webcam.png>
 
 
-LaTeX Warning: Reference `chapter4' on page 16 undefined on input line 182.
+LaTeX Warning: Reference `chapter4' on page 17 undefined on input line 182.
 
-) [16]
+) [17]
 \openout2 = `4_elDAQ/elDAQ.aux'.
 
  (./4_elDAQ/elDAQ.tex
 第 3 章
 File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_daq_2.pdf>
-[17
+[18
 
 
 
@@ -716,23 +733,23 @@ File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
 <4_elDAQ/figs/ERM220.png>
 File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
 <4_elDAQ/figs/spartan-3e-2.png>
- [18]
+ [19]
 File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_sync_2.pdf>
- [19]
+ [20]
 File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
 <4_elDAQ/figs/el_daq_box.pdf>
 File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
 <4_elDAQ/figs/block_diagram.pdf>
 File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
 <4_elDAQ/figs/zynq_flow.pdf>
- [20] [21]
+ [21] [22]
 File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sd_zybo2.pdf>
- [22] [23]
+ [23] [24]
 File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
 <4_elDAQ/figs/overlay3.pdf>
- [24]
+ [25]
 File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_pic.jpg>
 File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
@@ -742,7 +759,7 @@ Overfull \hbox (83.379pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
-[25]
+[26]
 File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
 <4_elDAQ/figs/enc_data_test.png>
 File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
@@ -761,10 +778,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sync_id.pdf>
-[26]
+[27]
 File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
 <4_elDAQ/figs/elevation_data.png>
- [27] [28]
+ [28] [29]
 File: 4_elDAQ/figs/connector_barrel.pdf Graphic file (type pdf)
 <4_elDAQ/figs/connector_barrel.pdf>
 File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
@@ -780,20 +797,20 @@ Overfull \hbox (38.37798pt too wide) in paragraph at lines 401--409
  [][] 
  []
 
-[29] [30]
+[30] [31]
 File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
- [31]
+ [32]
 File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 <4_elDAQ/figs/temp_zynq_202408.png>
-) [32] [33]
+) [33] [34]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 4 章
-) [34
+) [35
 
 
 
@@ -803,14 +820,14 @@ File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 
  (./7_summary/summary.tex
 第 5 章
-) [35
+) [36
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 6 章
-) (./9_reference/kk_references.tex [36
+) (./9_reference/kk_references.tex [37
 
 
 
@@ -824,7 +841,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 16--18
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A1 (2020), [][]https://doi.org/10.1051/0004-
  []
 
-[37
+[38
 
 ]
 Underfull \hbox (badness 7064) in paragraph at lines 65--67
@@ -841,9 +858,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-[38]) (./10_appendix/appendix.tex [39]
+[39]) (./10_appendix/appendix.tex [40]
 付 録 A  
-) [40
+) [41
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -864,16 +881,16 @@ Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: E45132E125900CC764DE9555CE54D11A;5605
-(rerunfilecheck)             After:  B4C4C49084EF0EE74DFF25B2A762C619;5605.
+(rerunfilecheck)             Before: B4C4C49084EF0EE74DFF25B2A762C619;5605
+(rerunfilecheck)             After:  7F0B9AB7C32BEC05941B1D063E105BAD;5605.
  ) 
 Here is how much of TeX's memory you used:
- 17737 strings out of 474762
- 356363 string characters out of 5758587
+ 17867 strings out of 474762
+ 358075 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39848 multiletter control sequences out of 15000+600000
- 575023 words of font info for 118 fonts, out of 8000000 for 9000
+ 39960 multiletter control sequences out of 15000+600000
+ 580469 words of font info for 137 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1578b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (44 pages, 181192 bytes).
+Output written on Kataoka_mt.dvi (45 pages, 183808 bytes).
