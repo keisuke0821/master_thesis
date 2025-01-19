@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 17:35
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -632,19 +632,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 256.
 
+[9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 260.
+(hyperref)                removing `math shift' on input line 265.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 260.
+(hyperref)                removing `\tau' on input line 265.
 
-) [9] [10] [11]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 265.
+
+) [10] [11]
 \openout2 = `3_GB/GB.aux'.
 
  (./3_GB/GB.tex
@@ -875,8 +876,17 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 504C6904D58F36FC7DDDC5A37EB405BA;5605.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
+(rerunfilecheck)             Before: 504C6904D58F36FC7DDDC5A37EB405BA;5605
+(rerunfilecheck)             After:  109097C6689D70EA11CF627EFDADA350;5654.
  ) 
 Here is how much of TeX's memory you used:
  17885 strings out of 474762
@@ -887,4 +897,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1578b,1037s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (47 pages, 191136 bytes).
+Output written on Kataoka_mt.dvi (47 pages, 193152 bytes).
