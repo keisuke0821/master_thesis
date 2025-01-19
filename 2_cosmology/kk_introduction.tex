@@ -246,7 +246,7 @@ Bモードの探索は、温度異方性と同様にしてBモードのCMBパワ
 という上限が与えられている\cite{const_r}。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\columnwidth]{2_cosmology/figs/latest_results.png}
+  \includegraphics[width=0.9\columnwidth]{2_cosmology/figs/latest_results.png}
   \caption{Planck実験とBICEP/Keck実験によって与えられた$r$と$n_{s}$平面に付けられた制限\cite{const_r}。$n_{s}$はスカラー揺らぎを特徴付ける量で、この値が1からずれていることがインフレーションを支持することを意味する。$N$はインフレーションによるスケールファクターの膨張率を表す。また、実線でインフラトンのポテンシャルが$\phi$の冪乗だと仮定した時の$r$と$n_{s}$の関係を示している。}
   \label{const_r}
 \end{figure}
@@ -254,6 +254,7 @@ Bモードの探索は、温度異方性と同様にしてBモードのCMBパワ
 \section{CMBの偏光とニュートリノ質量和}
 
 \subsection{宇宙の再電離と光学的厚み~$\tau$}
+\label{reion_and_tau}
 宇宙の晴れ上がり以降CMB光子は一切散乱されることはないかといえばそうではない。晴れ上がりの後、赤方偏移$z\sim 20$\footnote{赤方偏移$z$はスケールファクターに対して$1+z = \frac{1}{a}$の関係である。}の時期になると、最初の天体が誕生し、天体から発せられる強い紫外線によって宇宙に広がっていた中性水素原子が再び電離される。この現象を``宇宙の再電離''と呼ぶ。再電離によって生じた自由電子によってCMB光子は再び散乱される。この再電離期を特徴付けるパラメータとして光学的厚み$\tau$を
 \begin{equation}
   \tau\equiv\int_{t_{rs}}^{t_{0}}dt\bar{n}_{e}\sigma_{\tau}
@@ -270,13 +271,28 @@ Bモードの探索は、温度異方性と同様にしてBモードのCMBパワ
   \caption{$\tau$、$\Sigma m_{\nu}$によって変化する重力レンズBモードパワースペクトル。\cite{sueno_doctor}より引用。}
   \label{tau_mass}
 \end{figure}
-$\tau$の値が大きいほど、また$\Sigma m_{\nu}$が大きいほどスペクトルの振幅は小さくなる。ニュートリノは速度分散が大きく、小角度スケールでは構造形成を抑制するように働く。そのため、重力レンズによる影響も抑制される。この効果が質量和に応じて異なるため、スペクトルの振幅に違いが生まれる。$\tau$に関しても、同様な効果を生むため両者は縮退したパラメータとなっている。そのため、$\tau$を精度良く測定することで$\Sigma m_{\nu}$との縮退を解くことができる\ref{degeneracy}。ニュートリノの質量和は素粒子物理学においても重要な課題であり、CMBの偏光観測からこの課題に迫れることは大きな意義がある。
+$\tau$の値が大きいほど、また$\Sigma m_{\nu}$が大きいほどスペクトルの振幅は小さくなる。ニュートリノは速度分散が大きく、小角度スケールでは構造形成を抑制するように働く。そのため、重力レンズによる影響も抑制される。この効果が質量和に応じて異なるため、スペクトルの振幅に違いが生まれる。$\tau$に関しても、同様な効果を生むため両者は縮退したパラメータとなっている。そのため、$\tau$を精度良く測定することで$\Sigma m_{\nu}$との縮退を解くことができる(図\ref{degeneracy})。ニュートリノの質量和は素粒子物理学においても重要な課題であり、CMBの偏光観測からこの課題に迫れることは大きな意義がある。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.8\columnwidth]{2_cosmology/figs/medium.png}
-  \caption{縮退した$\tau$と$\Sigma m_{\nu}$。図の楕円は$1\sigma$のCondidence Levelを表す。\cite{degeneracy}より引用。}
+  \includegraphics[width=0.9\columnwidth]{2_cosmology/figs/medium.png}
+  \caption{縮退した$\tau$と$\Sigma m_{\nu}$。図の楕円は$1\sigma$のConfidence Levelを表す。\cite{degeneracy}より引用。}
   \label{degeneracy}
 \end{figure}
 
 \subsection{偏光Eモードと$\tau$}
 \label{E_and_tau}
+\ref{reion_and_tau}でも述べたように、重力レンズ由来のBモード以外にもEモードのパワースペクトルから$\tau$の値を測定することができる。再電離によって$\ell\lesssim 10$の大角度スケールでEモードのパワースペクトルに$\tau^{2}(1+2\tau)$の依存性を生む。つまり、$\tau$が大きいほどスペクトルの振幅が大きくなる。そのため、Eモードの観測から$\tau$を精度良く測定することでも$\Sigma m_{\nu}$との縮退を解くことができる。
+温度異方性のパワースペクトルも含めてニュートリノ質量和に迫る$\tau$の測定方法をまとめると表\ref{tau_methods}のようになる。
+\begin{table}[htbp]
+  \centering
+  \caption{$\tau$の測定が可能なパワースペクトルのモードと角度スケール。}
+  \vspace{3mm}
+  \begin{tabular}{cc} \hline
+    モード & 角度スケール  \\ \hline
+    温度異方性 & 小角度($\tau$がスカラー型の原始揺らぎの振幅$A_{s}$と縮退するため単独では難しい) \\
+    E & 大角度($\ell\lesssim 10$) \\
+    B(重力レンズ) & 小角度($\ell\sim 1000$) \\ \hline
+  \end{tabular}
+  \label{tau_methods}
+\end{table}
+これより、偏光モードと角度スケールに応じて$\tau$、そして$\Sigma m_{\nu}$にアプローチすることができる。

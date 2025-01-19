@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  20 JAN 2025 00:51
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  20 JAN 2025 02:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,15 +640,20 @@ File: 2_cosmology/figs/medium.png Graphic file (type bmp)
  [10] [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 282.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 281.
+(hyperref)                removing `\tau' on input line 282.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 281.
+(hyperref)                removing `math shift' on input line 282.
+
+
+Overfull \hbox (40.13252pt too wide) in paragraph at lines 290--297
+ [][] 
+ []
 
 ) [12] [13]
 \openout2 = `3_GB/GB.aux'.
@@ -881,16 +886,19 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: E10ABE713EF455FCDEE4047E9B495F18;5654.
+(rerunfilecheck)             Checksum: 0B803652DD688B00B01368E7694E05D7;5654.
  ) 
 Here is how much of TeX's memory you used:
- 17902 strings out of 474762
- 359027 string characters out of 5758587
+ 17906 strings out of 474762
+ 359093 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39991 multiletter control sequences out of 15000+600000
+ 39995 multiletter control sequences out of 15000+600000
  580469 words of font info for 137 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,13n,79p,1578b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (49 pages, 198472 bytes).
+Output written on Kataoka_mt.dvi (49 pages, 200652 bytes).
