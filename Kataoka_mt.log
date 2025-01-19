@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 12:42
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 JAN 2025 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -614,39 +614,41 @@ File: 2_cosmology/figs/pol_2.pdf Graphic file (type pdf)
  [6]
 File: 2_cosmology/figs/pol_mode.pdf Graphic file (type pdf)
 <2_cosmology/figs/pol_mode.pdf>
+File: 2_cosmology/figs/bicep_ref.png Graphic file (type bmp)
+<2_cosmology/figs/bicep_ref.png>
+ [7] [8]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 242.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 234.
+(hyperref)                removing `\tau' on input line 242.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 234.
+(hyperref)                removing `math shift' on input line 242.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 234.
+(hyperref)                removing `math shift' on input line 246.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
+(hyperref)                removing `\tau' on input line 246.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\tau' on input line 238.
+(hyperref)                removing `math shift' on input line 246.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 238.
-
-) [7] [8] [9]
+) [9] [10]
 \openout2 = `3_GB/GB.aux'.
 
  (./3_GB/GB.tex
 第 2 章
 File: 3_GB/figs/GB_overview2.pdf Graphic file (type pdf)
 <3_GB/figs/GB_overview2.pdf>
-[10
+[11
 
 
 
@@ -656,7 +658,7 @@ File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
 <3_GB/figs/scan_strategy.pdf>
 File: 3_GB/figs/gb_int.png Graphic file (type bmp)
 <3_GB/figs/gb_int.png>
- [11]
+ [12]
 File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_pic.pdf>
 
@@ -675,19 +677,19 @@ Overfull \hbox (5.18408pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[12]
+[13]
 File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 <3_GB/figs/cooper.pdf>
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
- [13]
+ [14]
 File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 <3_GB/figs/tau_planck_wmap_cut.pdf>
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
- [14]
+ [15]
 
-LaTeX Warning: Reference `chapter4' on page 15 undefined on input line 121.
+LaTeX Warning: Reference `chapter4' on page 16 undefined on input line 121.
 
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
@@ -703,21 +705,21 @@ Overfull \hbox (7.11885pt too wide) in paragraph at lines 124--142
 [][]
  []
 
-[15] [16]
+[16] [17]
 File: 3_GB/figs/webcam.png Graphic file (type bmp)
 <3_GB/figs/webcam.png>
 
 
-LaTeX Warning: Reference `chapter4' on page 17 undefined on input line 182.
+LaTeX Warning: Reference `chapter4' on page 18 undefined on input line 182.
 
-) [17]
+) [18]
 \openout2 = `4_elDAQ/elDAQ.aux'.
 
  (./4_elDAQ/elDAQ.tex
 第 3 章
 File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_daq_2.pdf>
-[18
+[19
 
 
 
@@ -731,23 +733,23 @@ File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
 <4_elDAQ/figs/ERM220.png>
 File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
 <4_elDAQ/figs/spartan-3e-2.png>
- [19]
+ [20]
 File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/GB_sync_2.pdf>
- [20]
+ [21]
 File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
 <4_elDAQ/figs/el_daq_box.pdf>
 File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
 <4_elDAQ/figs/block_diagram.pdf>
 File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
 <4_elDAQ/figs/zynq_flow.pdf>
- [21] [22]
+ [22] [23]
 File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sd_zybo2.pdf>
- [23] [24]
+ [24] [25]
 File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
 <4_elDAQ/figs/overlay3.pdf>
- [25]
+ [26]
 File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_pic.jpg>
 File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
@@ -757,7 +759,7 @@ Overfull \hbox (83.379pt too wide) in paragraph at lines 239--240
  [][] 
  []
 
-[26]
+[27]
 File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
 <4_elDAQ/figs/enc_data_test.png>
 File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
@@ -776,10 +778,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sync_id.pdf>
-[27]
+[28]
 File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
 <4_elDAQ/figs/elevation_data.png>
- [28] [29]
+ [29] [30]
 File: 4_elDAQ/figs/connector_barrel.pdf Graphic file (type pdf)
 <4_elDAQ/figs/connector_barrel.pdf>
 File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
@@ -795,20 +797,20 @@ Overfull \hbox (38.37798pt too wide) in paragraph at lines 401--409
  [][] 
  []
 
-[30] [31]
+[31] [32]
 File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
- [32]
+ [33]
 File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 <4_elDAQ/figs/temp_zynq_202408.png>
-) [33] [34]
+) [34] [35]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
 第 4 章
-) [35
+) [36
 
 
 
@@ -818,14 +820,14 @@ File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 
  (./7_summary/summary.tex
 第 5 章
-) [36
+) [37
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
 第 6 章
-) (./9_reference/kk_references.tex [37
+) (./9_reference/kk_references.tex [38
 
 
 
@@ -839,26 +841,26 @@ Underfull \hbox (badness 5203) in paragraph at lines 16--18
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A1 (2020), [][]https://doi.org/10.1051/0004-
  []
 
-[38
+[39
 
 ]
-Underfull \hbox (badness 7064) in paragraph at lines 65--67
+Underfull \hbox (badness 7064) in paragraph at lines 69--71
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 [][][]\OT1/cmr/m/n/10.95 https://japan.xilinx.com/support/documentation-navigation/silicon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-[39]) (./10_appendix/appendix.tex [40]
+[40]) (./10_appendix/appendix.tex [41]
 付 録 A  
-) [41
+) [42
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -871,15 +873,15 @@ L3 programming layer <2024-03-14>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 7F0B9AB7C32BEC05941B1D063E105BAD;5605.
+(rerunfilecheck)             Checksum: D4FE70AC6D84D4942BEF5311C7851CA5;5605.
  ) 
 Here is how much of TeX's memory you used:
- 17867 strings out of 474762
- 358075 string characters out of 5758587
+ 17876 strings out of 474762
+ 358320 string characters out of 5758587
  1931338 words of memory out of 5000000
- 39960 multiletter control sequences out of 15000+600000
+ 39968 multiletter control sequences out of 15000+600000
  580469 words of font info for 137 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 72i,13n,79p,1578b,1039s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,1578b,1041s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (45 pages, 185292 bytes).
+Output written on Kataoka_mt.dvi (46 pages, 187608 bytes).
