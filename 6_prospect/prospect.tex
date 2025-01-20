@@ -21,5 +21,11 @@
 \begin{equation}
   R(\Delta\bm{x},\omega,z, v_{w}) = \frac{1}{2^{1/3}\Gamma(\frac{4}{3})}\mathrm{exp}\Bigl(i\frac{\omega}{v_{w}}\Delta x\Bigr)\Bigl(\frac{\omega}{v_{w}}|\Delta y|\Bigr)^{4/3}K_{4/3}\Bigl(\frac{\omega}{v_{w}}|\Delta y|\Bigr)
 \end{equation}
-と記述できる。ここで、$\omega$は周波数、$v_{w}$を風速、$K_{4/3}$は修正ベッセル関数を表す。
+と記述できる。ここで、$\omega$は周波数、$v_{w}$は風速、$K_{4/3}$は修正ベッセル関数を表す。
+
+次に$n$層の場合を考える。全ての層同士は相関を持たないと仮定するため、多層であっても1層の場合でそれぞれ計算し、和を取ることで表せる。$i$番目の層までの距離を$z_{i}$とすると、$n$層での相関関数は
+\begin{equation}
+  R_{n}(\Delta\bm{\theta},\omega,v_{w}) = \frac{\displaystyle\sum_{i=1}^{n}w(z_{i})^{2}R(z_{i}\Delta\bm{\theta},\omega,z_{i},v_{w})}{\displaystyle\sum_{i=1}^{n}w(z_{i})^{2}}
+\end{equation}
+のように表せる。ここで、$\Delta\bm{\theta} = (\Delta x/z, \Delta y/z)$であり、$w(z)$は$z$の重み関数である。
 \section{両偏波アンテナを搭載した焦点面検出器のアップデート}
