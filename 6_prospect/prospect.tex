@@ -27,5 +27,10 @@
 \begin{equation}
   R_{n}(\Delta\bm{\theta},\omega,v_{w}) = \frac{\displaystyle\sum_{i=1}^{n}w(z_{i})^{2}R(z_{i}\Delta\bm{\theta},\omega,z_{i},v_{w})}{\displaystyle\sum_{i=1}^{n}w(z_{i})^{2}}
 \end{equation}
-のように表せる。ここで、$\Delta\bm{\theta} = (\Delta x/z, \Delta y/z)$であり、$w(z)$は$z$の重み関数である。
+のように表せる。ここで、$\Delta\bm{\theta} = (\Delta x/z, \Delta y/z)$であり、$w(z)$は$z$の重み関数である。この相関関数は、風の方向に対して平行な向きを考えるとシンプルな表式になり、解析的に計算ができる。風に平行な向き、ここでは$x$方向のモデルを仮定して計算すると
+\begin{align}
+  R(\Delta\bm{\theta} = (\Delta\theta_{x}, 0), \omega, v_{w}) &= \frac{\int_{0}^{\infty}dz\mathrm{exp}\Bigl(-\frac{2z}{z_{0}}\Bigr)\mathrm{exp}\Bigl(i\frac{\omega}{v_{w}}z\Delta\theta_{x}\Bigr)}{\int_{0}^{\infty}dz\mathrm{exp}\Bigl(-\frac{2z}{z_{0}}\Bigr)} \\
+  &= \frac{(\Gamma_{x}/2)^{2}}{(\Delta\theta_{x})^{2} + (\Gamma_{x}/2)^{2}} + i\frac{(\Gamma_{x}/2)\Delta\theta_{x}}{(\Delta\theta_{x})^{2} + (\Gamma_{x}/2)^{2}}
+\end{align}
+となる。
 \section{両偏波アンテナを搭載した焦点面検出器のアップデート}
