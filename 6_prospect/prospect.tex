@@ -13,4 +13,13 @@
   \caption{平面の層を用いた大気のモデル。全ての層は同じ風速の風を同じ方向に受けて動くと仮定している。}
   \label{atmos_layer}
 \end{figure}
+まず1層のみの場合で考える。層上の2つの検出器$i, j$があり、これらの座標の差を
+\begin{equation}
+  \Delta\bm{x} = (x_{i} -x_{j}, y_{i} - y_{j}) = (\Delta x, \Delta y)
+\end{equation}
+とする。この検出器間の相関を表す相関関数を
+\begin{equation}
+  R(\Delta\bm{x},\omega,z, v_{w}) = \frac{1}{2^{1/3}\Gamma(\frac{4}{3})}\mathrm{exp}\Bigl(i\frac{\omega}{v_{w}}\Delta x\Bigr)\Bigl(\frac{\omega}{v_{w}}|\Delta y|\Bigr)^{4/3}K_{4/3}\Bigl(\frac{\omega}{v_{w}}|\Delta y|\Bigr)
+\end{equation}
+と記述できる。ここで、$\omega$は周波数、$v_{w}$を風速、$K_{4/3}$は修正ベッセル関数を表す。
 \section{両偏波アンテナを搭載した焦点面検出器のアップデート}
