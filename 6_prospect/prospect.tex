@@ -32,7 +32,17 @@
   R(\Delta\bm{\theta} = (\Delta\theta_{x}, 0), \omega, v_{w}) &= \frac{\int_{0}^{\infty}dz\mathrm{exp}\Bigl(-\frac{2z}{z_{0}}\Bigr)\mathrm{exp}\Bigl(i\frac{\omega}{v_{w}}z\Delta\theta_{x}\Bigr)}{\int_{0}^{\infty}dz\mathrm{exp}\Bigl(-\frac{2z}{z_{0}}\Bigr)} \\
   &= \frac{(\Gamma_{x}/2)^{2}}{(\Delta\theta_{x})^{2} + (\Gamma_{x}/2)^{2}} + i\frac{(\Gamma_{x}/2)\Delta\theta_{x}}{(\Delta\theta_{x})^{2} + (\Gamma_{x}/2)^{2}}
 \end{align}
-となる。$z_{0}$は重みのパラメータである。
+となる。$z_{0}$は重みのパラメータである。この時、相関関数の実部はローレンツ関数になり、対応するFWHMは
+\begin{equation}
+  \Gamma_{x} = \frac{4v_{w}}{z_{0}\omega}
+\end{equation}
+になる。この$\SI{\Gamma_{x}}{\mathrm{rad}}$を角度相関長として定義することができる。相関関数の実部の振る舞いを図\ref{correlation_real}に示す。
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{6_prospect/figs/correlation_real.png}
+  \caption{風の向きに対して平行な向きでの相関関数の実部。半値全幅が角度相関長に対応する。横軸の$\Delta\theta_{x}$は$[\mathrm{deg}]$で表している。}
+  \label{corelation_real}
+\end{figure}
 \section{両偏波アンテナを搭載した焦点面検出器のアップデート}
 %\section{人がいない件}
 
