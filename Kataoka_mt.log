@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 20:44
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1097,8 +1097,12 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: EBDA7F8E295C54DE379D86720A08FC3E;8655.
+(rerunfilecheck)             Checksum: EE26B2AD65FB75F4A6E847A33F0DF453;8752.
  ) 
 Here is how much of TeX's memory you used:
  18464 strings out of 474762
@@ -1109,4 +1113,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (82 pages, 343944 bytes).
+Output written on Kataoka_mt.dvi (82 pages, 346696 bytes).
