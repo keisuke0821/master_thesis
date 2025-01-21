@@ -21,7 +21,7 @@ plt.errorbar(x_arange, y, yerr=y_errors, fmt='o', capsize=5, label="Data with er
 # x軸を一年単位に設定
 #plt.xticks(range(min(x), max(x) + 1, 1))
 plt.xticks(x_arange, x)
-#plt.ylim(0.04, 0.1)
+plt.ylim(0, 0.2)
 
 # ラベルとタイトル
 plt.xlabel("Year")

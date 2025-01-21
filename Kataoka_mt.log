@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 21:42
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,7 +664,12 @@ File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
 <3_GB/figs/scan_strategy.pdf>
 File: 3_GB/figs/gb_int.png Graphic file (type bmp)
 <3_GB/figs/gb_int.png>
- [15]
+
+Overfull \hbox (4.49768pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/n/10.95 CMB \JY2/mc/m/n/10.95 観測実験で使われる超伝導検出器として \OT1/cmr/m/n/10.95 MKID \JY2/mc/m/n/10.95 と \OT1/cmr/m/n/10.95 ``TES(Transition Edge Sensor)[[]]''
+ []
+
+[15] [16]
 File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
 <3_GB/figs/mkid_pic.pdf>
 
@@ -683,17 +688,17 @@ Overfull \hbox (5.18408pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-[16]
 File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 <3_GB/figs/cooper.pdf>
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
- [17]
+[17]
 File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 <3_GB/figs/tau_planck_wmap_cut.pdf>
+ [18]
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
- [18]
+
 
 LaTeX Warning: Reference `chapter4' on page 19 undefined on input line 121.
 
@@ -1120,8 +1125,17 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 16C266D6BE061CFC0CB35BCCEC8B64F4;9225.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
+(rerunfilecheck)             Before: 16C266D6BE061CFC0CB35BCCEC8B64F4;9225
+(rerunfilecheck)             After:  2401E451F3615077BB3ED9037415F6EA;9162.
  ) 
 Here is how much of TeX's memory you used:
  18471 strings out of 474762
@@ -1132,4 +1146,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (86 pages, 350668 bytes).
+Output written on Kataoka_mt.dvi (86 pages, 351184 bytes).
