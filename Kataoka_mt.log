@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 22:26
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -693,8 +693,8 @@ File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
 File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
 <3_GB/figs/planck_spectrum.pdf>
 [17]
-File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
-<3_GB/figs/tau_planck_wmap_cut.pdf>
+File: 3_GB/figs/tau_planck_wmap_mod.pdf Graphic file (type pdf)
+<3_GB/figs/tau_planck_wmap_mod.pdf>
  [18]
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
@@ -1125,17 +1125,8 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
-(rerunfilecheck)             Before: 16C266D6BE061CFC0CB35BCCEC8B64F4;9225
-(rerunfilecheck)             After:  2401E451F3615077BB3ED9037415F6EA;9162.
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 2401E451F3615077BB3ED9037415F6EA;9162.
  ) 
 Here is how much of TeX's memory you used:
  18471 strings out of 474762
