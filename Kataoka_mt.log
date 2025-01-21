@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 21:16
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  21 JAN 2025 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -538,11 +538,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.95642pt on input line 62.
  (./Kataoka_mt.toc [1
 
-])
+] [2])
 \tf@toc=\write4
 \openout4 = `Kataoka_mt.toc'.
 
- [2]
+ [3]
 \openout2 = `2_cosmology/kk_Introduction.aux'.
 
  (./2_cosmology/kk_Introduction.tex
@@ -694,6 +694,9 @@ File: 3_GB/figs/tau_planck_wmap_cut.pdf Graphic file (type pdf)
 File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
 <3_GB/figs/cl_shonda.pdf>
  [18]
+
+LaTeX Warning: Reference `chapter4' on page 19 undefined on input line 121.
+
 File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
 <3_GB/figs/full_array.pdf>
 File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
@@ -711,6 +714,10 @@ Overfull \hbox (7.11885pt too wide) in paragraph at lines 124--142
 [19] [20]
 File: 3_GB/figs/webcam.png Graphic file (type bmp)
 <3_GB/figs/webcam.png>
+
+
+LaTeX Warning: Reference `chapter4' on page 21 undefined on input line 182.
+
 ) [21]
 \openout2 = `4_elDAQ/elDAQ.aux'.
 
@@ -825,7 +832,7 @@ File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
 File: 5_alignment/figs/boresight_axis.pdf Graphic file (type pdf)
 <5_alignment/figs/boresight_axis.pdf>
 
-Overfull \hbox (26.89265pt too wide) in paragraph at lines 61--79
+Overfull \hbox (26.89265pt too wide) in paragraph at lines 62--80
  [][] 
  []
 
@@ -845,15 +852,15 @@ File: 5_alignment/figs/moon_centered_6550.png Graphic file (type bmp)
 File: 5_alignment/figs/6550_gnomonic.png Graphic file (type bmp)
 <5_alignment/figs/6550_gnomonic.png>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 186.
+(Font)              scaled to size 6.73553pt on input line 187.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 186.
+(Font)              scaled to size 9.6222pt on input line 187.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 186.
+(Font)              scaled to size 6.73553pt on input line 187.
 File: 5_alignment/figs/6550_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/6550_pos_kid17_70.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--199
+Underfull \hbox (badness 10000) in paragraph at lines 182--200
 [][]
  []
 
@@ -868,7 +875,7 @@ File: 5_alignment/figs/before_full_pos.png Graphic file (type bmp)
 File: 5_alignment/figs/angle_cal_lines.pdf Graphic file (type pdf)
 <5_alignment/figs/angle_cal_lines.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 296--297
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 297--298
  [][] 
  []
 
@@ -876,12 +883,15 @@ File: 5_alignment/figs/hist_rotation_angle2.png Graphic file (type bmp)
 <5_alignment/figs/hist_rotation_angle2.png>
 File: 5_alignment/figs/gb_fixing_system.pdf Graphic file (type pdf)
 <5_alignment/figs/gb_fixing_system.pdf>
-[47] [48] [49] [50]
+[47] [48] [49] [50] [51] [52]
+第 5 章
 File: 5_alignment/figs/jig_making.pdf Graphic file (type pdf)
 <5_alignment/figs/jig_making.pdf>
- [51] [52]
 File: 5_alignment/figs/jig_install.pdf Graphic file (type pdf)
 <5_alignment/figs/jig_install.pdf>
+[53
+
+]
 File: 5_alignment/figs/after_full_gnomonic_70_mod.pdf Graphic file (type pdf)
 <5_alignment/figs/after_full_gnomonic_70_mod.pdf>
 File: 5_alignment/figs/after_full_pos_0_mod.pdf Graphic file (type pdf)
@@ -893,57 +903,60 @@ File: 5_alignment/figs/10960_gnomonic.png Graphic file (type bmp)
 File: 5_alignment/figs/10960_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/10960_pos_kid17_70.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--404
+Underfull \hbox (badness 10000) in paragraph at lines 391--409
 [][]
  []
 
-[53] [54]
+[54] [55]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[55] [56]
+[56] [57]
 File: 5_alignment/figs/5862_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/5862_jupiter.pdf>
 File: 5_alignment/figs/5987_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/5987_jupiter.pdf>
- [57]
 File: 5_alignment/figs/5987_jupiter_pos.pdf Graphic file (type pdf)
 <5_alignment/figs/5987_jupiter_pos.pdf>
 File: 5_alignment/figs/11280_jupiter.pdf Graphic file (type pdf)
 <5_alignment/figs/11280_jupiter.pdf>
- [58]
-Overfull \hbox (26.44453pt too wide) in paragraph at lines 460--468
+ [58] [59] [60] [61]
+第 6 章
+
+Overfull \hbox (26.44453pt too wide) in paragraph at lines 467--475
  [][] 
  []
 
 File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 <5_alignment/figs/9011_tod_cor_combined.pdf>
 
-LaTeX Warning: Float too large for page by 19.53104pt on input line 477.
+LaTeX Warning: Float too large for page by 19.53104pt on input line 484.
 
-[59]
+[62
+
+] [63]
 File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
 <5_alignment/figs/9011_kid3_psd.png>
- [60] [61]
+ [64]
 File: 5_alignment/figs/psd_and_selfcor.pdf Graphic file (type pdf)
 <5_alignment/figs/psd_and_selfcor.pdf>
- [62]
+ [65]
 File: 5_alignment/figs/timing_offset.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset.pdf>
 File: 5_alignment/figs/9011_08_11_psd.png Graphic file (type bmp)
 <5_alignment/figs/9011_08_11_psd.png>
- [63]
+ [66] [67]
 File: 5_alignment/figs/timing_offset_compare.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 564--565
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 571--572
  [][] 
  []
 
 File: 5_alignment/figs/timing_offset_compare2.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare2.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 571--572
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 578--579
  [][] 
  []
 
@@ -964,29 +977,29 @@ File: 5_alignment/figs/9011_11139_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11139_15_09.png Graphic file (type bmp)
 <5_alignment/figs/9011_11139_15_09.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--648
+Underfull \hbox (badness 10000) in paragraph at lines 586--655
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--648
+Underfull \hbox (badness 10000) in paragraph at lines 586--655
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--648
+Underfull \hbox (badness 10000) in paragraph at lines 586--655
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 579--648
+Underfull \hbox (badness 10000) in paragraph at lines 586--655
 []
  []
 
-[64] [65]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[68]
 File: 5_alignment/figs/9011_11679_08_11.png Graphic file (type bmp)
 <5_alignment/figs/9011_11679_08_11.png>
 File: 5_alignment/figs/9011_11679_04_19.png Graphic file (type bmp)
@@ -1004,36 +1017,39 @@ File: 5_alignment/figs/9011_11679_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11679_15_05.png Graphic file (type bmp)
 <5_alignment/figs/9011_11679_15_05.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--724
+Underfull \hbox (badness 10000) in paragraph at lines 662--731
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--724
+Underfull \hbox (badness 10000) in paragraph at lines 662--731
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--724
+Underfull \hbox (badness 10000) in paragraph at lines 662--731
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--724
+Underfull \hbox (badness 10000) in paragraph at lines 662--731
 []
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [66] [67] [68]
+) [69] [70] [71]
 \openout2 = `6_prospect/prospect.aux'.
 
  (./6_prospect/prospect.tex
-第 5 章
+第 7 章
+
+LaTeX Warning: Reference `chapter4' on page 72 undefined on input line 6.
+
 File: 6_prospect/figs/atmos_layer.pdf Graphic file (type pdf)
 <6_prospect/figs/atmos_layer.pdf>
-[69
+[72
 
 
 
@@ -1041,22 +1057,25 @@ File: 6_prospect/figs/atmos_layer.pdf Graphic file (type pdf)
 ]
 File: 6_prospect/figs/correlation_real.png Graphic file (type bmp)
 <6_prospect/figs/correlation_real.png>
- [70]
+ [73]
+
+LaTeX Warning: Reference `chapter4' on page 74 undefined on input line 55.
+
 File: 6_prospect/figs/new_kid.pdf Graphic file (type pdf)
 <6_prospect/figs/new_kid.pdf>
- [71]) [72]
+[74]) [75]
 \openout2 = `7_summary/summary.aux'.
 
  (./7_summary/summary.tex
-第 6 章
-) [73
+第 8 章
+) [76
 
 
 
 
 ] (./8_acknowledgment/kk_acknowledgment.tex
-第 7 章
-) (./9_reference/kk_references.tex [74
+第 9 章
+) (./9_reference/kk_references.tex [77
 
 
 
@@ -1070,7 +1089,7 @@ Underfull \hbox (badness 5203) in paragraph at lines 16--18
 []\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A1 (2020), [][]https://doi.org/10.1051/0004-
  []
 
-[75
+[78
 
 ]
 Underfull \hbox (badness 7064) in paragraph at lines 76--78
@@ -1087,9 +1106,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--124
 [][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
  []
 
-[76]) (./10_appendix/appendix.tex [77]
+[79]) (./10_appendix/appendix.tex [80]
 付 録 A  
-) [78
+) [81
 
 ] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
  ***********
@@ -1099,18 +1118,18 @@ L3 programming layer <2024-03-14>
  ***********
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: EE26B2AD65FB75F4A6E847A33F0DF453;8752.
+(rerunfilecheck)             Checksum: 16C266D6BE061CFC0CB35BCCEC8B64F4;9225.
  ) 
 Here is how much of TeX's memory you used:
- 18464 strings out of 474762
- 376980 string characters out of 5758587
- 1933338 words of memory out of 5000000
- 40484 multiletter control sequences out of 15000+600000
+ 18471 strings out of 474762
+ 377074 string characters out of 5758587
+ 1934338 words of memory out of 5000000
+ 40491 multiletter control sequences out of 15000+600000
  583364 words of font info for 148 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (82 pages, 346696 bytes).
+Output written on Kataoka_mt.dvi (86 pages, 350668 bytes).
