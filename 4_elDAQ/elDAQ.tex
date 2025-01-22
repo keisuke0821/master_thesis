@@ -275,7 +275,7 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{eldata_check}
 \end{figure}
 
-以上の結果から新システムの挙動が問題ないと判断し、次に実際の望遠鏡にインストールした。インストールはSDカードを新システムのものに交換するだけで完了し、PYNQの起動を確認した。
+以上の結果から、期待される3点の挙動を確認することができたため、新システムに問題はないと判断した。次に実際の望遠鏡へのインストールを行なった。インストールはSDカードを新システムのものに交換するだけで完了し、PYNQの起動を確認した(図\ref{el_install})。
 
 \begin{figure}[h]
   \begin{tabular}{cc}
@@ -355,10 +355,10 @@ Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-
   \centering
   \caption{各電源供給方法での定格値}
   \vspace{3mm}
-  \begin{tabular}{cccc} \hline
+  \begin{tabular}{cccc} \hline\hline
     供給方法 & 定格電圧 & 定格電流 & 接続の安定性  \\ \hline
     Micro-USB & \SI{5}{V} & 最大\SI{0.5}{A} & やや不安定\\
-    バレルジャック & \SI{5}{V} & 最大\SI{4}{A} &  安定\\ \hline
+    バレルジャック & \SI{5}{V} & 最大\SI{4}{A} &  安定\\ \hline\hline
   \end{tabular}
   \label{power_spec}
 \end{table}
