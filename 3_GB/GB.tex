@@ -149,11 +149,11 @@ GroundBIRDの現在の状況について説明する。2022年1月から2022年5
   \centering
   \caption{\SI{145}{GHz}、\SI{220}{GHz}における検出器とビームの特性\cite{choi_doctor}}
   \vspace{3mm}
-  \begin{tabular}{ccc} \hline
+  \begin{tabular}{ccc} \hline\hline
     & \SI{145}{GHz} & \SI{220}{GHz} \\ \hline
     MKID数 & 6アレイ(138ピクセル) & 1アレイ(23ピクセル)\\
     ビーム幅(FWHM) & $\SI{0.60}{^{\circ}}(\SI{36}{'})$ & $\SI{0.42}{^{\circ}}(\SI{25}{'})$\\
-    ビーム楕円率 & $ < \SI{1}{\%} $ & $ < \SI{2}{\%} $\\ \hline
+    ビーム楕円率 & $ < \SI{1}{\%} $ & $ < \SI{2}{\%} $\\ \hline\hline
   \end{tabular}
   \label{mkid_table}
 \end{table}
@@ -169,8 +169,8 @@ GroundBIRDの現在の状況について説明する。2022年1月から2022年5
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.6\columnwidth]{3_GB/figs/webcam.png}
-  \caption{Slackアプリケーションを用いたモニター。Webカメラの映像から観測状況を確認できる。他にも観測中の検出器データのチェックや、サウンドモニターによる異音検知などが可能。}
+  \includegraphics[width=0.7\columnwidth]{3_GB/figs/webcam.png}
+  \caption{Slackアプリケーションを用いたモニター。Webカメラの映像から観測状況を確認できる。他にも観測中の検出器データのチェックや、サウンドモニターによる異音検知など、様々なチェックをリモートで行うことが可能である。}
   \label{samesan}
 \end{figure}
 
@@ -179,7 +179,7 @@ GroundBIRDの現在の状況について説明する。2022年1月から2022年5
   \item 安定して長期的な運用と観測を続けられる
   \item 質の良いデータを取得する
 \end{itemize}
-ことである。現在の望遠鏡システムではこの条件を満たす上では不十分な点も多く、観測を続ける中でメンテナンスとアップグレードが必要である。以降の第\ref{chapter3}章ではデータ取得の長期運用のために仰角データ取得システムの改善を行い、第\ref{chapter4}章では検出器アレイとしてのデータの質を向上させるために検出器のアライメント較正を行なった。
+ことである。現在の望遠鏡システムではこの条件を満たす上では不十分な点も多く、観測を続ける中でメンテナンスとアップグレードが必要である。以降の第\ref{chapter3}章ではデータ取得の長期運用のために仰角データ取得システムの改善を行い、第\ref{chapter4_1}章から第\ref{chapter4_3}章にかけては検出器アレイとしてのデータの質を向上させるために検出器のアライメント較正を行い、その改善を確認した。
 
 %\section{本論文の構成}
 %ここまで第\ref{chapter1}章でCMBに関わる理論的な背景、第\ref{chapter2}章でGroundBIRD実験の概要を説明した。以降は第\ref{chapter3}章と第\ref{chapter4}章の2部構成になっており、第\ref{chapter3}章でGroundBIRDの角度データ取得システムの改善について、第\ref{chapter4}章で焦点面検出器のアライメント較正とその結果について述べる。第\ref{chapter5}章で今後の展望を述べ、第\ref{chapter6}章でまとめを述べる。
