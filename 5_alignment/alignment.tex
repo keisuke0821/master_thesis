@@ -439,7 +439,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 %\end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/5987_jupiter_sub_phase.png}
+  \includegraphics[width=0.65\columnwidth]{5_alignment/figs/5987_jupiter_sub_phase.png}
   \caption{十分低いPWVでの木星観測データ(2023/07/28, PWV= \SI{0.83}{mm})の、ベースラインを引いた後の木星中心座標での位相。}
   \label{5987_phase}
 \end{figure}
@@ -451,36 +451,48 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{figure}
 月と同様にして鮮明な木星のマップを得られた。これより、十分PWVが低く観測条件が整っていれば1時間のTODで木星を観測できることが分かった。一方でPWVが比較的高い時は1観測では木星を見ることはできず、データを蓄積する必要がある\footnote{十分にPWVが低く、かつ木星が通過する時間での観測データは現在時点では数観測しか確認できていない。そのため、十分ではないが比較的低いPWVでの観測データを蓄積し、S/N比を上げて木星を見るような解析手法が求められる。}。
 
-得られた木星中心マップから月と同様にして、各検出器の視線を求めた。視線方向軸周りの回転前のものを図\ref{5987_jupiter_pos}に、回転後のものを図\ref{11280_jupiter_pos}に示す。
+得られた木星中心マップから月と同様にして、各検出器の視線を求めた。視線方向軸周りの回転前のものを図\ref{5987_jupiter_pos}に示す。次に、回転後のデータから再構成した木星中心マップを図\ref{11280_jupiter_mod}に、検出器の視線を図\ref{11280_jupiter_pos}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter_pos.pdf}
   \caption{木星データから取得した検出器の視線(回転前、2023/07/28, PWV= \SI{0.83}{mm})。(左)\SI{220}{GHz}アレイのビーム中心マップ。月と比べて信号の広がりが小さい。(右)各検出器のビーム中心の視線。}
   \label{5987_jupiter_pos}
 \end{figure}
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=1.1\columnwidth]{5_alignment/figs/11280_jupiter.pdf}
+  %\caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。(左)\SI{220}{GHz}アレイの各検出器の木星中心マップ。一部の検出器では木星のマップを再構成できていない。(右)各検出器のビーム中心の視線。}
+  %\label{11280_jupiter_pos}
+%\end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.1\columnwidth]{5_alignment/figs/11280_jupiter.pdf}
-  \caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。(左)\SI{220}{GHz}アレイの各検出器の木星中心マップ。一部の検出器では木星のマップを再構成できていない。(右)各検出器のビーム中心の視線。}
+  \includegraphics[width=0.8\columnwidth]{5_alignment/figs/11280_jupiter_mod.pdf}
+  \caption{十分低いPWVでの木星観測データ(回転後、2024/09/05, PWV= \SI{0.81}{mm})の、ベースラインを引き、リビンした後の木星中心マップ。一部の検出器では木星のマップを再構成できていない。}
+  \label{11280_jupiter_mod}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/11280_jupiter_pos_mod.pdf}
+  \caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。}
   \label{11280_jupiter_pos}
 \end{figure}
 回転前と回転後とで、スキャン軸に対する検出器配置の傾きを再現でき、月での結果の妥当性を示している。一方で、回転後の十分低いPWVの観測データでも一部の検出器がノイズに埋もれてしまい、全検出器の視線を取得できなかった。
 \chapter{検出器アライメントに伴う大気揺らぎの評価}
 \label{chapter4_3}
-最後に、検出器間で信号の差分を取り、信号の相関を比較することで検出器アライメントの較正による大気揺らぎの抑制を確認した。
-\section{検出器間差分で見る大気揺らぎの抑制}
+最後に、検出器間で信号の差分を取り、信号間の相関を回転の前後で比較することで検出器アライメントの較正による大気揺らぎの抑制を確認した。
+%\section{検出器間差分で見る大気揺らぎの抑制}
 
-\subsection{TODの差分とPSD}
+\section{TODの差分とPSD}
 天体の観測データを用いて検出器の配置が回転し、スキャン軸に沿った向きへと較正されたことを見たが、\ref{scan_pair_diff}で述べたように検出器間での信号の差分をとり、同じ大気をスキャンできるようになっているかを確認して初めて理想とする検出器アライメントに近づいたと言える。異なる検出器がスキャンする大気が同じであれば観測するTODは強い相関を持つことに対応する。そのため、この章ではスキャン軸に沿って並ぶ異なる2つの検出器のTOD相関が配置の回転によってどう変化したのか、に着目する。また、球面による歪みの影響が少なく、大気放射の寄与も大きい中心の\SI{220}{GHz}アレイに焦点を置いて議論する。使用したTODを表\ref{pair_diff_table}に示す。
 \begin{table}[htbp]
   \centering
   \caption{検出器間差分に使用した\SI{220}{GHz}アレイ観測データ}
   \vspace{3mm}
-  \begin{tabular}{cccccc} \hline
+  \begin{tabular}{cccccc} \hline\hline
     観測日(UTC) & 観測時間 [min] & 観測対象 & 検出器配置 & スキャン & PWV [mm]\\ \hline
     2024/07/01 5:48 - 6:48 & 60 & sky & 回転前 & 9RPM & 0.96\\ \hline
     2024/09/03 17:49 - 18:49 & 60 & sky & 回転後 & 9RPM & 1.1 \\
-    2024/09/12 0:53 - 1:53 & 60 & sky & 回転後 & 9RPM & 0.70 \\ \hline
+    2024/09/12 0:53 - 1:53 & 60 & sky & 回転後 & 9RPM & 0.70 \\ \hline\hline
 
   \end{tabular}
   \label{pair_diff_table}
@@ -515,7 +527,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{figure}
 PSDは周波数に応じて振る舞いが異なる。主なノイズには低周波側で卓越する``1/fノイズ''、スキャン周波数に同期した``scan synchronousノイズ''、高周波側で残る周波数依存性のない``ホワイトノイズ''があり、スペクトルの形状に顕著に現れる。
 
-\subsection{PSDと自己相関関数}
+\section{PSDと自己相関関数}
 \label{psd_correlation}
 PSDを用いてTOD間の相関を測る指標とする量を定義する。まず、PSDと自己相関関数の関係性について述べる。時刻$t$でのTODを$x(t)$、そこから時間$\tau$だけシフトしたTODを$x(t+\tau)$とする時、TODの自己相関関数は
 \begin{align}
@@ -556,7 +568,7 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 \end{align}
 ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(Correlation Indexと呼ぶこととする)としてTODの相関を測ることとする。
 
-\subsection{timing offsetの算出}
+\section{timing offsetの算出}
 次に、各検出器間で異なるtiming offset($\delta t$)を計算する。GroundBIRDは仰角を固定して方位角方向にスキャンを行うため、検出器間での方位角のずれ(オフセット)をスキャン角速度で割った時間がスキャンにかかるtiming offsetになる。使用した観測データは\SI{9}{RPM}=\SI{54}{deg/s}でのスキャン角速度に対応する。そのため、差分をとる2つの検出器の方位角をそれぞれ$\mathrm{Az}_{x}$、$\mathrm{Az}_{y}$とするとtiming offsetは
 \begin{equation}
   \delta t~[\mathrm{ms}] = (\mathrm{Az}_{x} - \mathrm{Az}_{y}) / \SI{54}{[\mathrm{deg/s}]}\cdot 10^{3}
@@ -592,7 +604,7 @@ TODを差し引くことでノイズ成分を落とせていることが、PSD�
   \label{timing_offset_compare2}
 \end{figure}
 
-\subsection{回転前後での比較と大気揺らぎ抑制の確認}
+\section{回転前後での比較と大気揺らぎ抑制の確認}
 最後に検出器配置の回転前後でのCorrelation Indexを比較し、検出器間の相関の違いを確認した。まず、回転前と回転後(PWV=\SI{1.1}{mm})の比較を図\ref{compare_9011_11139}に示す。
 \begin{figure}[h]
   \begin{tabular}{cc}
