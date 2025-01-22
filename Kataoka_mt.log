@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  23 JAN 2025 02:22
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  23 JAN 2025 02:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,7 +914,7 @@ File: 5_alignment/figs/10960_gnomonic.png Graphic file (type bmp)
 File: 5_alignment/figs/10960_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/10960_pos_kid17_70.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--438
+Underfull \hbox (badness 10000) in paragraph at lines 421--439
 [][]
  []
 
@@ -925,24 +925,23 @@ File: 5_alignment/figs/5987_jupiter_sub_phase.png Graphic file (type bmp)
 <5_alignment/figs/5987_jupiter_sub_phase.png>
 File: 5_alignment/figs/5987_juputer_map.png Graphic file (type bmp)
 <5_alignment/figs/5987_juputer_map.png>
- [57]
 File: 5_alignment/figs/5987_jupiter_pos.pdf Graphic file (type pdf)
 <5_alignment/figs/5987_jupiter_pos.pdf>
 File: 5_alignment/figs/11280_jupiter_mod.pdf Graphic file (type pdf)
 <5_alignment/figs/11280_jupiter_mod.pdf>
 File: 5_alignment/figs/11280_jupiter_pos_mod.pdf Graphic file (type pdf)
 <5_alignment/figs/11280_jupiter_pos_mod.pdf>
- [58] [59] [60]
+ [57] [58] [59] [60]
 第 6 章
 
-Overfull \hbox (26.44453pt too wide) in paragraph at lines 520--528
+Overfull \hbox (26.44453pt too wide) in paragraph at lines 521--529
  [][] 
  []
 
 File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 <5_alignment/figs/9011_tod_cor_combined.pdf>
 
-LaTeX Warning: Float too large for page by 19.53104pt on input line 537.
+LaTeX Warning: Float too large for page by 19.53104pt on input line 538.
 
 [61
 
@@ -961,14 +960,14 @@ File: 5_alignment/figs/9011_08_11_psd.png Graphic file (type bmp)
 File: 5_alignment/figs/timing_offset_compare.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 624--625
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 625--626
  [][] 
  []
 
 File: 5_alignment/figs/timing_offset_compare2.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare2.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 631--632
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 632--633
  [][] 
  []
 
@@ -989,22 +988,22 @@ File: 5_alignment/figs/9011_11139_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11139_15_09.png Graphic file (type bmp)
 <5_alignment/figs/9011_11139_15_09.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--708
+Underfull \hbox (badness 10000) in paragraph at lines 640--709
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--708
+Underfull \hbox (badness 10000) in paragraph at lines 640--709
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--708
+Underfull \hbox (badness 10000) in paragraph at lines 640--709
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 639--708
+Underfull \hbox (badness 10000) in paragraph at lines 640--709
 []
  []
 
@@ -1029,22 +1028,22 @@ File: 5_alignment/figs/9011_11679_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11679_15_05.png Graphic file (type bmp)
 <5_alignment/figs/9011_11679_15_05.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--784
+Underfull \hbox (badness 10000) in paragraph at lines 716--785
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--784
+Underfull \hbox (badness 10000) in paragraph at lines 716--785
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--784
+Underfull \hbox (badness 10000) in paragraph at lines 716--785
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 715--784
+Underfull \hbox (badness 10000) in paragraph at lines 716--785
 []
  []
 
@@ -1137,6 +1136,9 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: CBDF22ABE0157371C2262B7BC6C54044;9120.
  ) 
@@ -1149,4 +1151,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (85 pages, 359768 bytes).
+Output written on Kataoka_mt.dvi (85 pages, 359928 bytes).
