@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  22 JAN 2025 20:29
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  22 JAN 2025 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,4 +640,508 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on inpu
+(hyperref)                removing `math shift' on input line 282.
+
+
+Overfull \hbox (40.13252pt too wide) in paragraph at lines 290--297
+ [][] 
+ []
+
+) [12] [13]
+\openout2 = `3_GB/GB.aux'.
+
+ (./3_GB/GB.tex
+第 2 章
+File: 3_GB/figs/GB_overview2.pdf Graphic file (type pdf)
+<3_GB/figs/GB_overview2.pdf>
+[14
+
+
+
+
+]
+File: 3_GB/figs/scan_strategy.pdf Graphic file (type pdf)
+<3_GB/figs/scan_strategy.pdf>
+File: 3_GB/figs/gb_int.png Graphic file (type bmp)
+<3_GB/figs/gb_int.png>
+
+Overfull \hbox (4.49768pt too wide) in paragraph at lines 38--39
+[]\OT1/cmr/m/n/10.95 CMB \JY2/mc/m/n/10.95 観測実験で使われる超伝導検出器として \OT1/cmr/m/n/10.95 MKID \JY2/mc/m/n/10.95 と \OT1/cmr/m/n/10.95 ``TES(Transition Edge Sensor)[[]]''
+ []
+
+[15]
+File: 3_GB/figs/mkid_pic.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_pic.pdf>
+
+Overfull \hbox (4.58182pt too wide) in paragraph at lines 55--56
+ [][] 
+ []
+
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 56.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 56.
+File: 3_GB/figs/mkid_circ.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_circ.pdf>
+
+Overfull \hbox (5.18408pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
+
+[16]
+File: 3_GB/figs/cooper.pdf Graphic file (type pdf)
+<3_GB/figs/cooper.pdf>
+File: 3_GB/figs/planck_spectrum.pdf Graphic file (type pdf)
+<3_GB/figs/planck_spectrum.pdf>
+ [17]
+File: 3_GB/figs/tau_planck_wmap_mod.pdf Graphic file (type pdf)
+<3_GB/figs/tau_planck_wmap_mod.pdf>
+File: 3_GB/figs/cl_shonda.pdf Graphic file (type pdf)
+<3_GB/figs/cl_shonda.pdf>
+ [18] [19]
+File: 3_GB/figs/full_array.pdf Graphic file (type pdf)
+<3_GB/figs/full_array.pdf>
+File: 3_GB/figs/mkid_design.pdf Graphic file (type pdf)
+<3_GB/figs/mkid_design.pdf>
+
+Overfull \hbox (38.61125pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
+
+Overfull \hbox (7.11885pt too wide) in paragraph at lines 124--142
+[][]
+ []
+
+[20]
+File: 3_GB/figs/webcam.png Graphic file (type bmp)
+<3_GB/figs/webcam.png>
+) [21]
+\openout2 = `4_elDAQ/elDAQ.aux'.
+
+ (./4_elDAQ/elDAQ.tex
+第 3 章
+File: 4_elDAQ/figs/GB_daq_2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/GB_daq_2.pdf>
+[22
+
+
+
+
+]
+File: 4_elDAQ/figs/el_encoder.jpg Graphic file (type bmp)
+<4_elDAQ/figs/el_encoder.jpg>
+File: 4_elDAQ/figs/Zybo.jpg Graphic file (type bmp)
+<4_elDAQ/figs/Zybo.jpg>
+File: 4_elDAQ/figs/ERM220.png Graphic file (type bmp)
+<4_elDAQ/figs/ERM220.png>
+File: 4_elDAQ/figs/spartan-3e-2.png Graphic file (type bmp)
+<4_elDAQ/figs/spartan-3e-2.png>
+ [23]
+File: 4_elDAQ/figs/GB_sync_2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/GB_sync_2.pdf>
+ [24]
+File: 4_elDAQ/figs/el_daq_box.pdf Graphic file (type pdf)
+<4_elDAQ/figs/el_daq_box.pdf>
+File: 4_elDAQ/figs/block_diagram.pdf Graphic file (type pdf)
+<4_elDAQ/figs/block_diagram.pdf>
+File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
+<4_elDAQ/figs/zynq_flow.pdf>
+ [25] [26]
+File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sd_zybo2.pdf>
+ [27] [28]
+File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
+<4_elDAQ/figs/overlay3.pdf>
+ [29]
+File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_pic.jpg>
+File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
+<4_elDAQ/figs/el_test2.pdf>
+
+Overfull \hbox (83.379pt too wide) in paragraph at lines 239--240
+ [][] 
+ []
+
+[30]
+File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
+<4_elDAQ/figs/enc_data_test.png>
+File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
+<4_elDAQ/figs/timestamp.png>
+File: 4_elDAQ/figs/install_work.jpg Graphic file (type bmp)
+<4_elDAQ/figs/install_work.jpg>
+File: 4_elDAQ/figs/pynq_start.jpg Graphic file (type bmp)
+<4_elDAQ/figs/pynq_start.jpg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--302
+[][]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sync_id.pdf>
+[31] [32]
+File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
+<4_elDAQ/figs/elevation_data.png>
+ [33]
+File: 4_elDAQ/figs/connector_barrel.pdf Graphic file (type pdf)
+<4_elDAQ/figs/connector_barrel.pdf>
+File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_usb.jpg>
+File: 4_elDAQ/figs/test_jack.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_jack.jpg>
+File: 4_elDAQ/figs/test_50.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_50.jpg>
+File: 4_elDAQ/figs/test_45.jpg Graphic file (type bmp)
+<4_elDAQ/figs/test_45.jpg>
+ [34]
+Overfull \hbox (38.37798pt too wide) in paragraph at lines 406--414
+ [][] 
+ []
+
+[35]
+File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
+<4_elDAQ/figs/new_connector_set.jpg>
+File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
+<4_elDAQ/figs/new_connector_boot.jpg>
+ [36]
+File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
+<4_elDAQ/figs/temp_zynq_202408.png>
+) [37]
+\openout2 = `5_alignment/alignment.aux'.
+
+ (./5_alignment/alignment.tex
+第 4 章
+
+Overfull \hbox (1.11215pt too wide) in paragraph at lines 4--6
+[]\JY2/mc/m/n/10.95 仰角のデ ータ取得が安定にな ったことで 、 次に取り組むべき課題が明らかにな った 。 \OT1/cmr/m/n/10.95 Ground-
+ []
+
+File: 5_alignment/figs/scan_image.pdf Graphic file (type pdf)
+<5_alignment/figs/scan_image.pdf>
+File: 5_alignment/figs/scan_axis.pdf Graphic file (type pdf)
+<5_alignment/figs/scan_axis.pdf>
+[38
+
+
+
+
+]
+File: 5_alignment/figs/distortion_pos2.pdf Graphic file (type pdf)
+<5_alignment/figs/distortion_pos2.pdf>
+ [39]
+File: 5_alignment/figs/boresight_axis.pdf Graphic file (type pdf)
+<5_alignment/figs/boresight_axis.pdf>
+
+Overfull \hbox (26.89265pt too wide) in paragraph at lines 62--80
+ [][] 
+ []
+
+[40] [41]
+File: 5_alignment/figs/iq_amp.pdf Graphic file (type pdf)
+<5_alignment/figs/iq_amp.pdf>
+File: 5_alignment/figs/amp_and_phase.png Graphic file (type bmp)
+<5_alignment/figs/amp_and_phase.png>
+ [42]
+File: 5_alignment/figs/raw_phase_deg.png Graphic file (type bmp)
+<5_alignment/figs/raw_phase_deg.png>
+File: 5_alignment/figs/6550_kid0_phase.png Graphic file (type bmp)
+<5_alignment/figs/6550_kid0_phase.png>
+ [43]
+File: 5_alignment/figs/moon_centered_6550.png Graphic file (type bmp)
+<5_alignment/figs/moon_centered_6550.png>
+File: 5_alignment/figs/6550_gnomonic.png Graphic file (type bmp)
+<5_alignment/figs/6550_gnomonic.png>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 187.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.6222pt on input line 187.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 6.73553pt on input line 187.
+File: 5_alignment/figs/6550_pos_kid17_70.png Graphic file (type bmp)
+<5_alignment/figs/6550_pos_kid17_70.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--200
+[][]
+ []
+
+[44]
+File: 5_alignment/figs/before_full_gnomonic_selected_mod2.pdf Graphic file (type pdf)
+<5_alignment/figs/before_full_gnomonic_selected_mod2.pdf>
+File: 5_alignment/figs/before_full_pos_70.png Graphic file (type bmp)
+<5_alignment/figs/before_full_pos_70.png>
+File: 5_alignment/figs/before_full_pos.png Graphic file (type bmp)
+<5_alignment/figs/before_full_pos.png>
+ [45] [46] [47]
+File: 5_alignment/figs/angle_cal_lines.pdf Graphic file (type pdf)
+<5_alignment/figs/angle_cal_lines.pdf>
+
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 297--298
+ [][] 
+ []
+
+File: 5_alignment/figs/hist_rotation_angle2.png Graphic file (type bmp)
+<5_alignment/figs/hist_rotation_angle2.png>
+File: 5_alignment/figs/gb_fixing_system.pdf Graphic file (type pdf)
+<5_alignment/figs/gb_fixing_system.pdf>
+[48] [49] [50]
+第 5 章
+File: 5_alignment/figs/jig_making.pdf Graphic file (type pdf)
+<5_alignment/figs/jig_making.pdf>
+[51
+
+]
+File: 5_alignment/figs/jig_install.pdf Graphic file (type pdf)
+<5_alignment/figs/jig_install.pdf>
+File: 5_alignment/figs/after_full_gnomonic_mod.pdf Graphic file (type pdf)
+<5_alignment/figs/after_full_gnomonic_mod.pdf>
+File: 5_alignment/figs/after_full_pos_0_mod.pdf Graphic file (type pdf)
+<5_alignment/figs/after_full_pos_0_mod.pdf>
+File: 5_alignment/figs/after_full_pos_70_mod.pdf Graphic file (type pdf)
+<5_alignment/figs/after_full_pos_70_mod.pdf>
+File: 5_alignment/figs/10960_gnomonic.png Graphic file (type bmp)
+<5_alignment/figs/10960_gnomonic.png>
+File: 5_alignment/figs/10960_pos_kid17_70.png Graphic file (type bmp)
+<5_alignment/figs/10960_pos_kid17_70.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--409
+[][]
+ []
+
+[52] [53] [54] [55]
+File: 5_alignment/figs/5862_jupiter.pdf Graphic file (type pdf)
+<5_alignment/figs/5862_jupiter.pdf>
+File: 5_alignment/figs/5987_jupiter_sub_phase.png Graphic file (type bmp)
+<5_alignment/figs/5987_jupiter_sub_phase.png>
+File: 5_alignment/figs/5987_juputer_map.png Graphic file (type bmp)
+<5_alignment/figs/5987_juputer_map.png>
+ [56]
+File: 5_alignment/figs/5987_jupiter_pos.pdf Graphic file (type pdf)
+<5_alignment/figs/5987_jupiter_pos.pdf>
+File: 5_alignment/figs/11280_jupiter.pdf Graphic file (type pdf)
+<5_alignment/figs/11280_jupiter.pdf>
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 463--464
+ [][] 
+ []
+
+[57] [58]
+第 6 章
+
+Overfull \hbox (26.44453pt too wide) in paragraph at lines 479--487
+ [][] 
+ []
+
+File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
+<5_alignment/figs/9011_tod_cor_combined.pdf>
+
+LaTeX Warning: Float too large for page by 19.53104pt on input line 496.
+
+[59
+
+] [60]
+File: 5_alignment/figs/9011_kid3_psd.png Graphic file (type bmp)
+<5_alignment/figs/9011_kid3_psd.png>
+ [61]
+File: 5_alignment/figs/psd_and_selfcor.pdf Graphic file (type pdf)
+<5_alignment/figs/psd_and_selfcor.pdf>
+ [62]
+File: 5_alignment/figs/timing_offset.pdf Graphic file (type pdf)
+<5_alignment/figs/timing_offset.pdf>
+File: 5_alignment/figs/9011_08_11_psd.png Graphic file (type bmp)
+<5_alignment/figs/9011_08_11_psd.png>
+ [63] [64]
+File: 5_alignment/figs/timing_offset_compare.pdf Graphic file (type pdf)
+<5_alignment/figs/timing_offset_compare.pdf>
+
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 583--584
+ [][] 
+ []
+
+File: 5_alignment/figs/timing_offset_compare2.pdf Graphic file (type pdf)
+<5_alignment/figs/timing_offset_compare2.pdf>
+
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 590--591
+ [][] 
+ []
+
+File: 5_alignment/figs/9011_11139_08_11.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_08_11.png>
+File: 5_alignment/figs/9011_11139_04_19.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_04_19.png>
+File: 5_alignment/figs/9011_11139_10_04.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_10_04.png>
+File: 5_alignment/figs/9011_11139_12_17.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_12_17.png>
+File: 5_alignment/figs/9011_11139_12_06.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_12_06.png>
+File: 5_alignment/figs/9011_11139_07_13.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_07_13.png>
+File: 5_alignment/figs/9011_11139_09_05.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_09_05.png>
+File: 5_alignment/figs/9011_11139_15_09.png Graphic file (type bmp)
+<5_alignment/figs/9011_11139_15_09.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--667
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--667
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--667
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 598--667
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[65]
+File: 5_alignment/figs/9011_11679_08_11.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_08_11.png>
+File: 5_alignment/figs/9011_11679_04_19.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_04_19.png>
+File: 5_alignment/figs/9011_11679_10_04.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_10_04.png>
+File: 5_alignment/figs/9011_11679_12_17.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_12_17.png>
+File: 5_alignment/figs/9011_11679_12_06.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_12_06.png>
+File: 5_alignment/figs/9011_11679_07_16.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_07_16.png>
+File: 5_alignment/figs/9011_11679_09_05.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_09_05.png>
+File: 5_alignment/figs/9011_11679_15_05.png Graphic file (type bmp)
+<5_alignment/figs/9011_11679_15_05.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--743
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--743
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--743
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 674--743
+[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [66] [67] [68]
+\openout2 = `6_prospect/prospect.aux'.
+
+ (./6_prospect/prospect.tex
+第 7 章
+
+LaTeX Warning: Reference `chapter4' on page 69 undefined on input line 6.
+
+File: 6_prospect/figs/atmos_layer.pdf Graphic file (type pdf)
+<6_prospect/figs/atmos_layer.pdf>
+[69
+
+
+
+
+]
+File: 6_prospect/figs/correlation_real.png Graphic file (type bmp)
+<6_prospect/figs/correlation_real.png>
+ [70]
+
+LaTeX Warning: Reference `chapter4' on page 71 undefined on input line 55.
+
+File: 6_prospect/figs/new_kid.pdf Graphic file (type pdf)
+<6_prospect/figs/new_kid.pdf>
+[71]) [72]
+\openout2 = `7_summary/summary.aux'.
+
+ (./7_summary/summary.tex
+第 8 章
+) [73
+
+
+
+
+] (./8_acknowledgment/kk_acknowledgment.tex
+第 9 章
+) (./9_reference/kk_references.tex [74
+
+
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfil' on input line 2.
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 16--18
+[]\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A1 (2020), [][]https://doi.org/10.1051/0004-
+ []
+
+[75
+
+]
+Underfull \hbox (badness 7064) in paragraph at lines 76--78
+[]\OT1/cmr/m/n/10.95 Planck Col-lab-o-ra-tion, A$&$A 641, A4 (2020) [][]https://doi.org/10.1051/0004-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+[]\OT1/cmr/m/n/10.95 S. Oguri, et al., Rev. Sci. In-strum. 84, 055116 (2013)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
+[][][]\OT1/cmr/m/n/10.95 https://japan.xilinx.com/support/documentation-navigation/silicon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+[][][]\OT1/cmr/m/n/10.95 https://digilent.com/reference/programmable-logic/zybo-z7/reference-
+ []
+
+[76]) (./10_appendix/appendix.tex [77]
+付 録 A  
+) [78
+
+] (./Kataoka_mt.aux (./2_cosmology/kk_Introduction.aux) (./3_GB/GB.aux) (./4_elDAQ/elDAQ.aux) (./5_alignment/alignment.aux) (./6_prospect/prospect.aux) (./7_summary/summary.aux))
+ ***********
+pLaTeX2e <2023-02-14u04>+1, based on
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
+(rerunfilecheck)             Checksum: 74577BFADA67E718B4F239C476E3EBF8;9169.
+ ) 
+Here is how much of TeX's memory you used:
+ 18481 strings out of 474762
+ 377474 string characters out of 5758587
+ 1934338 words of memory out of 5000000
+ 40500 multiletter control sequences out of 15000+600000
+ 583364 words of font info for 148 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on Kataoka_mt.dvi (83 pages, 355448 bytes).
