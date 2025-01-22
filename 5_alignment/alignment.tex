@@ -423,33 +423,33 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
     \begin{minipage}[t]{0.48\hsize}
       \centering
       \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/10960_gnomonic.png}
-      \subcaption{\SI{220}{GHz}アレイのビーム中心マップ。}
+      \subcaption{\SI{220}{GHz}アレイの光軸中心マップ。}
       \label{10960_gnomview}
     \end{minipage}
     %---- 2番目の図 --------------------------
     \begin{minipage}[t]{0.48\hsize}
       \centering
       \includegraphics[keepaspectratio, scale=0.32]{5_alignment/figs/10960_pos_kid17_70.png}
-      \subcaption{各検出器のビーム中心の視線。}
+      \subcaption{各検出器の光軸中心の視線。}
       \label{10960_pos}
     \end{minipage}
     %---- 図はここまで ----------------------
   \end{tabular}
   \vspace{5pt}
-  \caption{ビーム中心マップから取得した検出器の視線(\SI{220}{GHz}、回転後)。中心アレイでは歪みの影響が少ない分、余分に回転させたことによるスキャン軸に対する傾きが残っていることが見て取れる。}
+  \caption{光軸中心マップから取得した検出器の視線(\SI{220}{GHz}、回転後)。中心アレイでは歪みの影響が少ないため、回転による傾きの改善が最も視覚的に見て取れる。}
   \label{10960_beam_centered}
 \end{figure}
 
 \subsection{木星データによる追確認}
 \label{jupiter_ana}
-次に\ref{moon_ana}で見た検出器アライメントの較正結果を木星の観測データでも確認した。木星は表\ref{moon_vs_planet}にまとめたように点源として扱えるため検出器の視線を知る上ではより正確であるが、信号が小さくノイズに埋もれやすいため、月より観測は難しい。そのため、月での結果を再現して較正結果の妥当性を保証することを目的として行った。以下では\SI{220}{GHz}アレイでの結果のみを述べる。木星は望遠鏡のビーム幅に対してその角直径は十分小さい。この場合、木星観測時のアンテナ温度$T_{\mathrm{Jupiter}}$は
+次に\ref{moon_ana}節で見た検出器アライメントの較正結果を木星の観測データでも確認した。木星は表\ref{moon_vs_planet}にまとめたように点源として扱えるため検出器の視線を知る上ではより正確であるが、信号が小さくノイズに埋もれやすいため、月より観測は難しい。そのため、月での結果を再現して較正結果の妥当性を保証することを目的として行った。以下では\SI{220}{GHz}アレイでの結果のみを述べる。木星は望遠鏡のビーム幅に対してその角直径は十分小さい。この場合、木星観測時のアンテナ温度$T_{\mathrm{Jupiter}}$は
 \begin{equation}
   T_{\mathrm{Jupiter}}=\frac{\overline{T_{\mathrm{B}}}\Omega_{\mathrm{Jupiter}}}{\Omega_{\mathrm{A}}}
 \end{equation}
 と表せる。ここで、$\Omega_{\mathrm{A}}$はビーム立体角、$\Omega_{\mathrm{Jupiter}}$は木星のビームの広がり、$\overline{T_{\mathrm{B}}}$は、木星の平均輝度温度である。つまり、真の木星輝度温度よりも観測されるアンテナ温度は十分小さくなる。木星の輝度温度は周波数依存性があるが、ミリ波帯での典型的な値\SI{150}{K}とし、木星の角直径$\sim\SI{40}{''}$、\SI{220}{GHz}検出器のビーム幅\SI{25}{'}からアンテナ温度を見積もると、おそよ$T_{\mathrm{Jupiter}}\sim$\SI{100}{mK}と小さいことが分かる。実際、木星観測時のTODを見るとノイズに信号が埋もれて木星のマップを再構成できないことがある。TODには大気放射に由来するノイズが混入し、それは大気中の水蒸気量が多い時ほど顕著になって木星由来の信号の邪魔となる。そのため、木星の観測データの中でも十分PWVが小さいものを主な解析対象とした。また、木星中心座標データから以下の処理
 \begin{enumerate}
-  \item スキャンごとの位相を線形関数でフィットし、ベースラインを差っ引く
-  \item $\SI{0.2}{^{\circ}}\cdot\SI{0.2}{^{\circ}}$の角度領域でリビンし、領域内の位相の平均をとり、その値を代表値とする
+  \item スキャンごとの位相を線形関数でフィットし、ベースラインを差し引く
+  \item $\SI{0.2}{^{\circ}}$四方の角度領域でリビンし、領域内の位相の平均をとり、その値を代表値とする
 \end{enumerate}
 を行なった。まず、PWVが比較的高い観測のTODと各検出器の木星中心マップを図\ref{5862_jupiter}に示す。
 \begin{figure}[htbp]
