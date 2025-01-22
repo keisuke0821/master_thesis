@@ -160,7 +160,8 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{chapter4_3}{{6}{59}{検出器アライメントに伴う大気揺らぎの評価}{chapter.6}{}}
 \newlabel{chapter4_3@cref}{{[chapter][6][]6}{[1][59][]59}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}TODの差分とPSD}{59}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}検出器間差分で見る大気揺らぎの抑制}{59}{section.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.1}TODの差分とPSD}{59}{subsection.6.1.1}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {6.1}{\ignorespaces 検出器間差分に使用した\SI {220}{GHz}アレイ観測データ}}{59}{table.caption.81}\protected@file@percent }
 \newlabel{pair_diff_table}{{6.1}{59}{検出器間差分に使用した\SI {220}{GHz}アレイ観測データ}{table.caption.81}{}}
 \newlabel{pair_diff_table@cref}{{[table][1][6]6.1}{[1][59][]59}}
@@ -171,20 +172,20 @@
 \citation{periodogram}
 \newlabel{eq:tod_diff}{{6.2}{61}{TODの差分とPSD}{equation.6.1.2}{}}
 \newlabel{eq:tod_diff@cref}{{[equation][2][6]6.2}{[1][61][]61}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}PSDと自己相関関数}{61}{section.6.2}\protected@file@percent }
-\newlabel{psd_correlation}{{6.2}{61}{PSDと自己相関関数}{section.6.2}{}}
-\newlabel{psd_correlation@cref}{{[section][2][6]6.2}{[1][61][]61}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.2}PSDと自己相関関数}{61}{subsection.6.1.2}\protected@file@percent }
+\newlabel{psd_correlation}{{6.1.2}{61}{PSDと自己相関関数}{subsection.6.1.2}{}}
+\newlabel{psd_correlation@cref}{{[subsection][2][6,1]6.1.2}{[1][61][]61}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.2}{\ignorespaces 計算した1検出器のPSD。スキャン速度は\SI {9}{RPM}であり、対応するスキャン周波数は\SI {0.15}{Hz}になる。そのため、スキャン周波数の整数倍の周波数でスキャンに同期したノイズのピークが生じる。}}{62}{figure.caption.83}\protected@file@percent }
 \newlabel{9011_psd_kid3}{{6.2}{62}{計算した1検出器のPSD。スキャン速度は\SI {9}{RPM}であり、対応するスキャン周波数は\SI {0.15}{Hz}になる。そのため、スキャン周波数の整数倍の周波数でスキャンに同期したノイズのピークが生じる。}{figure.caption.83}{}}
 \newlabel{9011_psd_kid3@cref}{{[figure][2][6]6.2}{[1][61][]62}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6.3}{\ignorespaces TODとPSD、自己相関関数との関係。PSDと自己相関関数はフーリエ変換によって結びつき、等価な物理量を表す。}}{63}{figure.caption.84}\protected@file@percent }
 \newlabel{psd_and_selfcor}{{6.3}{63}{TODとPSD、自己相関関数との関係。PSDと自己相関関数はフーリエ変換によって結びつき、等価な物理量を表す。}{figure.caption.84}{}}
 \newlabel{psd_and_selfcor@cref}{{[figure][3][6]6.3}{[1][62][]63}}
-\newlabel{eq:diff_index}{{6.12}{63}{PSDと自己相関関数}{equation.6.2.12}{}}
+\newlabel{eq:diff_index}{{6.12}{63}{PSDと自己相関関数}{equation.6.1.12}{}}
 \newlabel{eq:diff_index@cref}{{[equation][12][6]6.12}{[1][62][]63}}
-\newlabel{eq:diff_index2}{{6.13}{63}{PSDと自己相関関数}{equation.6.2.13}{}}
+\newlabel{eq:diff_index2}{{6.13}{63}{PSDと自己相関関数}{equation.6.1.13}{}}
 \newlabel{eq:diff_index2@cref}{{[equation][13][6]6.13}{[1][62][]63}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}timing offsetの算出}{63}{section.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.3}timing offsetの算出}{63}{subsection.6.1.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6.4}{\ignorespaces 検出器の配置と方位角オフセット。隣接する検出器間でおよそ\SI {2.5}{^{\circ }}のオフセットがある。}}{64}{figure.caption.85}\protected@file@percent }
 \newlabel{timing_offset}{{6.4}{64}{検出器の配置と方位角オフセット。隣接する検出器間でおよそ\SI {2.5}{^{\circ }}のオフセットがある。}{figure.caption.85}{}}
 \newlabel{timing_offset@cref}{{[figure][4][6]6.4}{[1][63][]64}}
@@ -194,7 +195,7 @@
 \@writefile{lof}{\contentsline {figure}{\numberline {6.6}{\ignorespaces timing offsetの違いによるPSDと相関の振る舞いの違い。(左)timing offsetとPSDの関係。緑で示したものが計算で求めた適切な$\delta t$。\SI {1}{Hz} $\sim $ \SI {10}{Hz}にかけて顕著な違いが見え、ノイズ成分が引けていることが分かる。(右)timing offsetとCorrelation Indexの関係。最大値の1.0から高周波側に行くにつれてランダムなホワイトノイズの寄与が大きくなり、0に近づく。timing offsetを適切にとらないと相関が負に転じることもある。}}{65}{figure.caption.87}\protected@file@percent }
 \newlabel{timing_offset_compare}{{6.6}{65}{timing offsetの違いによるPSDと相関の振る舞いの違い。(左)timing offsetとPSDの関係。緑で示したものが計算で求めた適切な$\delta t$。\SI {1}{Hz} $\sim $ \SI {10}{Hz}にかけて顕著な違いが見え、ノイズ成分が引けていることが分かる。(右)timing offsetとCorrelation Indexの関係。最大値の1.0から高周波側に行くにつれてランダムなホワイトノイズの寄与が大きくなり、0に近づく。timing offsetを適切にとらないと相関が負に転じることもある。}{figure.caption.87}{}}
 \newlabel{timing_offset_compare@cref}{{[figure][6][6]6.6}{[1][65][]65}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}回転前後での比較と大気揺らぎ抑制の確認}{65}{section.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1.4}回転前後での比較と大気揺らぎ抑制の確認}{65}{subsection.6.1.4}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6.7}{\ignorespaces スキャン軸上で最も離れた検出器ペアでの結果。$\delta t=\SI {200}{\mathrm  {ms}}$であるが、大気が揺らぐ前にスキャンができるため、強い相関を保持できる。}}{66}{figure.caption.88}\protected@file@percent }
 \newlabel{timing_offset_compare2}{{6.7}{66}{スキャン軸上で最も離れた検出器ペアでの結果。$\delta t=\SI {200}{\mathrm {ms}}$であるが、大気が揺らぐ前にスキャンができるため、強い相関を保持できる。}{figure.caption.88}{}}
 \newlabel{timing_offset_compare2@cref}{{[figure][7][6]6.7}{[1][65][]66}}
@@ -280,23 +281,23 @@
 \setcounter{@paper}{1}
 \setcounter{part}{0}
 \setcounter{chapter}{6}
-\setcounter{section}{4}
-\setcounter{subsection}{0}
+\setcounter{section}{1}
+\setcounter{subsection}{4}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
 \setcounter{figure}{9}
 \setcounter{table}{1}
-\setcounter{section@level}{1}
+\setcounter{section@level}{2}
 \setcounter{Item}{27}
 \setcounter{Hfootnote}{17}
 \setcounter{Hy@AnnotLevel}{0}
-\setcounter{bookmark@seq@number}{59}
+\setcounter{bookmark@seq@number}{60}
 \setcounter{parentequation}{0}
 \setcounter{caption@flags}{6}
 \setcounter{continuedfloat}{0}
 \setcounter{subfigure}{8}
 \setcounter{subtable}{0}
 \setcounter{linenumber}{1}
-\setcounter{LN@truepage}{72}
+\setcounter{LN@truepage}{73}
 }
