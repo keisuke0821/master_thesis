@@ -513,7 +513,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \section{検出器間差分で見る大気揺らぎの抑制}
 
 \subsection{TODの差分とPSD}
-天体の観測データを用いて検出器の配置が回転し、スキャン軸に沿った向きへと較正されたことを見たが、\ref{scan_pair_diff}で述べたように検出器間での信号の差分をとり、同じ大気をスキャンできるようになっているかを確認して初めて理想とする検出器アライメントに近づいたと言える。異なる検出器がスキャンする大気が同じであれば観測するTODは強い相関を持つことに対応する。そのため、この章ではスキャン軸に沿って並ぶ異なる2つの検出器のTOD相関が配置の回転によってどう変化したのか、に着目する。また、球面による歪みの影響が少なく、大気放射の寄与も大きい中心の\SI{220}{GHz}アレイに焦点を置いて議論する。使用したTODを表\ref{pair_diff_table}に示す。
+天体の観測データを用いて検出器の配置が回転し、スキャン軸に沿った向きへと較正されたことを見たが、\ref{scan_pair_diff}節で述べたように検出器間での信号の差分をとり、同じ大気をスキャンできるようになっているかを、実際の観測データを用いて確認した。異なる検出器がスキャンする大気が同じであれば観測するTODは強い相関を持つことに対応する。そのため、この章ではスキャン軸に沿って並ぶ異なる2つの検出器のTOD相関が配置の回転によってどう変化したのか、に着目する。また、球面による歪みの影響が少なく、大気放射の寄与も大きい中心の\SI{220}{GHz}アレイに焦点を置いて議論する。使用したTODを表\ref{pair_diff_table}に示す。
 \begin{table}[htbp]
   \centering
   \caption{検出器間差分に使用した\SI{220}{GHz}アレイ観測データ}
@@ -536,19 +536,19 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \caption{(上)実際の検出器配置で並べた各kidのTOD。一部を除いてTODは同じような形状になり、共通したトレンドを持つ。(下)同時刻のTODペアに対する相関係数。ピアソンの積率相関係数に従っている。対角線上の相関係数は同kid間での値で1になるため省略した。}
   \label{9011_tod_cor_combined}
 \end{figure}
-回転前TODを実際の検出器配置に沿って並べたものを図\ref{9011_tod_cor_combined}(上)に示す。TODの位相は1観測での平均値でベースラインを引いて表している。一部の検出器以外ではTODの形状が非常に似ており、共通したトレンドを持っている。異なる検出器のペアごとに求めたTODの相関係数を図\ref{9011_tod_cor_combined}(下)に示す。相関係数はピアソンの積率相関係数に従って以下の式
+回転前TODを実際の検出器配置に沿って並べたものを図\ref{9011_tod_cor_combined}(上)に示す。TODの位相は1観測での平均値でベースラインを引いて表している。一部の検出器以外ではTODの形状が非常に似ており、共通したトレンドを持っている。異なる検出器のペアごとに求めたTODの相関係数を図\ref{9011_tod_cor_combined}(下)に示す。TODのペアが要素数$n$に対して$[x_{1},x_{2}, ..., x_{n}]$と$[y_{1},y_{2}, ..., y_{n}]$である時、相関係数はピアソンの積率相関係数に従って以下の式
 \begin{equation}
   r = \frac{\displaystyle\sum_{i=1}^{n}(x_{i}-\overline{x})(y_{i}-\overline{y})}{\sqrt{\displaystyle\sum_{i=1}^{n}(x_{i}-\overline{x})^{2}\displaystyle\sum_{i=1}^{n}(y_{i}-\overline{y})^{2}}}
 \end{equation}
 によって算出している。つまり、ここでの相関係数は同時刻での各TODについてのものである。一部の検出器(ここではkid0とkid2)を除いては相関係数は0.9を超え、強い相関を持っていることが見て取れる。このことからも、検出器間でのTODの差分を取ることで共通した大気ノイズを差し引けることを示唆している。
 
-しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{\mathrm{diff}}$)はtiming offset($\delta t$)を用いて
+しかし、差分を取るにあたっては同時刻のTOD同士では不十分である。各検出器で同時刻に見ている空は異なっており、厳密な相関を見るためには理想的に同じ空をスキャンした時刻のTOD同士で差分を取る必要がある。GroundBIRDは仰角を固定し方位角方向にスキャンをしているため、同一スキャン軸上の検出器は一定の時間差で同じ空を観測する。そのため、TOD間でスキャンに伴う時間差(本論文ではtiming offsetと呼ぶ)を考慮して差分をとる。2つのTOD($\mathrm{TOD}_{1}$, $\mathrm{TOD}_{2}$)の差分をとったTOD($\mathrm{TOD}_{\mathrm{diff}}$)はtiming offset($\delta t$)を用いて
 \begin{equation}
   \mathrm{TOD}_{\mathrm{diff}}(t,\delta t) = \mathrm{TOD}_{1}(t) - \mathrm{TOD}_{2}(t + \delta t) \label{eq:tod_diff}
 \end{equation}
 と表すことができる\cite{sueno_doctor}。
 
-最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をフーリエ変換してPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
+最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をフーリエ変換してPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}節で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\columnwidth]{5_alignment/figs/9011_kid3_psd.png}
