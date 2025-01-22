@@ -1,7 +1,7 @@
 \chapter{焦点面検出器アライメントの課題とその較正に向けた方針}
 \label{chapter4_1}
 
-仰角のデータ取得が安定になったことで次に取り組むべき課題が明らかになった。GroundBIRD実験での偏光測定のためには、検出器間での信号の差分を取ることが重要であり、それに伴って望遠鏡のスキャンに対して最適な検出器のアライメントが求められる。この章では焦点面検出器アライメントが抱える課題の定量的な評価を行い、較正に向けた方針を提示する。
+仰角のデータ取得が安定になったことで、次に取り組むべき課題が明らかになった。GroundBIRD実験での偏光測定のためには、検出器間での信号の差分を取ることが重要であり、それに伴って望遠鏡のスキャンに対して最適な検出器のアライメントが求められる。この章では焦点面検出器アライメントが抱える課題の定量的な評価を行い、較正に向けた方針を提示する。
 %この章では検出器アライメントの最適化に向けた改善を行い、観測データからその効果を確認した。
 
 \section{検出器アライメントの問題点}
@@ -207,7 +207,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \centering
   \caption{ビーム中心マップの構成に使用した月観測データ}
   \vspace{3mm}
-  \begin{tabular}{cccc} \hline
+  \begin{tabular}{cccc} \hline\hline
     観測日(UTC) & 観測時間 [min] & 周波数 [GHz] & 月の昇降(rise or set) \\ \hline
     2024/02/22 0:04 - 1:04 & 60 & 145 & set \\
     2024/02/22 0:17 - 1:17 & 60 & 145 & set \\
@@ -215,7 +215,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
     2024/02/22 0:37 - 1:37 & 60 & 220 & set \\
     2024/02/22 0:48 - 1:48 & 60 & 145 & set \\
     2024/02/22 0:48 - 1:48 & 60 & 145 & set \\
-    2024/02/22 1:10 - 2:10 & 60 & 145 & set \\ \hline
+    2024/02/22 1:10 - 2:10 & 60 & 145 & set \\ \hline\hline
 
   \end{tabular}
   \label{before_full_array_table}
@@ -244,20 +244,20 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 %\end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/before_full_gnomonic_70.png}
-  \caption{フルアレイのビーム中心マップ。左右の\SI{145}{GHz}アレイで見られるように一部の検出器では月のマップが重なることがあり、視線情報の再構成が上手くできない。}
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/before_full_gnomonic_selected_mod2.pdf}
+  \caption{フルアレイのビーム中心マップ。検出器全体がスキャン軸に対して傾いていることが見て取れる。また、左右の\SI{145}{GHz}アレイでは一部の検出器で月のマップが重なることがあり、それらを除いて示している。}
   \label{before_full_beam_map}
 \end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/before_full_pos_70.png}
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/before_full_pos_70.png}
   \caption{全検出器のビーム中心の視線。各点の番号は検出器のラベルとして記しており、中心の\SI{220}{GHz}アレイのkid17をビーム中心としている。中心以外の\SI{145}{GHz}アレイでは球面に起因する位置の歪みが現れる。}
   \label{before_full_beam_pos}
 \end{figure}
 全検出器で視線を見ると、図\ref{distortion_pos}で示したような天球面での歪みの効果が周りのアレイに表れる。仰角が$\SI{90}{^{\circ}}$に近づくにつれて検出器が見ている角度の間隔が広くなる。全体としてビーム中心に対して傾いていることが見て取れる。歪みの効果を補正するために仰角を$\SI{70}{^{\circ}}$から$\SI{0}{^{\circ}}$に天球面上で回転させた全検出器の視線を図\ref{before_full_pos_0}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/before_full_pos.png}
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/before_full_pos.png}
   \caption{座標回転により平面的に見たビーム中心の視線。}
   \label{before_full_pos_0}
 \end{figure}
@@ -275,7 +275,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \centering
   \caption{回転角の決定に使用した月観測データ}
   \vspace{3mm}
-  \begin{tabular}{ccc} \hline
+  \begin{tabular}{ccc} \hline\hline
     観測日(UTC) & 観測時間 [min]  & 月の昇降(rise or set) \\ \hline
     2023/06/15 9:04 - 10:04 & 60 & rise \\
     2023/12/02 3:06 - 4:06 & 60 & rise \\
@@ -286,7 +286,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
     2024/02/21 21:34 - 22:34 & 60 & rise \\
     2024/02/22 0:37 - 1:37 & 60 & set \\
     2024/07/01 6:48 - 7:48 & 60 & rise \\
-    2024/07/02 7:59 - 8:59 & 60 & rise \\ \hline
+    2024/07/02 7:59 - 8:59 & 60 & rise \\ \hline\hline
 
   \end{tabular}
   \label{angle_cal_tods}
@@ -301,7 +301,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 アレイの1列目について、データの性質が良くなく視線の再構成に失敗した検出器が複数の観測で見られたため、使用しなかった。そのため1観測で2~5列目までの4列でそれぞれ直線の傾きから回転角を算出した。また、10観測分の月データについて同様の手順を踏んだため、合計で40の回転角データを求めた。この回転角の中で明らかな外れ値があったため除外し、最終的に38の回転角データを得た。回転角ヒストグラムのガウシアンフィットの結果を図\ref{gaussian_fit}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.8\columnwidth]{5_alignment/figs/hist_rotation_angle2.png}
+  \includegraphics[width=0.85\columnwidth]{5_alignment/figs/hist_rotation_angle2.png}
   \caption{回転角データのガウシアンフィット。}
   \label{gaussian_fit}
 \end{figure}
@@ -311,7 +311,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 決定した回転角分だけ望遠鏡を視線方向軸の周りに回転させれば理想とする検出器配置になると考えられるが、回転にあたって望遠鏡の機構上の問題点があった。GroundBIRDの視線方向軸周りの回転機構の概略を図\ref{gb_fixing_system}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.85\columnwidth]{5_alignment/figs/gb_fixing_system.pdf}
+  \includegraphics[width=0.95\columnwidth]{5_alignment/figs/gb_fixing_system.pdf}
   \caption{GroundBIRDの視線方向軸周りの回転機構。固定穴の角度間隔に対して理想的なアライメントにするための回転角が小さい。}
   \label{gb_fixing_system}
 \end{figure}
