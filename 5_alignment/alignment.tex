@@ -369,20 +369,20 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/after_full_gnomonic_mod_base.pdf}
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/after_full_gnomonic_mod.pdf}
   \caption{視線方向軸周りの回転後のビーム中心マップ。}
   \label{after_full_beam_map}
 \end{figure}
 回転前の図\ref{before_full_beam_map}と比較することで検出器の配置がスキャン軸に沿った方向へとビーム中心に対して回転したことが見て取れる。この図はあくまで仰角$\SI{70}{^{\circ}}$中心の配置を平面射影したもので、位相の最大点をとった視線を仰角$\SI{0}{^{\circ}}$の球面で見たもの(図\ref{after_full_pos_0})に対応している。これを実際の仰角$\SI{70}{^{\circ}}$での球面での視線で見ると図\ref{after_full_pos_70}のようになる。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/after_full_pos_0_mod.pdf}
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/after_full_pos_0_mod.pdf}
   \caption{座標変換により平面的に見た回転後のビーム中心の視線。}
   \label{after_full_pos_0}
 \end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/after_full_pos_70_mod.pdf}
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/after_full_pos_70_mod.pdf}
   \caption{回転後の全検出器の視線。球面による歪みによって生じる非対称性が回転によって是正された。}
   \label{after_full_pos_70}
 \end{figure}
@@ -410,7 +410,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
   \label{10960_beam_centered}
 \end{figure}
 
-\subsection{木星データによる確認}
+\subsection{木星データによる追確認}
 \label{jupiter_ana}
 次に\ref{moon_ana}で見た検出器アライメントの較正結果を木星の観測データでも確認した。木星は表\ref{moon_vs_planet}にまとめたように点源として扱えるため検出器の視線を知る上ではより正確であるが、信号が小さくノイズに埋もれやすいため、月より観測は難しい。そのため、月での結果を再現して較正結果の妥当性を保証することを目的として行った。以下では\SI{220}{GHz}アレイでの結果のみを述べる。木星は望遠鏡のビーム幅に対してその角直径は十分小さい。この場合、木星観測時のアンテナ温度$T_{\mathrm{Jupiter}}$は
 \begin{equation}
@@ -430,12 +430,24 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \end{figure}
 ここで、PWVの値はTODの観測時間内のPWVデータベースの平均値をとっている。月中心マップ(図\ref{moon_centered_6550})では中心に月のマップが鮮明に見えたが、この木星データでは木星のマップが見て取れない。
 
-次にPWVが十分低い観測での木星中心データを図\ref{5987_jupiter}に示す。
+次にPWVが十分低い観測での木星中心データを図\ref{5987_phase}に示す。木星中心座標の原点付近で位相が高くなっており、これが木星の信号に対応している。この木星中心データをリビンしたマップを図\ref{5987_map}に示す。
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter.pdf}
+  %\caption{十分低いPWVでの木星観測データ(2023/07/28, PWV= \SI{0.83}{mm})。(左)ベースラインを引いた後の木星中心座標での位相。中心付近で位相が高くなっており、これが木星の信号に対応している。(右)ベースラインを引き、リビンした後の木星中心マップ。}
+  %\label{5987_jupiter}
+%\end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter.pdf}
-  \caption{十分低いPWVでの木星観測データ(2023/07/28, PWV= \SI{0.83}{mm})。(左)ベースラインを引いた後の木星中心座標での位相。中心付近で位相が高くなっており、これが木星の信号に対応している。(右)ベースラインを引き、リビンした後の木星中心マップ。}
-  \label{5987_jupiter}
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/5987_jupiter_sub_phase.png}
+  \caption{十分低いPWVでの木星観測データ(2023/07/28, PWV= \SI{0.83}{mm})の、ベースラインを引いた後の木星中心座標での位相。}
+  \label{5987_phase}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\columnwidth]{5_alignment/figs/5987_juputer_map.png}
+  \caption{十分低いPWVでの木星観測データ(2023/07/28, PWV= \SI{0.83}{mm})の、ベースラインを引き、リビンした後の木星中心マップ。}
+  \label{5987_map}
 \end{figure}
 月と同様にして鮮明な木星のマップを得られた。これより、十分PWVが低く観測条件が整っていれば1時間のTODで木星を観測できることが分かった。一方でPWVが比較的高い時は1観測では木星を見ることはできず、データを蓄積する必要がある\footnote{十分にPWVが低く、かつ木星が通過する時間での観測データは現在時点では数観測しか確認できていない。そのため、十分ではないが比較的低いPWVでの観測データを蓄積し、S/N比を上げて木星を見るような解析手法が求められる。}。
 
