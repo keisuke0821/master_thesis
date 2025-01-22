@@ -27,7 +27,7 @@ GroundBIRDの内部構造の概略を図\ref{GB_inside}に示す。光学系は�
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.6\columnwidth]{3_GB/figs/gb_int.png}
+  \includegraphics[width=0.55\columnwidth]{3_GB/figs/gb_int.png}
   \caption{GroundBIRD内部の概略図。バッフルを通ってCMBが望遠鏡内に入り、主鏡と副鏡で反射されて検出器ステージに入る。}
   \label{GB_inside}
 \end{figure}
@@ -79,7 +79,7 @@ MKIDの動作原理の概要を説明する。MKIDは超伝導共振回路を応
 CMBの偏光を観測するためにはCMBと、銀河などから来るCMBと同周波数帯の放射である``前景放射''とを分離する必要がある。これらの前景放射はそれぞれ異なる周波数依存性を持つ(図\ref{planck_spectrum})。主な前景放射には低周波側で卓越する``シンクロトロン放射''と高周波側で卓越する``ダスト熱放射''があり、CMBにとって大きなノイズとなる。そのため、低周波側$\mathcal{O}$(10)~GHzから高周波側$\mathcal{O}$(100)~GHzまでの広い帯域での観測を行い前景放射を取り除くことが求められる。\ref{full_array}で述べるが、GroundBIRDはCMBに感度のある\SI{145}{GHz}と、ダスト放射に感度がある\SI{220}{GHz}の2つの帯域で観測する。一方で、低周波側はQUIJOTE\footnote{QUIJOTE(Q-U-I JOint Tenerife Experiment)実験はGroundBIRDから\SI{20}{m}ほどしか離れていない隣に位置する望遠鏡である。2台の望遠鏡(11, 13, 17, \SI{19}{GHz}を観測するQT1と30, \SI{40}{GHz}を観測するQT2)で構成される。}のデータを使うことでカバーする。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.8\columnwidth]{3_GB/figs/planck_spectrum.pdf}
+  \includegraphics[width=0.75\columnwidth]{3_GB/figs/planck_spectrum.pdf}
   \caption{CMBと前景放射の偏光強度を周波数の関数として表した図。Planck\cite{planck_cmb}を参照。それぞれの前景放射は異なる周波数依存性を持ち、CMBとこれらを分離するためには広い帯域での観測が必要になる。}
   \label{planck_spectrum}
 \end{figure}
@@ -98,7 +98,7 @@ GroundBIRDが探る物理ターゲットは\ref{E_and_tau}で見た光学的厚�
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.75\columnwidth]{3_GB/figs/cl_shonda.pdf}
+  \includegraphics[width=0.8\columnwidth]{3_GB/figs/cl_shonda.pdf}
   \caption{パワースペクトルの過去の観測結果とE,Bモードの理論線、そしてGroundBIRDの観測領域\cite{spie_honda}をオレンジで示す。青実線はテンソル$\cdot$スカラー比を仮定した時の原始重力波由来の偏光Bモード、赤点線は重力レンズ効果由来のBモードを表す。黒実線はEモードであり、大角度スケール($\geq\SI{10}{^{\circ}}$)で$\tau$の値によってスペクトルに違いが生まれる。}
   \label{cl_honda}
 \end{figure}
