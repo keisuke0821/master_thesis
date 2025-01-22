@@ -596,7 +596,7 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
   & \sim \frac{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle - \langle (x(t) - y(t+\delta t))(x(t) - y(t+\delta t))\rangle}{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}& \\
   & = \frac{\langle x(t)y(t+\delta t)\rangle + \langle y(t+\delta t)x(t)\rangle }{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}
 \end{align}
-ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(Correlation Indexと呼ぶこととする)としてTODの相関を測ることとする。
+ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した\footnote{分母と分子の各項がフーリエ変換前の自己相関関数に戻る。}。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(Correlation Indexと呼ぶこととする)としてTODの相関を測ることとする。
 
 \subsection{timing offsetの算出}
 次に、各検出器間で異なるtiming offset($\delta t$)を計算する。GroundBIRDは仰角を固定して方位角方向にスキャンを行うため、検出器間での方位角のずれ(オフセット)をスキャン角速度で割った時間がスキャンにかかるtiming offsetになる。使用した観測データは\SI{9}{RPM}=\SI{54}{deg/s}でのスキャン角速度に対応する。そのため、差分をとる2つの検出器の方位角をそれぞれ$\mathrm{Az}_{x}$、$\mathrm{Az}_{y}$とするとtiming offsetは
@@ -626,7 +626,7 @@ TODを差し引くことでノイズ成分を落とせていることが、PSD�
   \caption{timing offsetの違いによるPSDと相関の振る舞いの違い。(左)timing offsetとPSDの関係。緑で示したものが計算で求めた適切な$\delta t$。\SI{1}{Hz} $\sim$ \SI{10}{Hz}にかけて顕著な違いが見え、ノイズ成分が引けていることが分かる。(右)timing offsetとCorrelation Indexの関係。最大値の1.0から高周波側に行くにつれてランダムなホワイトノイズの寄与が大きくなり、0に近づく。timing offsetを適切にとらないと相関が負に転じることもある。}
   \label{timing_offset_compare}
 \end{figure}
-\ref{atmos_model}で述べるように、大気放射に由来するノイズは周波数で$\sim\SI{10}{Hz}$付近に現れると考えられている。timing offsetの違いはどれほど大気ノイズを差し引けるかに直結するため、\SI{1}{Hz} $\sim$ \SI{10}{Hz}の範囲で大きく振る舞いが異なる。Correlation Indexは相関が強いほど1.0に近づく指標なので、$\delta t=\SI{47}{\mathrm{ms}}$で最も相関が強い(同じ大気をスキャンしている)ことが分かる。一方で、異なる値を適用すると相関は弱くなり、$\sim\SI{20}{ms}$の違いでも相関には顕著な差が出る。同一スキャン軸上で離れた2つの検出器(kid18とkid14)ペアについても同様の結果が得られた(図\ref{timing_offset_compare2})。
+\ref{atmos_model}節で述べるように、大気放射に由来するノイズは周波数で$\sim\SI{10}{Hz}$付近に現れると考えられている。timing offsetの違いはどれほど大気ノイズを差し引けるかに直結するため、\SI{1}{Hz} $\sim$ \SI{10}{Hz}の範囲で大きく振る舞いが異なる。Correlation Indexは相関が強いほど1.0に近づく指標なので、$\delta t=\SI{47}{\mathrm{ms}}$で最も相関が強い(同じ大気をスキャンしている)ことが分かる。一方で、異なる値を適用すると相関は弱くなり、$\sim\SI{20}{ms}$の違いでも相関には顕著な差が出る。同一スキャン軸上で離れた2つの検出器(kid18とkid14)ペアについても同様の結果が得られた(図\ref{timing_offset_compare2})。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=1.05\columnwidth]{5_alignment/figs/timing_offset_compare2.pdf}
@@ -787,4 +787,4 @@ TODを差し引くことでノイズ成分を落とせていることが、PSD�
 \end{figure}
 同様にして、回転後のCorrelation Indexが\SI{1}{Hz} $\sim$ \SI{10}{Hz}の周波数領域で大きくなり、強い相関を持つ結果を得た。
 
-これらの結果から、視線方向軸周りの回転による検出器配置の較正によってスキャン軸上の検出器が観測する大気の揺らぎは抑制され、より相関のある(共通した)信号を取得できる配置に改善されたことが分かる。今後のさらなる解析によって大気放射ノイズの理解を深め、CMBの偏光観測につながる可能性を示している。
+これらの結果から、視線方向軸周りの回転による検出器配置の補正によってスキャン軸上の検出器が観測する大気の揺らぎは抑制され、より相関のある(共通した)信号を取得できる配置に改善されたことが分かる。今後のさらなる解析によって大気放射ノイズの理解を深め、CMBの偏光観測につながる可能性を示している。
