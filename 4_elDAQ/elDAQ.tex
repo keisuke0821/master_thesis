@@ -275,18 +275,23 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
   \label{eldata_check}
 \end{figure}
 
-以上の結果から、期待される3点の挙動を確認することができたため、新システムに問題はないと判断した。次に実際の望遠鏡へのインストールを行なった。インストールはSDカードを新システムのものに交換するだけで完了し、PYNQの起動を確認した(図\ref{el_install})。
+以上の結果から、期待される3点の挙動を確認することができたため、新システムに問題はないと判断した。
+
+次に実際の望遠鏡へのインストールを行なった。インストールはSDカードを新システムのものに交換するだけで完了し、PYNQの起動を確認した(図\ref{el_install})。
 
 \begin{figure}[h]
   \begin{tabular}{cc}
     %---- 最初の図 ---------------------------
-    \begin{minipage}[t]{0.45\hsize}
+    \begin{minipage}[t]{0.48\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/sd_exchange.pdf}
-      \subcaption{SDカードの交換}
+      %\includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/sd_exchange.pdf}
+      \includegraphics[keepaspectratio, scale=0.048]{4_elDAQ/figs/install_work.jpg}
+      %\subcaption{SDカードの交換}
+      \subcaption{現地でのインストール作業}
     \end{minipage}
+    \hfill
     %---- 2番目の図 --------------------------
-    \begin{minipage}[t]{0.45\hsize}
+    \begin{minipage}[t]{0.48\hsize}
       \centering
       \includegraphics[keepaspectratio, scale=0.048]{4_elDAQ/figs/pynq_start.jpg}
       \subcaption{PYNQの起動}
@@ -369,23 +374,23 @@ Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-
   \begin{tabular}{cc}
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/test_usb.jpg}
+      \includegraphics[width=0.9\columnwidth]{4_elDAQ/figs/test_usb.jpg}
       \subcaption{テスト1}
     \end{minipage} &
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/test_jack.jpg}
+      \includegraphics[width=0.9\columnwidth]{4_elDAQ/figs/test_jack.jpg}
       \subcaption{テスト2}
     \end{minipage} \\
 
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/test_50.jpg}
+      \includegraphics[width=0.9\columnwidth]{4_elDAQ/figs/test_50.jpg}
       \subcaption{テスト3}
     \end{minipage} &
     \begin{minipage}[t]{0.45\hsize}
       \centering
-      \includegraphics[width=0.8\columnwidth]{4_elDAQ/figs/test_45.jpg}
+      \includegraphics[width=0.9\columnwidth]{4_elDAQ/figs/test_45.jpg}
       \subcaption{テスト4}
     \end{minipage}
   \end{tabular}
@@ -398,12 +403,12 @@ Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-
   \centering
   \caption{安定稼働テストの給電条件と結果}
   \vspace{3mm}
-  \begin{tabular}{ccc} \hline
+  \begin{tabular}{ccc} \hline\hline
      & 給電条件 & 動作の結果  \\ \hline
     テスト1 & 従来と同じUSB & 安定 \\
     テスト2 & バレルジャック(\SI{5}{V}、\SI{4}{A}のACアダプタ) & 安定 \\ \hline
     テスト3 & 直流電源(定電圧モード \SI{5.0}{V}) & 安定 \\
-    テスト4 & 直流電源(定電圧モード \SI{4.5}{V}) & 不安定(数時間でZyboの電源が落ちる) \\ \hline
+    テスト4 & 直流電源(定電圧モード \SI{4.5}{V}) & 不安定(数時間でZyboの電源が落ちる) \\ \hline\hline
   \end{tabular}
   \label{power_result}
 \end{table}

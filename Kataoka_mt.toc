@@ -1,0 +1,67 @@
+\contentsline {chapter}{\numberline {第1章}序論}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}CMBの温度異方性と現代宇宙論}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}CMBの温度異方性}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}$\Lambda $-CDMモデル}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}地平線問題}{5}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}CMBの偏光とインフレーション理論}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}インフレーション理論}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}CMBの偏光モード}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}偏光Bモードの探索状況}{9}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.3}CMBの偏光とニュートリノ質量和}{10}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}宇宙の再電離と光学的厚み~$\tau $}{10}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}ニュートリノ質量和との縮退}{12}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}偏光Eモードと$\tau $}{12}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}本論文の構成}{13}{section.1.4}%
+\contentsline {chapter}{\numberline {第2章}GroundBIRD実験}{14}{chapter.2}%
+\contentsline {section}{\numberline {2.1}実験概要}{14}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}GroundBIRD望遠鏡とスキャン戦略}{14}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}超伝導検出器MKID}{15}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}観測する周波数帯域}{17}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}物理ターゲット}{18}{subsection.2.1.4}%
+\contentsline {section}{\numberline {2.2}現在の観測状況}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}焦点面検出器}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}リモート観測システム}{21}{subsection.2.2.2}%
+\contentsline {chapter}{\numberline {第3章}仰角データ取得システムの改善}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}望遠鏡仰角データ取得システムの改善}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}仰角データ取得における問題点}{25}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}PYNQを用いた新システムの導入}{28}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}PYNQイメージファイルの作成}{29}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}望遠鏡への実装}{30}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}新データ取得システムのインストール}{30}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}同期信号取得の確認}{31}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}同期信号の分配と仰角データ取得の確認}{32}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{37}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {第4章}焦点面検出器アライメントの課題とその較正に向けた方針}{39}{chapter.4}%
+\contentsline {section}{\numberline {4.1}検出器アライメントの問題点}{39}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}スキャン軸に対する傾きと差分解析}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}要求される理想的なアライメント}{40}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}視線軸方向まわりの回転による較正}{41}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}月を用いた回転角の算出}{41}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}月を用いた理由}{41}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}位相としての検出器TOD}{43}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}必要な回転角}{45}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}回転する上でのジグの必要性}{51}{subsection.4.2.4}%
+\contentsline {chapter}{\numberline {第5章}アライメント較正に向けた取り組みと較正結果の確認}{53}{chapter.5}%
+\contentsline {section}{\numberline {5.1}ジグの設計と現地インストール}{53}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}固定用ジグの作成}{53}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}望遠鏡への実装}{54}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}天体を用いた較正結果の確認}{54}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}月データによる確認}{54}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}木星データによる確認}{56}{subsection.5.2.2}%
+\contentsline {chapter}{\numberline {第6章}検出器アライメントに伴う大気揺らぎの評価}{62}{chapter.6}%
+\contentsline {section}{\numberline {6.1}検出器間差分で見る大気揺らぎの抑制}{62}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}TODの差分とPSD}{62}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}PSDと自己相関関数}{64}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}timing offsetの算出}{66}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}回転前後での比較と大気揺らぎ抑制の確認}{68}{subsection.6.1.4}%
+\contentsline {chapter}{\numberline {第7章}今後の展望}{72}{chapter.7}%
+\contentsline {section}{\numberline {7.1}大気揺らぎに由来するノイズのモデリング}{72}{section.7.1}%
+\contentsline {section}{\numberline {7.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{74}{section.7.2}%
+\contentsline {chapter}{\numberline {第8章}まとめ}{76}{chapter.8}%
+\contentsline {chapter}{\numberline {第9章}謝辞}{77}{chapter.9}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{78}{chapter*.92}%
+\contentsline {chapter}{\numberline {付 録A }Zynqへのlinux搭載}{81}{appendix.A}%
