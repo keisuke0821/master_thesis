@@ -9,7 +9,7 @@ CMB観測においては、検出器の時系列データと望遠鏡の角度�
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/GB_daq_2.pdf}
+  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/GB_DAQ_mod3.pdf}
   \caption{GroundBIRDの検出器データと角度データ取得系の概要。回転する回転台の上下での信号同期は``回転継手''が担っている。}
   \label{GB_daq}
 \end{figure}
@@ -98,21 +98,21 @@ GroundBIRDでの同期信号の流れを説明する(図\ref{GB_sync})。望遠�
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/el_daq_box.pdf}
+  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/GB_DAQ_box_mod.pdf}
   \caption{仰角データ取得システムの全体像。信号処理のほぼ全てをZybo \cite{Zybo}が担う。信号の電圧変換、Zybo、電源からなるコンパクトなデータ取得系は1つのボックス内に配置されている。}
   \label{GB_daq_box}
 \end{figure}
 
 データ取得系は非常にコンパクトであり(図\ref{GB_daq_box})、信号の処理はZybo内に搭載されている``Zynq \cite{Zynq}''と呼ばれるチップで行っている。ZynqはXilinxが開発した、CPU、FPGAなどが1チップに統合されたSystem on Chip (SoC)の1つである。ZynqはCPUを搭載するProcessing System (PS)部分と、FPGAを搭載するProgrammable Logic (PL)部分に大きく分けられ、FPGAが得意とする並列処理や高速処理と、CPUが得意とする複雑な処理とで役割を分担できるため、効率の良い処理が可能となる。先行研究でFPGAに搭載するファームウェア\footnote{FPGAに組み込む機能を本論文ではファームウェアと呼ぶことにする。}の開発がなされており、実装されている。
 
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/block_diagram.pdf}
-  \caption{IPインテグレータの配線図。青く囲まれているブロックがIPコアを表す。ブロックの左側から出る線が入力信号で、右側から出る線が出力信号になっている。図中の``axi\_gb\_rotary''と呼ばれるIPが自作IPで、デコーダーの役割を担っている。}
-  \label{block_diagram}
-\end{figure}
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/block_diagram.pdf}
+  %\caption{IPインテグレータの配線図。青く囲まれているブロックがIPコアを表す。ブロックの左側から出る線が入力信号で、右側から出る線が出力信号になっている。図中の``axi\_gb\_rotary''と呼ばれるIPが自作IPで、デコーダーの役割を担っている。}
+  %\label{block_diagram}
+%\end{figure}
 
-FPGA上でのファームウェアの全体図を図\ref{block_diagram}に示す。設計にはVivado\cite{Vivado}というXilinx製の開発ソフトを用いる。様々なIPコア(機能ごとの回路のまとまり)をIPインテグレータというGUI上で配線し、全体のファームウェアを構成する。IPは自作のIPと、Xilinx製のIPを組み合わせて使用している。
+FPGA上でのファームウェアの設計にはVivado\cite{Vivado}というXilinx製の開発ソフトを用いる。様々なIPコア(機能ごとの回路のまとまり)をIPインテグレータというGUI上で配線し、全体のファームウェアを構成する。IPは自作のIPと、Xilinx製のIPを組み合わせて使用している。
 
 \begin{figure}[htbp]
   \centering

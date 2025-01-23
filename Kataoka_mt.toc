@@ -26,14 +26,14 @@
 \contentsline {subsection}{\numberline {3.1.1}角度情報データ取得の概要}{22}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}仰角データ取得における問題点}{25}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}PYNQを用いた新システムの導入}{28}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}PYNQイメージファイルの作成}{29}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.4}PYNQイメージファイルの作成}{28}{subsection.3.1.4}%
 \contentsline {section}{\numberline {3.2}望遠鏡への実装}{30}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}新データ取得システムのインストール}{30}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}同期信号取得の確認}{31}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}同期信号の分配と仰角データ取得の確認}{32}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{33}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{33}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{34}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.2.3}同期信号の分配と仰角データ取得の確認}{31}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}メンテナンスと安定運用}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}動作の不安定性}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}電源供給方法の見直し}{33}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Zynq温度のモニター}{36}{subsection.3.3.3}%
 \contentsline {chapter}{\numberline {第4章}焦点面検出器アライメントが抱える課題とその定量化}{38}{chapter.4}%
 \contentsline {section}{\numberline {4.1}検出器アライメントの問題点}{38}{section.4.1}%
@@ -63,4 +63,4 @@
 \contentsline {section}{\numberline {7.2}両偏波アンテナを搭載した焦点面検出器のアップデート}{72}{section.7.2}%
 \contentsline {chapter}{\numberline {第8章}まとめ}{74}{chapter.8}%
 \contentsline {chapter}{\numberline {第9章}謝辞}{75}{chapter.9}%
-\contentsline {chapter}{\numberline {}{参考文献}\hfil }{76}{chapter*.95}%
+\contentsline {chapter}{\numberline {}{参考文献}\hfil }{76}{chapter*.94}%
