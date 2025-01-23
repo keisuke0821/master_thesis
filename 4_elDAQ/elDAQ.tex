@@ -126,12 +126,13 @@ Zynq内での処理の模式図を図\ref{zynq_flow}に示す。仰角エンコ�
 同期信号の通信方式はUART\footnote{UART通信では、送信側と受信側で通信速度を決めておき、\SI{1}{byte} (\SI{8}{bits})ずつ情報のやり取りを行う。\SI{1}{byte}のまとまりでは、``start bit (\SI{1}{bit})''、``data (\SI{8}{bits})''、``parity bit (\SI{1}{bit}、情報の誤検知に使用)''、``stop bit (\SI{1}{bit})''の4つで構成され、全\SI{11}{bits}になる。}を使用している。仰角データと同期信号の時刻関係を図\ref{synchro_zynq}に示す。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/sync_zynq.pdf}
+  \includegraphics[width=1.0\columnwidth]{4_elDAQ/figs/sync_zynq2.pdf}
   \caption{仰角データと同期信号のタイミング情報。}
   \label{synchro_zynq}
 \end{figure}
+Zynq内では\SI{50}{MHz}でクロックカウンターが動いており、タイムスタンプをインクリメントすると0にリセットされる。同期信号が1秒に1回方位角DAQから送られるが、パルスの先頭時刻を取得し、仰角データパケットの送信時刻との差を記録し、この情報を同期パケットとしてPCへと送信する。MKIDのDAQボードでも同様に同期信号の到達時刻との時間差を記録し、これらの情報からMKIDデータと角度データのサンプリング時刻のずれを補正し、データの同期を行う。
 %デコーダー部分では測定開始時からの経過時間として\SI{1}{kHz}でインクリメントする``タイムスタンプ''を生成しており、同期信号が入力されると同期信号の時間情報を読み取り、このときのタイムスタンプ情報を取得する。タイムスタンプ情報はソフトウェアから読み出す。
-また、MKIDのDAQは複数のボードを使用するため、同期信号を分配させ、送信している。
+また、MKIDのDAQは複数のボードを使用するため、Zyboで同期信号を分配させ、送信している。
 
 \begin{figure}[htbp]
   \centering
