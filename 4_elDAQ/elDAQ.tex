@@ -157,7 +157,7 @@ Zynq内では\SI{50}{MHz}でクロックカウンターが動いており、タ�
 
 この中で、Zyboの再起動と仰角を動かす際にケーブルに変な張力がかかっていないかの目視に現地での作業を要する。リモートでの望遠鏡運用を進める上で、少しでも現地で必要な作業を減らし、リモートでメンテナンスができることが望まれる。
 
-また、ZyboとPCとのTCP通信を行うために、ベアメタル環境ではTCP/IPのプロトコルスタックを独自で実装しなければいけない。今回は``lwIP(lightweight IP)''と呼ばれるオープンソースのTCP/IPプロトコルスタックを使用してTCP通信を実装している。そのため、通信に関わるソフトウェアが複雑化する上、OSが通信を取り仕切るよりも信頼性に欠ける。
+また、ZyboとPCとのTCP通信を行うために、ベアメタル環境ではTCP/IPのプロトコルスタックを独自で実装しなければいけない。今回は``lwIP (lightweight IP)''と呼ばれるオープンソースのTCP/IPプロトコルスタックを使用してTCP通信を実装している。そのため、通信に関わるソフトウェアが複雑化する上、OSが通信を取り仕切るよりも信頼性に欠ける。
 
 加えて、システムに組み込まれたソフトウェアやFPGAのファームウェアは固定化されており、今後の運用で変更点が生じた時に、SDカードに新しいファイルシステムを書き込んで全面的にシステム更新しなければならず、労力を要する。システムのカスタマイズ性を上げ、変更を容易にできるようになれば、運用に関わるコストを削減することができる。
 
@@ -207,7 +207,7 @@ PetaLinuxとはXilinxが提供する、ZynqをはじめとするSoC用のlinux�
   最後にmakeを実行してビルドを行い、PYNQイメージファイル(.imgファイル)を生成して完了する。
   \item イメージファイルの書き込みとPYNQ起動
 
-  作成したイメージファイルをSDカードにddコマンド等で書き込み、ZyboのSDカードスロットに差し込むことでPYNQが起動する。また、起動時にOverlayスクリプトを走らせて図\ref{block_diagram}で示したファームウェアでFPGAの回路を上書きするように設定した。これにより、本来の回路情報がPYNQ上で再現される。
+  作成したイメージファイルをSDカードにddコマンド等で書き込み、ZyboのSDカードスロットに差し込むことでPYNQが起動する。起動後に、PYNQのファイルシステム内に図\ref{zynq_flow}で示したファームウェアのファイルをコピーして置いておく。こうすることで、再起動時にOverlayスクリプトを走らせて図\ref{zynq_flow}で示したファームウェアでFPGAの回路を上書きするように設定できる。Overlayによって本来の回路情報がPYNQ上で再現される。
 
 \end{enumerate}
 
@@ -266,15 +266,15 @@ Overlayに必要なファイルはVivadoでコンパイルをして生成され�
 \begin{figure}[h]
   \begin{tabular}{cc}
     %---- 最初の図 ---------------------------
-    \begin{minipage}[t]{0.45\hsize}
+    \begin{minipage}[t]{0.48\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/enc_data_test.png}
+      \includegraphics[keepaspectratio, scale=0.37]{4_elDAQ/figs/enc_data_test.png}
       \subcaption{エンコーダーデータ}
     \end{minipage}
     %---- 2番目の図 --------------------------
-    \begin{minipage}[t]{0.45\hsize}
+    \begin{minipage}[t]{0.48\hsize}
       \centering
-      \includegraphics[keepaspectratio, scale=0.35]{4_elDAQ/figs/timestamp.png}
+      \includegraphics[keepaspectratio, scale=0.37]{4_elDAQ/figs/timestamp.png}
       \subcaption{タイムスタンプ}
     \end{minipage}
     %---- 図はここまで ----------------------
@@ -358,7 +358,7 @@ Zyboへの電源供給は図\ref{el_install}の右図にあるように、Micro-
 
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.5\columnwidth]{4_elDAQ/figs/connector_barrel.pdf}
+  \includegraphics[width=0.6\columnwidth]{4_elDAQ/figs/connector_barrel.pdf}
   \caption{Zyboへの電源供給方法。Micro-USBからとバレルジャックからの2通りがある。}
   \label{power_supply}
 \end{figure}
