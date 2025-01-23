@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  24 JAN 2025 00:34
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  24 JAN 2025 02:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,11 +748,16 @@ File: 4_elDAQ/figs/GB_DAQ_box_mod.pdf Graphic file (type pdf)
 File: 4_elDAQ/figs/zynq_flow.pdf Graphic file (type pdf)
 <4_elDAQ/figs/zynq_flow.pdf>
  [25]
+
+LaTeX Warning: Reference `synchro_zynq' on page 26 undefined on input line 126.
+
+File: 4_elDAQ/figs/sync_zynq.pdf Graphic file (type pdf)
+<4_elDAQ/figs/sync_zynq.pdf>
 File: 4_elDAQ/figs/sd_zybo2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sd_zybo2.pdf>
- [26] [27] [28]
+[26] [27] [28]
 
-LaTeX Warning: Reference `block_diagram' on page 29 undefined on input line 201.
+LaTeX Warning: Reference `block_diagram' on page 29 undefined on input line 209.
 
 File: 4_elDAQ/figs/overlay3.pdf Graphic file (type pdf)
 <4_elDAQ/figs/overlay3.pdf>
@@ -761,40 +766,33 @@ File: 4_elDAQ/figs/test_pic.jpg Graphic file (type bmp)
 File: 4_elDAQ/figs/el_test2.pdf Graphic file (type pdf)
 <4_elDAQ/figs/el_test2.pdf>
 
-Overfull \hbox (83.379pt too wide) in paragraph at lines 239--240
+Overfull \hbox (83.379pt too wide) in paragraph at lines 247--248
  [][] 
  []
 
-[29]
+[29] [30]
 File: 4_elDAQ/figs/enc_data_test.png Graphic file (type bmp)
 <4_elDAQ/figs/enc_data_test.png>
 File: 4_elDAQ/figs/timestamp.png Graphic file (type bmp)
 <4_elDAQ/figs/timestamp.png>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: 4_elDAQ/figs/install_work.jpg Graphic file (type bmp)
 <4_elDAQ/figs/install_work.jpg>
 File: 4_elDAQ/figs/pynq_start.jpg Graphic file (type bmp)
 <4_elDAQ/figs/pynq_start.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--302
+Underfull \hbox (badness 10000) in paragraph at lines 291--310
 [][]
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[30]
 File: 4_elDAQ/figs/sync_id.pdf Graphic file (type pdf)
 <4_elDAQ/figs/sync_id.pdf>
- [31]
+[31]
 File: 4_elDAQ/figs/elevation_data.png Graphic file (type bmp)
 <4_elDAQ/figs/elevation_data.png>
+ [32]
 File: 4_elDAQ/figs/connector_barrel.pdf Graphic file (type pdf)
 <4_elDAQ/figs/connector_barrel.pdf>
- [32] [33]
+ [33]
 File: 4_elDAQ/figs/test_usb.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_usb.jpg>
 File: 4_elDAQ/figs/test_jack.jpg Graphic file (type bmp)
@@ -804,19 +802,19 @@ File: 4_elDAQ/figs/test_50.jpg Graphic file (type bmp)
 File: 4_elDAQ/figs/test_45.jpg Graphic file (type bmp)
 <4_elDAQ/figs/test_45.jpg>
 
-Overfull \hbox (38.37798pt too wide) in paragraph at lines 406--414
+Overfull \hbox (38.37798pt too wide) in paragraph at lines 414--422
  [][] 
  []
 
-[34]
+[34] [35]
 File: 4_elDAQ/figs/new_connector_set.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_set.jpg>
 File: 4_elDAQ/figs/new_connector_boot.jpg Graphic file (type bmp)
 <4_elDAQ/figs/new_connector_boot.jpg>
- [35]
+ [36]
 File: 4_elDAQ/figs/temp_zynq_202408.png Graphic file (type bmp)
 <4_elDAQ/figs/temp_zynq_202408.png>
-) [36] [37]
+) [37]
 \openout2 = `5_alignment/alignment.aux'.
 
  (./5_alignment/alignment.tex
@@ -1133,16 +1131,25 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: F2A9FA1D745C8C415EC708F8EECB1E9D;9002.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Kataoka_mt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Kataoka_mt.out':
+(rerunfilecheck)             Before: F2A9FA1D745C8C415EC708F8EECB1E9D;9002
+(rerunfilecheck)             After:  61BF4785D2881931027013A344519C73;9002.
  ) 
 Here is how much of TeX's memory you used:
- 18481 strings out of 474762
- 377731 string characters out of 5758587
+ 18489 strings out of 474762
+ 377945 string characters out of 5758587
  1932338 words of memory out of 5000000
- 40502 multiletter control sequences out of 15000+600000
+ 40509 multiletter control sequences out of 15000+600000
  583364 words of font info for 148 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (82 pages, 358476 bytes).
+Output written on Kataoka_mt.dvi (82 pages, 358960 bytes).
