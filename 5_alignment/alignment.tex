@@ -67,11 +67,11 @@ GroundBIRDで観測できる天体として月や惑星(木星、金星)が挙�
     S/N比が高い \\ (1度の観測で十分な信号を得られる)
     \end{tabular} &
     \begin{tabular}{c}
-    点源として扱える \\ (角直径がビーム幅に比べて十分小さい)
+    点源として扱える \\ (角直径がビーム幅に対して十分小さい)
     \end{tabular} \\ \hline
     短所 &
     \begin{tabular}{c}
-    点源として扱えない \\ (輝度温度の非一様性が生じる)
+    点源として扱えない \\ (角直径がビーム幅に対して無視できない)
     \end{tabular} &
     \begin{tabular}{c}
     S/N比が小さい \\ (データを蓄積しないとノイズに埋もれる)
@@ -87,7 +87,7 @@ GroundBIRDで観測できる天体として月や惑星(木星、金星)が挙�
 と経験的に表せる\cite{dennpa_tennmonn}。}はあるものの、高いS/N比がそれをカバーできると考えたため、月のデータを選択した。
 
 \subsection{検出器のTOD}
-GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器MKIDの共振状態の変化を入射信号の大きさとして\SI{1}{kSPS}で取得するTODのことである。共振状態の変化とはすなわち共振周波数の変化であるが、これを読み出しRF信号の透過率の変化として測定する。透過率は散乱行列要素の$S_{21}$で表す。MKIDの$S_{21}$は読み出し周波数$f$に対して、共振の鋭さを表す$Q_{r}$, $Q_{c}$と共振周波数$f_{r}$を用いて
+GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出器MKIDの共振状態の変化を入射信号の大きさとして\SI{1}{kSPS}で取得するTODのことである。共振状態の変化とはすなわち共振周波数の変化であるが、これを読み出しRF信号の透過率の変化として測定する。透過率は散乱行列要素の$S_{21}$で表す。MKIDの$S_{21}$は読み出し周波数$f$に対して、共振の鋭さを表す$Q_{r}$, $Q_{c}$と共振周波数$f_{r}$を用いて
 \begin{equation}
   S_{21} = 1 - \frac{Q_{r}/Q_{c}}{1+2iQ_{r}\frac{\delta f}{f_{r}}} ~ (\delta f = f - f_{r} )
 \end{equation}
@@ -165,7 +165,7 @@ GroundBIRDにおける観測データは\ref{MKID}で述べた超伝導検出器
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.95\columnwidth]{5_alignment/figs/raw_phase_deg.png}
-  \caption{非線形効果を加えた位相TOD。本論文ではこのTODを用いる。}
+  \caption{非線形効果への補正を行なった位相TOD。本論文ではこのTODを用いる。}
   \label{raw_phase}
 \end{figure}
 
