@@ -270,7 +270,7 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.9\columnwidth]{5_alignment/figs/before_full_pos.png}
-  \caption{座標回転により平面的に見た光軸中心の視線。}
+  \caption{座標回転により平面的に見た光軸中心の視線。各点の番号は検出器のラベルとして記しており、中心の\SI{220}{GHz}アレイのkid17を光軸中心としている。}
   \label{before_full_pos_0}
 \end{figure}
 回転角を見積もるにあたってはスキャン軸に対する検出器の傾きを直線的に扱える方が考えやすい。そのため、平面的に見た時の傾き角を計算し、較正のための回転角とする。
@@ -410,7 +410,9 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
   \caption{視線方向軸周りの回転後の光軸中心マップ。}
   \label{after_full_beam_map}
 \end{figure}
-回転前の図\ref{before_full_beam_map}と比較することで検出器の配置がスキャン軸に沿った方向へと光軸中心に対して回転したことが見て取れる。この図はあくまで仰角$\SI{70}{^{\circ}}$中心の配置を平面射影したもので、位相の最大点をとった視線を仰角$\SI{0}{^{\circ}}$の球面で見たもの(図\ref{after_full_pos_0})に対応している。これを実際の仰角$\SI{70}{^{\circ}}$での球面での視線で見ると図\ref{after_full_pos_70}のようになる。
+回転前の図\ref{before_full_beam_map}と比較することで検出器の配置がスキャン軸に沿った方向へと回転したことが見て取れる。また、回転によって検出器全体の傾きが是正されたことも確認できる。この図はあくまで仰角$\SI{70}{^{\circ}}$中心の配置を平面射影したもので、位相の最大点をとった視線を仰角$\SI{0}{^{\circ}}$の球面で見たもの(図\ref{after_full_pos_0})に対応している。
+
+次に、実際の仰角$\SI{70}{^{\circ}}$の球面での視線を回転の前後で比較する。回転前の全検出器の視線を図\ref{before_full_beam_pos}に、回転後の全検出器の視線を図\ref{after_full_pos_70}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.9\columnwidth]{5_alignment/figs/after_full_pos_0_mod.pdf}
@@ -419,11 +421,17 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/after_full_pos_70_mod.pdf}
-  \caption{回転後の全検出器の視線。球面による歪みによって生じる非対称性が回転によって是正された。}
+  \includegraphics[width=0.85\columnwidth]{5_alignment/figs/before_full_pos_70.png}
+  \caption{回転前の全検出器の光軸中心の視線。中心以外の\SI{145}{GHz}アレイでは球面に起因する位置の歪みが現れる。}
+  \label{before_full_beam_pos}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.96\columnwidth]{5_alignment/figs/after_full_pos_70_mod.pdf}
+  \caption{回転後の全検出器の光軸中心の視線。球面による歪みによって生じる非対称性が回転によって是正された。}
   \label{after_full_pos_70}
 \end{figure}
-図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイで光軸中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる\footnote{一方で余分に回転させたことによる傾きが残っていることも見て取れる(図\ref{10960_beam_centered})。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。}。
+図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイで光軸中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる\footnote{前述の回転角評価のずれによって$\SI{2.25}{^{\circ}}$逆方向に傾いた。図\ref{6550_beam_centered}と図\ref{10960_beam_centered}の比較で傾きの変化が見て取れる。}%一方で余分に回転させたことによる傾きが残っていることも見て取れる(図\ref{10960_beam_centered})。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。}。
 \begin{figure}[h]
   \begin{tabular}{cc}
     %---- 最初の図 ---------------------------
@@ -453,7 +461,7 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \begin{equation}
   T_{\mathrm{Jupiter}}=\frac{\overline{T_{\mathrm{B}}}\Omega_{\mathrm{Jupiter}}}{\Omega_{\mathrm{A}}}
 \end{equation}
-と表せる。ここで、$\Omega_{\mathrm{A}}$はビーム立体角、$\Omega_{\mathrm{Jupiter}}$は木星のビームの広がり、$\overline{T_{\mathrm{B}}}$は、木星の平均輝度温度である。つまり、真の木星輝度温度よりも観測されるアンテナ温度は十分小さくなる。木星の輝度温度は周波数依存性があるが、ミリ波帯での典型的な値\SI{150}{K}とし、木星の角直径$\sim\SI{40}{''}$、\SI{220}{GHz}検出器のビーム幅\SI{25}{'}からアンテナ温度を見積もると、おそよ$T_{\mathrm{Jupiter}}\sim$\SI{100}{mK}と小さいことが分かる。実際、木星観測時のTODを見るとノイズに信号が埋もれて木星のマップを再構成できないことがある。TODには大気放射に由来するノイズが混入し、それは大気中の水蒸気量が多い時ほど顕著になって木星由来の信号の邪魔となる。そのため、木星の観測データの中でも十分PWVが小さいものを主な解析対象とした。また、木星中心座標データから以下の処理
+と表せる。ここで、$\Omega_{\mathrm{A}}$はビーム立体角、$\Omega_{\mathrm{Jupiter}}$は地球から見た木星の立体角、$\overline{T_{\mathrm{B}}}$は、木星の平均輝度温度である。つまり、真の木星輝度温度よりも観測されるアンテナ温度は小さくなる。木星の輝度温度は周波数依存性があるが、ミリ波帯での典型的な値\SI{150}{K}とし、木星の角直径$\sim\SI{40}{''}$、\SI{220}{GHz}検出器のビーム幅\SI{25}{'}からアンテナ温度を見積もると、おそよ$T_{\mathrm{Jupiter}}\sim$\SI{100}{mK}と小さいことが分かる。実際、木星観測時のTODを見るとノイズに信号が埋もれて木星のマップを再構成できないことがある。TODには大気放射に由来するノイズが混入し、それは大気中の水蒸気量が多い時ほど顕著になって木星由来の信号の邪魔となる。そのため、木星の観測データの中でも十分PWVが小さいものを主な解析対象とした。また、木星中心座標データから以下の処理
 \begin{enumerate}
   \item スキャンごとの位相を線形関数でフィットし、ベースラインを差し引く
   \item $\SI{0.2}{^{\circ}}$四方の角度領域でリビンし、領域内の位相の平均をとり、その値を代表値とする
