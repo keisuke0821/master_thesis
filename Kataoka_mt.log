@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  23 JAN 2025 20:44
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  23 JAN 2025 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,12 +624,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 256.
 
-[9]
+[9] [10]
 File: 2_cosmology/figs/tau_mass.png Graphic file (type bmp)
 <2_cosmology/figs/tau_mass.png>
 File: 2_cosmology/figs/medium.png Graphic file (type bmp)
 <2_cosmology/figs/medium.png>
- [10] [11]
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 282.
@@ -647,7 +647,7 @@ Overfull \hbox (40.13252pt too wide) in paragraph at lines 290--297
  [][] 
  []
 
-) [12] [13]
+[11] [12]) [13]
 \openout2 = `3_GB/GB.aux'.
 
  (./3_GB/GB.tex
@@ -1134,6 +1134,9 @@ L3 programming layer <2024-03-14>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
 (rerunfilecheck)             Checksum: 61BF4785D2881931027013A344519C73;9002.
  ) 
@@ -1146,4 +1149,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (82 pages, 359284 bytes).
+Output written on Kataoka_mt.dvi (82 pages, 359708 bytes).
