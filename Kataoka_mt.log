@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  24 JAN 2025 05:14
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  24 JAN 2025 05:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -850,37 +850,42 @@ Overfull \hbox (26.89265pt too wide) in paragraph at lines 63--81
 [40] [41]
 File: 5_alignment/figs/iq_amp.pdf Graphic file (type pdf)
 <5_alignment/figs/iq_amp.pdf>
- [42]
+File: 5_alignment/figs/phase_amp.pdf Graphic file (type pdf)
+<5_alignment/figs/phase_amp.pdf>
 File: 5_alignment/figs/amp_and_phase.png Graphic file (type bmp)
 <5_alignment/figs/amp_and_phase.png>
- [43]
+ [42] [43]
 File: 5_alignment/figs/raw_phase_deg.png Graphic file (type bmp)
 <5_alignment/figs/raw_phase_deg.png>
 File: 5_alignment/figs/6550_kid0_phase.png Graphic file (type bmp)
 <5_alignment/figs/6550_kid0_phase.png>
 File: 5_alignment/figs/moon_centered_6550.png Graphic file (type bmp)
 <5_alignment/figs/moon_centered_6550.png>
+ [44]
 File: 5_alignment/figs/6550_gnomonic.png Graphic file (type bmp)
 <5_alignment/figs/6550_gnomonic.png>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 192.
+(Font)              scaled to size 6.73553pt on input line 198.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.6222pt on input line 192.
+(Font)              scaled to size 9.6222pt on input line 198.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.73553pt on input line 192.
+(Font)              scaled to size 6.73553pt on input line 198.
 File: 5_alignment/figs/6550_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/6550_pos_kid17_70.png>
 
-Overfull \hbox (12.23936pt too wide) in paragraph at lines 198--199
+Overfull \hbox (12.23936pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--205
+Underfull \hbox (badness 10000) in paragraph at lines 193--211
 [][]
  []
 
-[44] [45]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[45]
 File: 5_alignment/figs/before_full_gnomonic_selected_mod2.pdf Graphic file (type pdf)
 <5_alignment/figs/before_full_gnomonic_selected_mod2.pdf>
 File: 5_alignment/figs/before_full_pos_70.png Graphic file (type bmp)
@@ -891,7 +896,7 @@ File: 5_alignment/figs/before_full_pos.png Graphic file (type bmp)
 File: 5_alignment/figs/angle_cal_lines.pdf Graphic file (type pdf)
 <5_alignment/figs/angle_cal_lines.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 302--303
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 308--309
  [][] 
  []
 
@@ -922,7 +927,7 @@ File: 5_alignment/figs/10960_gnomonic.png Graphic file (type bmp)
 File: 5_alignment/figs/10960_pos_kid17_70.png Graphic file (type bmp)
 <5_alignment/figs/10960_pos_kid17_70.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--439
+Underfull \hbox (badness 10000) in paragraph at lines 427--445
 [][]
  []
 
@@ -943,14 +948,14 @@ File: 5_alignment/figs/11280_jupiter_pos_mod.pdf Graphic file (type pdf)
  [58] [59]
 第 6 章
 
-Overfull \hbox (26.44453pt too wide) in paragraph at lines 521--529
+Overfull \hbox (26.44453pt too wide) in paragraph at lines 527--535
  [][] 
  []
 
 File: 5_alignment/figs/9011_tod_cor_combined.pdf Graphic file (type pdf)
 <5_alignment/figs/9011_tod_cor_combined.pdf>
 
-LaTeX Warning: Float too large for page by 19.53104pt on input line 538.
+LaTeX Warning: Float too large for page by 19.53104pt on input line 544.
 
 [60
 
@@ -968,14 +973,14 @@ File: 5_alignment/figs/9011_08_11_psd.png Graphic file (type bmp)
 File: 5_alignment/figs/timing_offset_compare.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 625--626
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 631--632
  [][] 
  []
 
 File: 5_alignment/figs/timing_offset_compare2.pdf Graphic file (type pdf)
 <5_alignment/figs/timing_offset_compare2.pdf>
 
-Overfull \hbox (21.34087pt too wide) in paragraph at lines 632--633
+Overfull \hbox (21.34087pt too wide) in paragraph at lines 638--639
  [][] 
  []
 
@@ -996,22 +1001,22 @@ File: 5_alignment/figs/9011_11139_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11139_15_09.png Graphic file (type bmp)
 <5_alignment/figs/9011_11139_15_09.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--709
+Underfull \hbox (badness 10000) in paragraph at lines 646--715
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--709
+Underfull \hbox (badness 10000) in paragraph at lines 646--715
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--709
+Underfull \hbox (badness 10000) in paragraph at lines 646--715
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 640--709
+Underfull \hbox (badness 10000) in paragraph at lines 646--715
 []
  []
 
@@ -1036,22 +1041,22 @@ File: 5_alignment/figs/9011_11679_09_05.png Graphic file (type bmp)
 File: 5_alignment/figs/9011_11679_15_05.png Graphic file (type bmp)
 <5_alignment/figs/9011_11679_15_05.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--785
+Underfull \hbox (badness 10000) in paragraph at lines 722--791
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--785
+Underfull \hbox (badness 10000) in paragraph at lines 722--791
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--785
+Underfull \hbox (badness 10000) in paragraph at lines 722--791
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--785
+Underfull \hbox (badness 10000) in paragraph at lines 722--791
 []
  []
 
@@ -1130,16 +1135,20 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Kataoka_mt.out' has not changed.
-(rerunfilecheck)             Checksum: 61BF4785D2881931027013A344519C73;9002.
+(rerunfilecheck)             Checksum: D28A925365E44EF597D03EF09147543F;9002.
  ) 
 Here is how much of TeX's memory you used:
- 18488 strings out of 474762
- 377936 string characters out of 5758587
+ 18496 strings out of 474762
+ 378164 string characters out of 5758587
  1932338 words of memory out of 5000000
- 40508 multiletter control sequences out of 15000+600000
+ 40515 multiletter control sequences out of 15000+600000
  583364 words of font info for 148 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  72i,16n,79p,1578b,1219s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Kataoka_mt.dvi (82 pages, 361136 bytes).
+Output written on Kataoka_mt.dvi (82 pages, 361296 bytes).
