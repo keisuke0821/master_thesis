@@ -637,10 +637,12 @@ PSDを用いてTOD間の相関を測る指標とする量を定義する。ま�
 \begin{align}
   & \phantom{=}\, \frac{\mathrm{PSD}_{x} + \mathrm{PSD}_{y} - \mathrm{PSD}_{\mathrm{diff}}}{\mathrm{PSD}_{x} + \mathrm{PSD}_{y}} \label{eq:diff_index} & \\ \label{eq:diff_index2}
   & = \frac{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] - \mathcal{F}[R_{\mathrm{diff}}(\tau,\delta t)] }{\mathcal{F}[R_{xx}(\tau)] + \mathcal{F}[R_{yy}(\tau)] }& \\
-  & \sim \frac{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle - \langle (x(t) - y(t+\delta t))(x(t) - y(t+\delta t))\rangle}{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}& \\
-  & = \frac{\langle x(t)y(t+\delta t)\rangle + \langle y(t+\delta t)x(t)\rangle }{\langle x(t)x(t)\rangle + \langle y(t)y(t)\rangle}
+  & = \frac{\mathcal{F}[\langle x(t)x(t+\tau)\rangle + \langle y(t)y(t+\tau)\rangle - \langle (x(t) - y(t+\delta t))(x(t+\tau) - y(t+\delta t+\tau))\rangle]}{\mathcal{F}[R_{xx}(\tau) +R_{yy}(\tau) ]}& \\
+  & = \frac{\mathcal{F}[\langle x(t)y(t+\delta t +\tau)\rangle + \langle y(t+\delta t)x(t+\tau)\rangle] }{\mathcal{F}[R_{xx}(\tau) + R_{yy}(\tau)]}& \\
+  & = \frac{\mathcal{F}[R_{xy}(\tau +\delta t) + R_{yx}(\tau -\delta t)]}{\mathcal{F}[R_{xx}(\tau) + R_{yy}(\tau)]}
 \end{align}
-ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した\footnote{分母と分子の各項がフーリエ変換前の自己相関関数に戻る。}。この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(Correlation Indexと呼ぶこととする)としてTODの相関を測ることとする。
+%ここで、3行目で最も寄与の大きい$\tau=0$の値をとって近似した\footnote{分母と分子の各項がフーリエ変換前の自己相関関数に戻る。}。
+この時、分子に$x(t)$と$y(t+\delta t)$の相関に当たる項$R_{xy}$が残り、2つのTODの相互相関関数に対応する。つまり、2つのTODが時間差$\delta t$で相関が大きい時に、この値は大きくなる。逆に相関が小さい時は0に近づく。また、分母で規格化されているため、相関が最大の時に値は1をとり、完全に相関がなければ0になる。この性質から、式\eqref{eq:diff_index}を指標(Correlation Indexと呼ぶこととする)としてTODの相関を測ることとする。
 
 \subsection{timing offsetの算出}
 次に、各検出器間で異なるtiming offset($\delta t$)を計算する。GroundBIRDは仰角を固定して方位角方向にスキャンを行うため、検出器間での方位角のずれ(オフセット)をスキャン角速度で割った時間がスキャンにかかるtiming offsetになる。使用した観測データは\SI{9}{RPM}=\SI{54}{deg/s}でのスキャン角速度に対応する。そのため、差分をとる2つの検出器の方位角をそれぞれ$\mathrm{Az}_{x}$、$\mathrm{Az}_{y}$とするとtiming offsetは
