@@ -431,7 +431,7 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
   \caption{回転後の全検出器の光軸中心の視線。球面による歪みによって生じる非対称性が回転によって是正された。}
   \label{after_full_pos_70}
 \end{figure}
-図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイで光軸中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる\footnote{前述の回転角評価のずれによって$\SI{2.25}{^{\circ}}$逆方向に傾いた。図\ref{6550_beam_centered}と図\ref{10960_beam_centered}の比較で傾きの変化が見て取れる。}%一方で余分に回転させたことによる傾きが残っていることも見て取れる(図\ref{10960_beam_centered})。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。}。
+図\ref{before_full_beam_pos}では検出器の配置が傾いていることに加えて、球面による歪みの効果によって特に\SI{145}{GHz}アレイで光軸中心に対する非対称性が見られた。視線方向軸周りの回転でこの非対称性は大きく補正されたことが分かる\footnote{前述の回転角評価のずれによって$\SI{2.25}{^{\circ}}$逆方向に傾いた。図\ref{6550_beam_centered}と図\ref{10960_beam_centered}の比較で傾きの変化が見て取れる。それでも図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}の比較で分かるように、全体のアレイで見ると傾きによる影響は大きく削減された。}。%一方で余分に回転させたことによる傾きが残っていることも見て取れる(図\ref{10960_beam_centered})。しかし、図\ref{before_full_beam_pos}と図\ref{after_full_pos_70}との比較で分かるように、全検出器としての視線はスキャン軸に対する角度の傾きに歪みの効果が加わるため、回転による較正で配置は大きく改善された結果となった。}。
 \begin{figure}[h]
   \begin{tabular}{cc}
     %---- 最初の図 ---------------------------
@@ -496,13 +496,19 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \end{figure}
 月と同様にして鮮明な木星のマップを得られた。これより、十分PWVが低く観測条件が整っていれば1時間のTODで木星を観測できることが分かった。一方でPWVが比較的高い時は1観測では木星を見ることはできず、データを蓄積する必要がある\footnote{十分にPWVが低く、かつ木星が通過する時間での観測データは現在時点では数観測しか確認できていない。そのため、十分ではないが比較的低いPWVでの観測データを蓄積し、S/N比を上げて木星を見るような解析手法が求められる。}。
 
-得られた木星中心マップから月と同様にして、各検出器の視線を求めた。視線方向軸周りの回転前のものを図\ref{5987_jupiter_pos}に示す。次に、回転後のデータから再構成した木星中心マップを図\ref{11280_jupiter_mod}に、検出器の視線を図\ref{11280_jupiter_pos}に示す。
+得られた木星中心マップから月と同様にして、各検出器の視線を求めた。視線方向軸周りの回転前の光軸中心マップを図\ref{5987_gnomonic}に示す。月データから得た光軸中心マップに比べて信号の広がりが小さく、視線を点として取得することができる。次に、回転後のデータから再構成した木星中心マップを図\ref{11280_jupiter_mod}に示す。一部の検出器ではノイズに埋もれてしまい、木星のマップを再構成できなかった。
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter_pos.pdf}
-  \caption{木星データから取得した検出器の視線(回転前、2023/07/28, PWV= \SI{0.83}{mm})。(左)\SI{220}{GHz}アレイの光軸中心マップ。月と比べて信号の広がりが小さい。(右)各検出器の光軸中心の視線。}
-  \label{5987_jupiter_pos}
+  \includegraphics[width=0.6\columnwidth]{5_alignment/figs/5987_gnomonic.png}
+  \caption{木星データから取得した\SI{220}{GHz}アレイの光軸中心マップ(回転前、2023/07/28, PWV= \SI{0.83}{mm})。月と比べて信号の広がりが小さい。}
+  \label{5987_gnomonic}
 \end{figure}
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=1.0\columnwidth]{5_alignment/figs/5987_jupiter_pos.pdf}
+  %\caption{木星データから取得した検出器の視線(回転前、2023/07/28, PWV= \SI{0.83}{mm})。(左)\SI{220}{GHz}アレイの光軸中心マップ。月と比べて信号の広がりが小さい。(右)各検出器の光軸中心の視線。}
+  %\label{5987_jupiter_pos}
+%\end{figure}
 %\begin{figure}[htbp]
   %\centering
   %\includegraphics[width=1.1\columnwidth]{5_alignment/figs/11280_jupiter.pdf}
@@ -511,16 +517,39 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 %\end{figure}
 \begin{figure}[htbp]
   \centering
-  \includegraphics[width=0.85\columnwidth]{5_alignment/figs/11280_jupiter_mod.pdf}
+  \includegraphics[width=0.9\columnwidth]{5_alignment/figs/11280_jupiter_mod.pdf}
   \caption{十分低いPWVでの木星観測データ(回転後、2024/09/05, PWV= \SI{0.81}{mm})の、ベースラインを引き、リビンした後の木星中心マップ。一部の検出器では木星のマップを再構成できていない。}
   \label{11280_jupiter_mod}
 \end{figure}
-\begin{figure}[htbp]
-  \centering
-  \includegraphics[width=0.65\columnwidth]{5_alignment/figs/11280_jupiter_pos_mod.pdf}
-  \caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。}
-  \label{11280_jupiter_pos}
+以上の木星データから取得した\SI{220}{GHz}アレイでの検出器の視線を回転の前後で比較する(図\ref{jupiter_compare})。
+\begin{figure}[h]
+  \begin{tabular}{cc}
+    %---- 最初の図 ---------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.4]{5_alignment/figs/5987_pos_kid17_70.png}
+      \subcaption{回転前(2023/07/28, PWV= \SI{0.83}{mm})}
+      \label{5987_pos_kid17_70}
+    \end{minipage}
+    %---- 2番目の図 --------------------------
+    \begin{minipage}[t]{0.48\hsize}
+      \centering
+      \includegraphics[keepaspectratio, scale=0.5]{5_alignment/figs/11280_jupiter_pos_mod.pdf}
+      \subcaption{回転後(2024/09/05, PWV= \SI{0.81}{mm})}
+      \label{11280_jupiter_pos_mod}
+    \end{minipage}
+    %---- 図はここまで ----------------------
+  \end{tabular}
+  \vspace{5pt}
+  \caption{木星データから得た回転前後での\SI{220}{GHz}アレイの視線。}
+  \label{jupiter_compare}
 \end{figure}
+%\begin{figure}[htbp]
+  %\centering
+  %\includegraphics[width=0.65\columnwidth]{5_alignment/figs/11280_jupiter_pos_mod.pdf}
+  %\caption{木星データから取得した検出器の視線(回転後、2024/09/05, PWV= \SI{0.81}{mm})。}
+  %\label{11280_jupiter_pos}
+%\end{figure}
 回転前と回転後とで、スキャン軸に対する検出器配置の傾きを再現でき、月での結果の妥当性を示している。一方で、回転後の十分低いPWVの観測データでも一部の検出器がノイズに埋もれてしまい、全検出器の視線を取得できなかった。
 \chapter{検出器アライメントに伴う大気揺らぎの評価}
 \label{chapter4_3}
@@ -528,7 +557,7 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \section{検出器間差分で見る大気揺らぎの抑制}
 
 \subsection{TODの差分とPSD}
-天体の観測データを用いて検出器の配置が回転し、スキャン軸に沿った向きへと較正されたことを見たが、\ref{scan_pair_diff}節で述べたように検出器間での信号の差分をとり、同じ大気をスキャンできるようになっているかを、実際の観測データを用いて確認した。異なる検出器がスキャンする大気が同じであれば観測するTODは強い相関を持つことに対応する。そのため、この章ではスキャン軸に沿って並ぶ異なる2つの検出器のTOD相関が配置の回転によってどう変化したのか、に着目する。また、球面による歪みの影響が少なく、大気放射の寄与も大きい中心の\SI{220}{GHz}アレイに焦点を置いて議論する。使用したTODを表\ref{pair_diff_table}に示す。
+天体の観測データを用いて検出器の配置が回転し、スキャン軸に沿った向きへと較正されたことを見たが、\ref{scan_pair_diff}節で述べたように検出器間での信号の差分をとり、同じ大気をスキャンできるようになっているかを、実際の観測データを用いて確認した。異なる検出器がスキャンする大気が同じであれば観測するTODは強い相関を持つ。そのため、この章ではスキャン軸に沿って並ぶ異なる2つの検出器のTOD相関が配置の回転によってどう変化したのか、に着目する。また、球面による歪みの影響が少なく、大気放射の寄与も大きい中心の\SI{220}{GHz}アレイに焦点を置いて議論する。使用したTODを表\ref{pair_diff_table}に示す。
 \begin{table}[htbp]
   \centering
   \caption{検出器間差分に使用した\SI{220}{GHz}アレイ観測データ}
@@ -563,7 +592,7 @@ GroundBIRDにおける観測データは\ref{MKID}節で述べた超伝導検出
 \end{equation}
 と表すことができる\cite{sueno_doctor}。
 
-最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をフーリエ変換してPSD(Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}節で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
+最終的には、差分をとった後の$\mathrm{TOD}_{\mathrm{diff}}$をフーリエ変換してPSD (Power Spectral Density)を計算し、この量を用いて評価する。PSDは単位周波数ごとのパワーの分布であるため、TODのノイズ成分を周波数空間で見ることができる。また、\ref{psd_correlation}節で述べるようにPSDはTODの自己相関関数に対応する物理量であり、TOD間の相関の強さを測る指標として使用することができる。PSDの計算にはscipyパッケージの``periodogram\cite{periodogram}''関数を使用した。計算したPSD(回転前、kid3)を図\ref{9011_psd_kid3}に示す。
 \begin{figure}[htbp]
   \centering
   \includegraphics[width=0.7\columnwidth]{5_alignment/figs/9011_kid3_psd.png}
