@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  19 APR 2024 15:04
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.uptex) (TeX Live 2024) (preloaded format=uplatex 2024.4.17)  5 FEB 2025 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,8 +640,7 @@ File: l3backend-dvips.def 2024-03-14 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count340
 \g__pdf_backend_link_int=\count341
 \g__pdf_backend_link_sf_int=\count342
-)
-No file Chap1.aux.
+) (./Chap1.aux)
 \openout1 = `Chap1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -676,7 +675,7 @@ Package gensymb Info: Using text companion symbols for \degree, \celsius and \pe
 LaTeX Info: Redefining \ohm on input line 29.
 Package gensymb Info: Using \textohm for \ohm on input line 29.
 Package gensymb Info: Using \textmu for \micro on input line 29.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 29.
@@ -685,14 +684,11 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 29.
+ (./Chap1.out) (./Chap1.out)
 \@outlinefile=\write4
 \openout4 = `Chap1.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
-[1
+ [1
 
 ] (./Chap1.aux)
  ***********
@@ -700,21 +696,14 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-Package rerunfilecheck Warning: File `Chap1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chap1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  05B9FF7757FE6A446D8F294B02146D28;54.
+Package rerunfilecheck Info: File `Chap1.out' has not changed.
+(rerunfilecheck)             Checksum: 05B9FF7757FE6A446D8F294B02146D28;54.
  ) 
 Here is how much of TeX's memory you used:
- 28714 strings out of 474762
- 569584 string characters out of 5758587
+ 28722 strings out of 474762
+ 569688 string characters out of 5758587
  1920338 words of memory out of 5000000
- 50722 multiletter control sequences out of 15000+600000
+ 50724 multiletter control sequences out of 15000+600000
  592791 words of font info for 63 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  102i,5n,107p,449b,1260s stack positions out of 10000i,1000n,20000p,200000b,200000s
